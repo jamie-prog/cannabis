@@ -1,0 +1,74 @@
+<section class="section">
+  <span class="section_title">{{section.settings.title}}</span>
+  
+  <div class="testimonial_slider">
+    
+    {% for block in section.blocks %}
+      <div class="testimonial_item">
+        <div class="testimonial_item_inner">
+          <span class="item_title">{{block.settings.title}}</span>
+          <span class="item_text">{{block.settings.text}}</span>
+
+          <span class="item_name">{{block.settings.name}}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+  $(document).ready(function(e){
+    $(".testimonial_slider").slick({
+      dots: true,
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Section name",
+	"class": "section-testimonial",
+    "settings": [
+		{
+			"type": "text",
+			"id": "title",
+			"label": "Title"
+		}
+	],
+	"blocks":[
+		{
+			"type": "item",
+			"name": "name",
+			"settings": [
+				{
+					"type": "text",
+					"id": "title",
+					"label": "Title"
+				},
+				{
+					"type": "textarea",
+					"id": "text",
+					"label": "Text"
+				},
+				{
+					"type": "text",
+					"id": "name",
+					"label": "Name"
+				}
+			]
+		}
+	],
+	"presets": [
+      {
+        "name": "N Testimonial",
+        "category": "Homepage"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

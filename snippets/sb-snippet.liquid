@@ -1,0 +1,4 @@
+
+{% capture sb_json %}{% include 'SEO-with-JSON-LD-Article-Collection' %}{% endcapture %}{% unless sb_json contains 'Liquid error' %}{% include 'SEO-with-JSON-LD-Article-Collection' %}{% endunless %}
+
+{% capture js %}{% render 'sb-json' %}{% endcapture %}{% unless js contains 'Liquid error' %}{% render 'sb-json' %}{% endunless %}

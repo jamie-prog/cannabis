@@ -1,0 +1,208 @@
+{% comment %}
+  Snippet can be used in section or block
+  eg. {% include 'include-one-image-with-text' %}
+{% endcomment %}
+
+{% comment %}Assign object as block or section{% endcomment %}
+{% if type == 'block' %}
+  {% assign object = block %}
+{% else %}
+  {% assign object = section %}
+{% endif %}
+
+{% assign id = object.id %}
+{% assign image_position = object.settings.image_position %}
+{% assign image_crop = object.settings.image_crop %}
+{% comment %} Layout {% endcomment %}
+{% assign show_gutter = object.settings.show_gutter %}
+{% assign width = object.settings.width %}
+{% assign padding_top = object.settings.padding_top %}
+{% assign padding_bottom = object.settings.padding_bottom %}
+{% assign animation = object.settings.animation %}
+{% comment %}Is the color set to transparent?{% endcomment %}
+{% assign text_color = object.settings.text_color%}
+{% assign background_color =  object.settings.background %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = object.settings.css_class %}
+{% assign custom_css = object.settings.custom_css %}
+
+{% comment %} Is the color set to transparent? {% endcomment %}
+{% assign background_alpha = background_color | color_extract: 'alpha' %}
+{% assign text_alpha = text_color | color_extract: 'alpha' %}
+
+{% comment %}Section specific CSS{% endcomment %}
+{% capture section_css -%}
+  .image-with-text__text-column {
+    background-color: {{ background_color }};
+  }
+
+  .image-with-text__preheading {
+    color: {% if text_alpha != 0 %}{{ text_color }}{% else %}{{ settings.heading_color }}{% endif %};
+	font-size: 13px;
+    border-bottom: 2px solid #b8d0c8;
+    width: fit-content;
+	font-weight:bold;
+  }
+
+  .image-with-text__heading {
+    color: {% if text_alpha != 0 %}{{ text_color }}{% else %}{{ settings.heading_color }}{% endif %};
+	font-size: 30px;
+	padding-top: 15px;
+    padding-bottom: 5px;
+  }
+
+  .image-with-text__text {
+    color: {% if text_alpha != 0 %}{{ text_color }}{% else %}{{ settings.regular_color }}{% endif %};
+	font-size:22px;
+  }
+
+.image-with-text__wrapper {
+    max-width: 45%;
+}
+
+.image-with-text__text-column.has-background {
+    padding: 20px 30px;
+}
+
+ 
+.image-with-text__text-column .buttons .right_arrow {
+    height: 3px;
+    line-height: 2px;
+    width: 100px;
+    background: white;
+    margin-left: 15px;
+    position: relative;
+    transition: all 250ms ease-in-out;
+}
+
+.image-with-text__text-column .buttons .button {
+color: white;
+text-decoration: none;
+border-bottom: 0;
+font-size:20px;
+}
+
+.image-with-text__text-column .buttons .right_arrow::after {
+    position: absolute;
+    color: white;
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+    content: '';
+    height: 10px;
+    top: 0px;
+    transform: rotate(-45deg);
+    width: 10px;
+    transform: rotate(45deg);
+    right: 0px;
+    top: -4px;
+    transition: all 250ms ease-in-out;
+}
+{%- endcapture -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  #shopify-section-{{ id }} {
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+    {% if width == 'wide' %}
+      width: 100%;
+    {% endif %}
+  }
+
+ #shopify-section-{{ id }} .container {
+	margin:0 auto;
+}
+
+#shopify-section-{{ id }} .image-with-text__container{
+	margin:0 auto;
+}
+
+#shopify-section-{{ id }} .image-element__wrap {
+margin-right:-50px;
+height: 100%;
+max-width: 55%;
+}
+
+#shopify-section-{{ id }} .image-element__wrap img {
+height:100%;
+width:auto;
+}
+
+  @media only screen and (max-width: 768px) {
+
+#shopify-section-{{ id }} .image-with-text__text-column {
+width: calc(100% - 15px);
+}
+#shopify-section-{{ id }} .image-element__wrap {
+width: 60%;
+margin-right: -30px;
+}
+#shopify-section-{{ id }} .image-element__wrap img {
+
+}
+}
+
+  {% include 'css-loop', css: section_css, id: id %}
+  {% include 'css-loop', css: custom_css, id: id %}
+{% endstyle %}
+
+{% comment %} HTML markup {% endcomment %}
+<section class="section
+                {{ css_class }}
+                is-width-{{ width }}
+                {% if show_gutter == false %}
+                  has-no-side-gutter
+                  has-background
+                {% else %}
+                  has-gutter-enabled
+                {% endif %}"
+                {% if animation != "none" %}
+                  data-scroll-class="{{ animation }}"
+                {% endif %}>
+  <div class="container">
+    <div class="image-with-text__container custom_image-with-text__container
+                is-flex {% if image_position == 'left' %}is-flex-row-reverse{% endif %}
+                is-flex-wrap">
+      <div class="image-with-text__text-column
+                  image-with-text__column
+                  
+                  medium-down--one-whole
+                  column
+                  has-padding-left
+                  has-padding-right
+                  {% if background_alpha != 0 %}has-background {% endif %}
+                  is-flex
+                  is-flex-wrap
+                  is-justify-{{ object.settings.alignment }}
+                  is-align-{{ object.settings.vertical_position }}">
+        <div class="image-with-text__wrapper">
+          
+          {% if object.settings.preheading != blank %}
+            <div class="image-with-text__preheading text-align-{{ object.settings.alignment }} is-{{ object.settings.heading_size }}" >
+              {{ object.settings.preheading }}
+            </div>
+          {% endif %}
+          {% if object.settings.title != blank %}
+            <h3 class="image-with-text__heading text-align-{{ object.settings.alignment }} is-{{ object.settings.heading_size }}" >
+              {{ object.settings.title }}
+            </h3>
+          {% endif %}
+
+          {% if object.settings.text != blank %}
+            <div class="image-with-text__text text-align-{{ object.settings.alignment }} content">
+              {{ object.settings.text }}
+            </div>
+          {% endif %}
+
+          {% if object.settings.button_label != blank %}
+            <div class="buttons is-{{ object.settings.alignment }}">
+              {% include 'button', label: object.settings.button_label, href: object.settings.link, style: object.settings.button_style, type: "link" %}
+              <span class="right_arrow"></span>
+            </div>
+          {% endif %}
+        </div>
+        {% include 'image-element', image: object.settings.image, alt: object.settings.image.alt, stretch_width: true %}
+      </div>
+    </div>
+  </div>
+</section>

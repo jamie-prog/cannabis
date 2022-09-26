@@ -1,0 +1,45 @@
+<section class="section">
+  <div class="container">
+    <h2 class="section_title">{{section.settings.header_text}}</h2>
+    <div class="socialsection">
+      <div id="insta-feed"></div>
+    </div>
+    
+    <div class="bottom-part">
+      	<div class="btn-wrapper">
+    		<a href="{{section.settings.link}}" class="button">Follow Us <span class="right_arrow"></span></a>
+      	</div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "N Social Section",
+	"class": "section-social",
+    "settings": [
+		{
+			"type": "text",
+			"id": "header_text",
+			"label": "Header Text"
+		},
+		{
+			"type": "url",
+			"id": "link",
+			"label": "Link"
+		}
+	],
+	"presets": [
+      {
+        "name": "N Social",
+        "category": "Homepage"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,43 @@
+{% style %}
+.section_title {
+    border-bottom: 3px solid #b8d0c8;
+    font-size: 17px;
+	width: fit-content;
+    margin: 15px auto;
+}
+
+.socialsection .button {
+background-color: transparent;
+border: 0;
+margin: 0 auto;
+    display: flex;
+color: black;
+}
+
+.socialsection .button .right_arrow {
+background: black;
+}
+
+.socialsection .button span.right_arrow::after {
+color: black;
+}
+
+{% endstyle %}
+
+<section class="">
+  <div class="container">
+    <div class="socialsection">
+      <div class="section">
+       <h2 class="section_title">{{block.settings.header_text}}</h2>
+          <div id="insta-feed"></div>
+         <div class="bottom-part">
+            <div class="btn-wrapper">
+                <a href="{{block.settings.link}}" class="button">Follow Us <span class="right_arrow"></span></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+</section>

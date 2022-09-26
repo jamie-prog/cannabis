@@ -1,0 +1,132 @@
+<section class="section">
+  <div class="container">
+    {% for block in section.blocks %}
+    	<div class="row_wrapper">
+         
+         <div class="right_part">
+            <div class="content_wrapper">
+              <span class="header_title">{{block.settings.header_title_2}}</span>
+              <span class="title">{{block.settings.title_2}}</span>
+              <span class="description">{{block.settings.description_2}}</span>
+              
+              <a href="{{block.settings.url_2}}" class="button">{{block.settings.button_label_2}} <span class="right_arrow"></span></a>
+            </div>
+            
+            <div class="image_wrapper">
+              <img data-src="{{block.settings.image_2|img_url:'master'}}" class="lazyload">
+            </div>
+          </div>
+         
+          <div class="left_part">
+            <div class="image_wrapper">
+              <img data-src="{{block.settings.image_1|img_url:'master'}}" class="lazyload">
+            </div>
+            
+            <div class="content_wrapper">
+              <span class="header_title">{{block.settings.header_title_1}}</span>
+              <span class="title">{{block.settings.title_1}}</span>
+              <span class="description">{{block.settings.description_1}}</span>
+              
+              <a href="{{block.settings.url_1}}" class="button">{{block.settings.button_label_1}} <span class="right_arrow"></span></a>
+            </div>
+          </div>
+          
+          
+          
+    	</div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "N Section Blog",
+	"class": "section-blog",
+    "settings": [
+	],
+	"blocks": [
+		{
+          "type": "item",
+          "name": "Item",
+          "settings": [
+              {
+                  "type": "text",
+                  "id": "header_title_1",
+                  "label": "Header Title 1"
+              },
+              {
+                  "type": "text",
+                  "id": "title_1",
+                  "label": "Title 1"
+              },
+              {
+                  "type": "image_picker",
+                  "id": "image_1",
+                  "label": "Image 1"
+              },
+              {
+                  "type": "textarea",
+                  "id": "description_1",
+                  "label": "Description 1"
+              },
+              {
+                  "type": "url",
+                  "id": "url_1",
+                  "label": "Url 1"
+              },
+  			  {
+  				  "type": "text",
+  				  "id": "button_label_1",
+  				  "label": "Button Label 1"
+  			  },
+
+
+
+              {
+                  "type": "text",
+                  "id": "header_title_2",
+                  "label": "Header Title 2"
+              },
+              {
+                  "type": "text",
+                  "id": "title_2",
+                  "label": "Title 2"
+              },
+              {
+                  "type": "image_picker",
+                  "id": "image_2",
+                  "label": "Image 2"
+              },
+              {
+                  "type": "textarea",
+                  "id": "description_2",
+                  "label": "Description 2"
+              },
+              {
+                  "type": "url",
+                  "id": "url_2",
+                  "label": "Url 2"
+              },
+  			  {
+  				  "type": "text",
+  				  "id": "button_label_2",
+  				  "label": "Button Label 2"
+  			  }
+
+          ]
+		}
+	],
+	"presets": [
+      {
+        "name": "N Blog",
+        "category": "Homepage"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

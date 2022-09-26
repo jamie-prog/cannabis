@@ -1,0 +1,2649 @@
+{
+  "current": {
+    "show_announcement_bar": true,
+    "show_popup": false,
+    "show_fixed_message": false,
+    "header_layout": "classic",
+    "footer_layout": "classic",
+    "product_layout": "classic",
+    "image_loading_style": "fade-in",
+    "logo_mobile": "",
+    "mobile_logo_width": 200,
+    "logo_mobile_position": "left",
+    "logo_menu_position": "right",
+    "show_search_icon_mobile": false,
+    "mobile_sidebar_position": "below",
+    "icon_style": "icons_text",
+    "mobile_menu_background_color": "rgba(0,0,0,0)",
+    "mobile_menu_opacity": 100,
+    "mobile_menu_link_color": "rgba(0,0,0,0)",
+    "mobile_menu_link_hover_color": "rgba(0,0,0,0)",
+    "button_primary_padding": "regular",
+    "button_primary_bg_color": "#000000",
+    "button_primary_bg_color_transparency": 100,
+    "button_primary_border_color": "rgba(0,0,0,0)",
+    "button_primary_text_color": "#ffffff",
+    "button_primary_bg_color--highlight": "#bfd8da",
+    "button_primary_bg_color_transparency--highlight": 6,
+    "button_primary_border_color--highlight": "rgba(0,0,0,0)",
+    "button_primary_text_color--highlight": "#bfd8da",
+    "button_primary_border_radius": 0,
+    "button_secondary_padding": "regular",
+    "button_secondary_bg_color": "rgba(0,0,0,0)",
+    "button_secondary_bg_color_transparency": 0,
+    "button_secondary_border_color": "#000000",
+    "button_secondary_text_color": "#000000",
+    "button_secondary_bg_color--highlight": "#000000",
+    "button_secondary_bg_color_transparency--highlight": 100,
+    "button_secondary_border_color--highlight": "#bfd8da",
+    "button_secondary_text_color--highlight": "#ffffff",
+    "button_secondary_border_radius": 0,
+    "button_link_padding": "regular",
+    "button_link_text_color": "#000000",
+    "button_link_text_color--highlight": "#bfd8da",
+    "button_link_underline_style": "solid",
+    "button_link_underline_thickness": 1,
+    "button_cart_padding": "regular",
+    "button_cart_bg_color": "#95bec2",
+    "button_cart_bg_color--highlight": "#bfd8da",
+    "button_cart_border_color": "rgba(0,0,0,0)",
+    "button_cart_border_color--highlight": "rgba(0,0,0,0)",
+    "button_cart_text_color": "#ffffff",
+    "button_cart_text_color--highlight": "#fff",
+    "button_cart_icon": "",
+    "button_cart_icon_position": "left",
+    "button_cart_border_radius": 2,
+    "icon": "icon_solid",
+    "toggle_icon_style": "plus_and_minus",
+    "social_media_share_style": "squared",
+    "breadcrumb_capitalization": "none",
+    "breadcrumb_separator": "arrow",
+    "breadcrumb_size": "regular",
+    "dropdown_style": "vertical",
+    "dropdown_position": "below-parent",
+    "dropdown_link_spacing": "medium",
+    "use_placeholders": false,
+    "form_button_style": "button--primary",
+    "display_heading_divider": true,
+    "heading_divider_animation": "none",
+    "heading_divider_style": "short",
+    "heading_divider_width": 2,
+    "toggle_sidebar": false,
+    "tab_style": "underline",
+    "table_styles_enabled": true,
+    "qty_box_style": "box",
+    "qty_border_radius": 0,
+    "tag_style": "solid",
+    "mega_menu_1": true,
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "mega_menu_5": true,
+    "mega_menu_6": true,
+    "mega_menu_7": true,
+    "mega_menu_8": true,
+    "mega_menu_9": false,
+    "mega_menu_10": false,
+    "shop_bg_color": "#ffffff",
+    "border_color": "#d3d3d3",
+    "regular_color": "#000000",
+    "link_color": "#94bec2",
+    "link_hover_color": "#bfd8da",
+    "heading_color": "#000000",
+    "banner_heading_color": "#ffffff",
+    "divider_color": "#000000",
+    "logo_text": "#ffffff",
+    "header_background": "#ffffff",
+    "header_link_color": "#000000",
+    "header_link_hover_color": "#94bec2",
+    "header_cart_badge_color": "#94bec2",
+    "cart_background_color": "#fff",
+    "show_dropdown_shadow": true,
+    "dropdown_background": "#ffffff",
+    "dropdown_background_opacity": 100,
+    "dropdown_link_color": "#000000",
+    "dropdown_link_hover_color": "#94bec2",
+    "footer_background": "#a9cbce",
+    "footer_border": "rgba(0,0,0,0)",
+    "footer_link_color": "#ffffff",
+    "footer_link_hover_color": "#000000",
+    "footer_text_color": "#ffffff",
+    "sale_color": "#c70000",
+    "was_price_color": "#808080",
+    "product_hover_text_color": "#000000",
+    "product_hover_bg_color": "#ffffff",
+    "banner_bestseller": "#f0d00e",
+    "banner_comingsoon": "#585757",
+    "banner_new": "#007ace",
+    "banner_preorder": "#6e6e6f",
+    "banner_sale": "#c70000",
+    "banner_staffpick": "#222222",
+    "qty_icon_color": "#fff",
+    "qty_icon_hover_color": "#ddd",
+    "qty_background_color": "#000",
+    "qty_background_hover_color": "#222",
+    "regular__font": "work_sans_n4",
+    "regular_font_size": 15,
+    "logo__font": "open_sans_n4",
+    "logo_font_size": 20,
+    "logo_font_style": "none",
+    "nav__font": "work_sans_n4",
+    "nav_font_size": 12,
+    "nav_letter_spacing": 0,
+    "nav_font_style": "none",
+    "dropdown_heading_font_size": 16,
+    "dropdown_font_size": 12,
+    "dropdown_letter_spacing": 0,
+    "dropdown_font_style": "none",
+    "button__font": "work_sans_n4",
+    "button_letter_spacing": 0,
+    "button_font_style": "none",
+    "heading__font": "work_sans_n4",
+    "heading_size": 24,
+    "heading_letter_spacing": 0,
+    "heading_font_style": "none",
+    "preheading_font": "work_sans_n4",
+    "preheading_size": 15,
+    "preheading_style": "none",
+    "subheading_font": "work_sans_n4",
+    "subheading_size": 15,
+    "subheading_style": "none",
+    "banner_heading__font": "work_sans_n5",
+    "banner_heading_size": 40,
+    "banner_heading_style": "none",
+    "banner_text__font": "work_sans_n4",
+    "banner_text_size": 15,
+    "banner_text_letter_spacing": 0,
+    "footer_heading_font_size": 18,
+    "footer_font_size": 14,
+    "search_option": "everything",
+    "search_title": "Search",
+    "search_placeholder": "What are you looking for?",
+    "search_heading_color": "#000",
+    "search_display_style": "popup",
+    "search_popup_bg": "#fff",
+    "search_menu": "",
+    "enable_autocomplete": false,
+    "search_to_display": 5,
+    "show_secondary_image": false,
+    "display_vendor": true,
+    "thumbnail_hover_enabled": false,
+    "thumbnail_text_alignment": "left",
+    "stickers_enabled": true,
+    "sticker_shape": "square",
+    "sticker_position": "left",
+    "collection_swatches": true,
+    "collection_swatches_shape": "square",
+    "enable_quickshop": false,
+    "quickshop_button_style": "button--secondary",
+    "quickshop_show_vendor": false,
+    "quickshop_show_price_savings": true,
+    "quickshop_magnify_images": false,
+    "show_dynamic_checkout_button": false,
+    "quickshop_truncate_words": false,
+    "quickshop_truncate_words_limit": 20,
+    "quickshop_gallery_transition_styles": "slide",
+    "quickshop_gallery_position": "left",
+    "show_product_gallery_thumbnails": true,
+    "qs_popup_color": "#fff",
+    "enable_shopify_review_comments": false,
+    "enable_shopify_collection_badges": true,
+    "display_product_quantity": false,
+    "limit_quantity": true,
+    "display_inventory_left": false,
+    "inventory_threshold": 10,
+    "free_price_text": "Free",
+    "product_form_style": "dropdown",
+    "swatch_style": "square",
+    "notify_me_form": true,
+    "notify_me_description": "<p>Notify me when this product is available:<\/p>",
+    "size_chart": "",
+    "cart_action": "mini_cart",
+    "cart_icon": "cart",
+    "display_special_instructions": false,
+    "display_tos_checkbox": false,
+    "tos_page": "",
+    "display_savings": false,
+    "display_ajax_quantity_box": false,
+    "cart_message": "",
+    "go_to_checkout": true,
+    "enable_shipping_calculator": false,
+    "shipping_calculator_default_country": "United States",
+    "show_multiple_currencies": true,
+    "currency_format": "money_with_currency_format",
+    "supported_currencies": "AUD NZD",
+    "default_currency": "AUD",
+    "disqus_enabled": false,
+    "disqus_shortname": "",
+    "twitter_link": "",
+    "facebook_link": "https:\/\/www.facebook.com\/cannacoaus",
+    "youtube_link": "https:\/\/www.youtube.com\/channel\/UCAc3l5EnLVIHX8k6ZcyCbGA",
+    "vimeo_link": "",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https:\/\/instagram.com\/cannacoaus",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "https:\/\/www.linkedin.com\/company\/cannabis-company\/",
+    "dribbble_link": "",
+    "behance_link": "",
+    "flickr_link": "",
+    "email_link": "",
+    "og_image_fallback": "shopify:\/\/shop_images\/Social_Sharing_1200x628.jpg",
+    "favicon": "shopify:\/\/shop_images\/favicon_8facadf8-3891-4065-8c1e-172ddcbb95e6.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "mlvedaACS_positionTop": false,
+    "mlvedaACS_positionLeft": "0px",
+    "mlvedaACS_defaultCurrency": "AUD",
+    "mlvedaACS_position": "bottom_with_left",
+    "mlvedaACS_enable": true,
+    "mlvedaACS_supportedCurrencies": "AUD NZD",
+    "mlvedaACS_currencyFormat": "money_with_currency_format",
+    "mlvedaACS_displayFlag": false,
+    "mlvedaACS_roundDecimal": false,
+    "mlvedaACS_positionRight": false,
+    "mlvedaACS_positionBottom": "0px",
+    "mlvedaACS_hideDecimal": false,
+    "sections": {
+      "1557099063267": {
+        "type": "index__image-with-text",
+        "blocks": {
+          "1557099063267-2": {
+            "type": "text",
+            "settings": {
+              "header_title": "Hemp for Cocktails.",
+              "text1": "A toast to good health",
+              "text2": "Award-winning, terpene-rich, smooth as ever gin to soothe the soul.",
+              "heading_size": "regular",
+              "button_label": "Shop Gins",
+              "link": "shopify:\/\/collections\/beverages",
+              "button_style": "button--link-style",
+              "background": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          },
+          "1557099063267-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Beverages.jpg",
+              "image_crop": "none",
+              "image_link": "shopify:\/\/collections\/beverages"
+            }
+          }
+        },
+        "block_order": [
+          "1557099063267-2",
+          "1557099063267-0"
+        ],
+        "settings": {
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 75,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__banner": {
+        "type": "collection__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "shopify:\/\/shop_images\/KEVIN_06.jpg",
+          "image_darken": false,
+          "subtitle": "Make Australia Green Again",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/CannabisCo-Logo.png",
+          "logo_width": 175,
+          "main_linklist": "main-navigation",
+          "menu_alignment": "center",
+          "display_search": true,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": false,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_background": "#ffffff",
+          "overlay_background_opacity": 80,
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "sticky_background_opacity": 50,
+          "scroll_logo_width": 80,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ".header__brand {\npadding: 0px 0px 20px 0px;\n}"
+        }
+      },
+      "1583642212195": {
+        "type": "index__icon-with-text-column",
+        "blocks": {
+          "1583642212195-1": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "vegan",
+              "title": "ORGANIC & VEGAN  PRODUCTS",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1583642212195-0": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "aumade",
+              "title": "100% AUSTRALIAN  GROWN & MANUFACTURED",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1583642212195-3": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "moneyback",
+              "title": "MONEY BACK GUARANTEE",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          },
+          "1583642212195-2": {
+            "type": "logo_image",
+            "settings": {
+              "icon_label": "reviews",
+              "title": "OVER 2000+  CUSTOMER REVIEWS",
+              "text": "",
+              "button_label": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1583642212195-1",
+          "1583642212195-0",
+          "1583642212195-3",
+          "1583642212195-2"
+        ],
+        "settings": {
+          "icons_per_row": 4,
+          "icon_size": "medium",
+          "align_text": "center",
+          "button_style": "button--primary",
+          "icon_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ".title {\n    color: \/*!setting.heading_color{*\/black\/*}*\/;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 140%;\n}\n.shopify-section .icon-with-text-column {\npadding-top: 0px;\n}"
+        }
+      },
+      "blog__banner": {
+        "type": "blog__banner",
+        "settings": {
+          "show_banner": false,
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "standard",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "search__sidebar": {
+        "type": "search__sidebar",
+        "blocks": {
+          "search__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "search__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          },
+          "search__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "promo_image": "",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          }
+        },
+        "block_order": [
+          "search__sidebar-0",
+          "search__sidebar-1",
+          "search__sidebar-2"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "1588028512644": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "pantry",
+              "menu_1_link": "shopify:\/\/collections\/pantry",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-1-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "terpene-tinctures",
+              "menu_1_link": "shopify:\/\/collections\/terpene-essentials",
+              "menu_2": "",
+              "menu_2_link": "shopify:\/\/blogs\/higher-learning\/cannabis-terpenes-101-what-are-terpenes",
+              "menu_3": "what-are-terpenes",
+              "menu_3_link": "https:\/\/cannabiscompany.com.au\/blogs\/higher-learning\/cannabis-terpenes-101-what-are-terpenes",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "244a3cd8-e064-4a28-b7bd-3e65326f1c13": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "plant-based-medicine",
+              "menu_1_link": "shopify:\/\/collections\/plant-based-medicine",
+              "menu_2": "gift-card",
+              "menu_2_link": "shopify:\/\/products\/gift-card",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588028512644",
+          "mega-menu-1-2",
+          "244a3cd8-e064-4a28-b7bd-3e65326f1c13"
+        ],
+        "settings": {
+          "parent_link": "Wellness",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "1586323103179": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "culture",
+              "menu_1_link": "shopify:\/\/collections\/culture",
+              "menu_2": "art",
+              "menu_2_link": "https:\/\/cannabiscompany.com.au\/collections\/art",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "37d1c85f-8d74-4822-9fd2-f0d053a961ca": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "hemp-clothing",
+              "menu_1_link": "shopify:\/\/collections\/hemp-clothing",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "89a9aa23-ffd8-40c1-bb2f-70b0203cc4a0": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "hemp-lip-balm",
+              "menu_1_link": "shopify:\/\/products\/hemp-lip-balm",
+              "menu_2": "gift-card",
+              "menu_2_link": "shopify:\/\/products\/gift-card",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "1586323103179",
+          "37d1c85f-8d74-4822-9fd2-f0d053a961ca",
+          "89a9aa23-ffd8-40c1-bb2f-70b0203cc4a0"
+        ],
+        "settings": {
+          "parent_link": "Lifestyle",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "1557099047693": {
+        "type": "index__image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "link": "shopify:\/\/collections\/frontpage",
+          "image": "shopify:\/\/shop_images\/HPBanner.jpg",
+          "mobile_image": "shopify:\/\/shop_images\/HPBanner-Mobile_237c4cff-f1f7-4590-b50c-159ea7d6ba87.jpg",
+          "pretext": "",
+          "title": "Hemp goods for <br>everybody.",
+          "subtitle": "<p>Wellness supplements for your heart, <br\/>skin, brain, immunity and hormonal <br\/>balance. And that’s just the beginning.<\/p>",
+          "pretext_color": "#000000",
+          "heading_color": "#000000",
+          "subheading_color": "#000000",
+          "text_alignment": "center",
+          "text_horizontal_position": "center",
+          "text_vertical_position": "middle",
+          "background_color": "#ffffff",
+          "background_opacity": 0,
+          "border_color": "#ffffff",
+          "border_width": 0,
+          "text_width": 40,
+          "button_1": "",
+          "button_1_link": "",
+          "button_1_style": "button--secondary",
+          "button_2": "",
+          "button_2_link": "",
+          "button_2_style": "button--secondary",
+          "mobile_image_crop": "none",
+          "mobile_text_below_image": false,
+          "pretext_color_mobile": "rgba(0,0,0,0)",
+          "heading_color_mobile": "rgba(0,0,0,0)",
+          "subheading_color_mobile": "rgba(0,0,0,0)",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "404__bottombanner": {
+        "type": "404__bottombanner",
+        "settings": {
+          "show_banner": true,
+          "image": "shopify:\/\/shop_images\/404-Image.jpg",
+          "image_darken": false,
+          "width": "standard",
+          "banner_height": "large",
+          "padding_top": 0,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__recommendations": {
+        "type": "product__recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_style": "grid",
+          "product_recommendations_heading": "Recommended For You.",
+          "products_per": 4,
+          "recommended_products_limit": 4,
+          "align_height": true,
+          "collection_height": 400
+        }
+      },
+      "1583640820438": {
+        "type": "index__image-with-text",
+        "blocks": {
+          "1583640820438-2": {
+            "type": "text",
+            "settings": {
+              "header_title": "We Recommend This.",
+              "text1": "Raw Hemp Brownies",
+              "text2": "Raw Hemp Brownies... Need we say more? Don't worry – unlike other 'special' brownies, you won't regret going in for seconds.",
+              "heading_size": "regular",
+              "button_label": "Read Recipe",
+              "link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies",
+              "button_style": "button--link-style",
+              "background": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          },
+          "1583640820438-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/brownie-recipe-block-min.jpg",
+              "image_crop": "none",
+              "image_link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies"
+            }
+          }
+        },
+        "block_order": [
+          "1583640820438-2",
+          "1583640820438-1"
+        ],
+        "settings": {
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "blog__sidebar": {
+        "type": "blog__sidebar",
+        "blocks": {
+          "blog__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "blog__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          },
+          "blog__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          }
+        },
+        "block_order": [
+          "blog__sidebar-0",
+          "blog__sidebar-2",
+          "blog__sidebar-1"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "sidebar_position": "left",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1583758231084": {
+        "type": "n-testimonial-section",
+        "blocks": {
+          "1586319680842": {
+            "type": "item",
+            "settings": {
+              "title": "Jilungin Dreaming Hemp Gin",
+              "text": "After two or three of these delicious beauties I feel amazing, not an ache in my old body. They could not have made it any better. Jilungin Dreaming Hemp Gin is quite possibly one of the best spirits I have ever had the honour of drinking. They have used nature’s medicine mixed with pure pleasure. My only concern is that it might run out!! Thank you.",
+              "name": "Lesley, South Australia"
+            }
+          },
+          "1586319751675": {
+            "type": "item",
+            "settings": {
+              "title": "100% Raw Hemp Seed Oil for Cats",
+              "text": "Have been giving just one drop a day to our 20 year old cat (with bad arthritis in both front legs and 3 blown discs between his shoulders) in conjunction with his prescribed pain medication from the vet. In one month he has regained movement when sitting and walking and back to jumping up onto the bed to sleep and is much less cranky. Best product ever.",
+              "name": "Annette, New South Wales"
+            }
+          },
+          "1586319706867": {
+            "type": "item",
+            "settings": {
+              "title": "100% Raw Hemp Seed Oil for Pets",
+              "text": "I have been using hemp seed oil for my 18 year old Shih Tzu and it has given her a new lease on life. Before starting it she could barely walk as her arthritis was so bad, but now she is going to the park everyday and running with other dogs. Thank you The Cannabis Co.",
+              "name": "Janet, Victoria"
+            }
+          },
+          "1586319860445": {
+            "type": "item",
+            "settings": {
+              "title": "Ostabol Terpene Tincture",
+              "text": "I recently purchased 2 bottles of the Ostabol tinctures for myself and my grandmother who has cancer and suffers from terrible pain and nothing seemed to be relieving her pain. So after some discussion with her, we gave the tincture a try and I can happily say it helped with relieving some of her pain and making the tough days a little bit more bearable. So thank you Cannabis Company.",
+              "name": "Rhiannon, Victoria"
+            }
+          },
+          "1586319769776": {
+            "type": "item",
+            "settings": {
+              "title": "The Rex - Shampoo with Hemp",
+              "text": "My gorgeous Gypsy has had problems with her skin and coat for 4 years! It was a fungal condition called Malassezia. I bought the shampoo and I have also been giving her the Raw Hemp Seed Oil for Pets for a couple of months now. Her fur is shiny and I can happily report that I have been able to stretch her baths out to every 3-4 weeks! Thank you so very much for making such a great product!",
+              "name": "Moni, New South Wales"
+            }
+          },
+          "1586319881803": {
+            "type": "item",
+            "settings": {
+              "title": "Nootropic Terpene Tincture",
+              "text": "My wife and I love your oil. We both have osteoarthritis, and I have worn shoulder joints and need a shoulder replacement, so I'm in constant pain. The oil is a godsend and helps to kill the pain. I can even sleep, as before I couldn't even lay in bed. \nI've also gone off my other pain meds. Thank you so much.",
+              "name": "Kevin, Western Australia"
+            }
+          },
+          "1586319788610": {
+            "type": "item",
+            "settings": {
+              "title": "The Maisie - Shampoo with Hemp for Sensitive Skin",
+              "text": "My Irish Terrier’s skin has been awful – itchy all over with horrible raw, red and black patches. I tried the vet recommended antibiotic cream and it improved, but it returned. My husband suggested it might be the shampoo we use. After ONE use 90% of the redness was gone and 95% of the crusts all over his tummy and under his legs were gone! I wish I knew about it ages ago and saved my dog the suffering.",
+              "name": "Nicole, New South Wales"
+            }
+          },
+          "1583758251061": {
+            "type": "item",
+            "settings": {
+              "title": "100% Raw Hemp Seed Oil",
+              "text": "I have suffered from rheumatoid arthritis since I was 17. Everyday activities, household chores and general everyday things have been unbearable with pain, swelling and pins and needles in both hands, fingers and joints. I have used your oil for just the past few days and have noticed some pain relief and less swelling. I'm so glad and overjoyed that I finally found an alternative to pain meds.",
+              "name": "Grace, Queensland"
+            }
+          }
+        },
+        "block_order": [
+          "1586319680842",
+          "1586319751675",
+          "1586319706867",
+          "1586319860445",
+          "1586319769776",
+          "1586319881803",
+          "1586319788610",
+          "1583758251061"
+        ],
+        "settings": {
+          "title": "Real Results for Every Body."
+        }
+      },
+      "404__banner": {
+        "type": "404__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "width": "standard",
+          "banner_height": "large",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1585533964666": {
+        "type": "index__slideshow-classic",
+        "blocks": {
+          "3bf5e7bc-14f2-4d90-b78c-ad0b7cafccef": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "link": "shopify:\/\/collections\/shop-eofy-sale",
+              "image": "shopify:\/\/shop_images\/EOFY_Banner.png",
+              "mobile_image": "shopify:\/\/shop_images\/EFYO_splash.png",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "6f1619d1-ef32-439e-a78a-17cda20ad6fd": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/products\/hemp-seed-oil-capsules",
+              "image": "shopify:\/\/shop_images\/Promo_2.png",
+              "mobile_image": "shopify:\/\/shop_images\/HSO_Capsules_gif.gif",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "#ffffff",
+              "background_opacity": 0,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "57954610-07a5-4d6e-85d7-01c5cf5c3114": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/products\/the-maisie-shampoo-with-hemp-for-sensitive-skin",
+              "image": "shopify:\/\/shop_images\/2_de7462d0-03a3-4cdf-8cf2-1d301004a9ac.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/Back_in_Stock_shampoo.png",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "1596686420536": {
+            "type": "image",
+            "settings": {
+              "link": "shopify:\/\/products\/hemp-protein",
+              "image": "shopify:\/\/shop_images\/022_Hemp_Protein_Benefits_Banners2-min.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/022_Hemp_Protein_Benefits_Banners-min.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "c7458d08-d76b-4800-bbac-6bda38cfa077": {
+            "type": "image",
+            "settings": {
+              "link": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=Jp5CJm&g=WGmH85",
+              "image": "shopify:\/\/shop_images\/060-CBD-PRODUCTS-OPT-IN-BANNER2_a9ff20d9-c4eb-4ea0-9c8b-094a1b8f2572-min.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/060-CBD-PRODUCTS-OPT-IN-BANNER-min.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "#ffffff",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          },
+          "1585533964666-0": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "image": "shopify:\/\/shop_images\/BANNER_9a75e669-da35-4780-ad9e-b22156269de6.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/BANNER-MOBILE_14232efa-dcf3-43a6-b5e9-1dc60e852fae.jpg",
+              "pretext": "",
+              "title": "",
+              "subtitle": "",
+              "pretext_color": "#000000",
+              "heading_color": "#000000",
+              "subheading_color": "#000000",
+              "text_alignment": "center",
+              "text_horizontal_position": "center",
+              "background_color": "rgba(0,0,0,0)",
+              "background_opacity": 77,
+              "border_color": "#ffffff",
+              "border_width": 0,
+              "text_width": 40,
+              "button_1": "",
+              "button_1_link": "",
+              "button_1_style": "button--secondary",
+              "button_2": "",
+              "button_2_link": "",
+              "button_2_style": "button--secondary",
+              "mobile_image_crop": "none",
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)"
+            }
+          }
+        },
+        "block_order": [
+          "3bf5e7bc-14f2-4d90-b78c-ad0b7cafccef",
+          "6f1619d1-ef32-439e-a78a-17cda20ad6fd",
+          "57954610-07a5-4d6e-85d7-01c5cf5c3114",
+          "1596686420536",
+          "c7458d08-d76b-4800-bbac-6bda38cfa077",
+          "1585533964666-0"
+        ],
+        "settings": {
+          "image_transition": "fade",
+          "image_slideshow_speed": 8,
+          "show_arrows": false,
+          "show_nav_buttons": true,
+          "mobile_text_below_image": false,
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "login-form": {
+        "type": "login-form",
+        "settings": {
+          "richtext": "",
+          "image": "",
+          "image_position": "right",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "settings": {
+              "icon": "leaf",
+              "text": "100% Organic",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "24\/7 support",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "settings": {
+              "icon": "bunny",
+              "text": "Cruelty free",
+              "link": ""
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "settings": {
+              "icon": "truck",
+              "text": "Free shipping",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-2",
+          "footer__icon-bar-1",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": false,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#8b8b8b",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584723047151": {
+        "type": "n-social-section",
+        "settings": {
+          "header_text": "Get Social With Us.",
+          "link": ""
+        }
+      },
+      "1583639452425": {
+        "type": "index__image-with-text",
+        "blocks": {
+          "1583639452425-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GinImage-min.jpg",
+              "image_crop": "none",
+              "image_link": "shopify:\/\/collections\/beverages"
+            }
+          },
+          "1583639452425-2": {
+            "type": "text",
+            "settings": {
+              "header_title": "Award Winning Hemp Gin.",
+              "text1": "World’s First Cannabis-Infused Gin",
+              "text2": "Unique flavours for the gin lover.",
+              "heading_size": "regular",
+              "button_label": "Shop Gins",
+              "link": "shopify:\/\/collections\/beverages",
+              "button_style": "button--link-style",
+              "background": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "alignment": "left",
+              "vertical_position": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1583639452425-0",
+          "1583639452425-2"
+        ],
+        "settings": {
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-details__main": {
+        "type": "page-details__main",
+        "blocks": {
+          "1595329583608": {
+            "type": "image_with_text",
+            "settings": {
+              "image_position": "right",
+              "image": "shopify:\/\/shop_images\/Monthly_Offer_Feature_5630dabf-9483-4446-b56e-b8d8254d3616.jpg",
+              "image_crop": "none",
+              "image_link": "",
+              "preheading": "The Higher Society",
+              "title": "Hemp Protein & Hemp Flour",
+              "heading_size": "regular",
+              "text": "<p>Buy and earn <strong>100 points<\/strong>.<\/p>",
+              "button_label": "Shop Offer",
+              "link": "shopify:\/\/collections\/pantry",
+              "button_style": "button--link-style",
+              "alignment": "left",
+              "vertical_position": "center",
+              "background": "#74988b",
+              "text_color": "#ffffff",
+              "width": "standard",
+              "show_gutter": false,
+              "padding_top": 20,
+              "padding_bottom": 100,
+              "animation": "none"
+            }
+          },
+          "1595330289426": {
+            "type": "social",
+            "settings": {
+              "header_text": "Get Social With Us",
+              "link": "https:\/\/www.instagram.com\/cannacoaus\/"
+            }
+          },
+          "1595325755289": {
+            "type": "page",
+            "settings": {
+              "content_page": "rewards-tiers",
+              "background": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 0,
+              "width": "standard",
+              "padding_top": 0,
+              "padding_bottom": 40,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1595257785256": {
+            "type": "header",
+            "settings": {
+              "header": "Rewards Tiers",
+              "subheader": "<p>Be rewarded for every stage!<\/p>",
+              "line": true,
+              "padding_top": 20,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0
+            }
+          },
+          "1595257657300": {
+            "type": "featured_video",
+            "settings": {
+              "aspect_ratio": "16:9",
+              "autoplay": true,
+              "autoloop": true,
+              "iframe_video": "",
+              "controls": false,
+              "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0003\/1463\/8348\/files\/1055224787-sd_1_1.mov?v=1595731448",
+              "image": "",
+              "pretext": "",
+              "title": "The Higher Society",
+              "subtitle": "Rewards you deserve",
+              "pretext_color": "#ffffff",
+              "heading_color": "#ffffff",
+              "subheading_color": "#ffffff",
+              "horizontal_text_position": "center",
+              "vertical_text_position": "center",
+              "text_align": "center",
+              "button_label": "",
+              "button_style": "button--secondary",
+              "overlay_style": "text_only",
+              "video_overlay_color": "#020202",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "background_opacity": 20,
+              "text_width": 100,
+              "mobile_text_below_video": false,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "width": "wide",
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1595255572642": {
+            "type": "header",
+            "settings": {
+              "header": "Redeem Rewards",
+              "subheader": "<p>Each activity gets you one step closer to great benefits:<\/p>",
+              "line": true,
+              "padding_top": 80,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0
+            }
+          },
+          "1595257178767": {
+            "type": "icon_with_text",
+            "settings": {
+              "icons_per_row": 3,
+              "icon_size": "large",
+              "align_text": "center",
+              "button_style": "button--primary",
+              "icon_color": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "background": "#ffffff",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 0,
+              "width": "standard",
+              "show_gutter": true,
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none",
+              "image": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 322.73 207.41\" style=\"enable-background:new 0 0 322.73 207.41;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M25.22,3.83c98.58,13.96,196.87,27.88,295.42,41.84c-0.51,3.9-0.98,7.66-1.51,11.42\n\t\tc-1.7,12.1-3.39,24.21-5.2,36.29c-0.13,0.88-0.94,2.02-1.74,2.38c-24.18,10.93-28.44,41.07-8.2,58.16c0.66,0.56,1.31,1.74,1.2,2.53\n\t\tc-2.14,15.75-4.38,31.49-6.61,47.23c-0.02,0.15-0.11,0.29-0.31,0.79c-98.31-13.92-196.7-27.86-295.21-41.81\n\t\tC10.47,109.59,17.83,56.85,25.22,3.83z M9.58,157.76c78.11,11.06,155.89,22.07,233.77,33.1c0.56-3.22,1.04-6.02,1.57-9.08\n\t\tc1.36,0.24,2.47,0.44,3.62,0.64c-0.46,3.11-0.87,5.93-1.31,8.98c15.51,2.2,30.82,4.36,46.17,6.54c0.21-0.73,0.39-1.17,0.45-1.63\n\t\tc1.65-11.87,3.19-23.76,4.99-35.6c0.36-2.36-0.19-3.75-1.82-5.39c-8.18-8.27-12.24-18.35-11.55-29.95\n\t\tc0.9-15.04,8.21-26.25,21.46-33.57c0.85-0.47,1.66-1.71,1.8-2.69c1.79-12.09,3.43-24.21,5.19-36.3c0.26-1.76-0.14-2.34-1.96-2.58\n\t\tc-9.74-1.29-19.46-2.75-29.18-4.12c-4.17-0.59-8.34-1.13-12.68-1.71c-0.64,3.88-1.24,7.47-1.87,11.23\n\t\tc-1.34-0.26-2.46-0.47-3.63-0.7c0.56-3.82,1.08-7.36,1.63-11.14C187.46,32.63,108.95,21.51,30.14,10.35\n\t\tC23.28,59.52,16.46,108.47,9.58,157.76z\"><\/path>\n\t<path class=\"st1\" d=\"M9.58,157.76c6.88-49.29,13.7-98.23,20.56-147.4c78.81,11.16,157.32,22.28,236.09,33.44\n\t\tc-0.55,3.78-1.07,7.32-1.63,11.14c1.17,0.22,2.29,0.44,3.63,0.7c0.62-3.76,1.22-7.36,1.87-11.23c4.34,0.58,8.51,1.12,12.68,1.71\n\t\tc9.73,1.38,19.45,2.83,29.18,4.12c1.82,0.24,2.22,0.82,1.96,2.58c-1.76,12.1-3.4,24.21-5.19,36.3c-0.15,0.98-0.95,2.22-1.8,2.69\n\t\tc-13.25,7.32-20.56,18.53-21.46,33.57c-0.69,11.59,3.37,21.68,11.55,29.95c1.63,1.65,2.18,3.03,1.82,5.39\n\t\tc-1.8,11.85-3.34,23.73-4.99,35.6c-0.06,0.46-0.25,0.9-0.45,1.63c-15.35-2.17-30.66-4.34-46.17-6.54c0.45-3.05,0.86-5.87,1.31-8.98\n\t\tc-1.15-0.2-2.27-0.4-3.62-0.64c-0.53,3.06-1.01,5.86-1.57,9.08C165.47,179.83,87.69,168.82,9.58,157.76z M153.42,105.14\n\t\tc11.24,0.05,20.31-8.94,20.33-20.16c0.02-11.09-8.96-20.14-20.06-20.2c-11.28-0.06-20.3,8.77-20.46,20.05\n\t\tC133.06,95.95,142.15,105.08,153.42,105.14z M199.32,147.81c11.17-0.02,20.07-8.91,20.08-20.08c0.02-11.28-8.92-20.24-20.19-20.25\n\t\tc-11.31-0.01-20.17,8.88-20.17,20.23C179.05,139.04,187.92,147.83,199.32,147.81z M216.47,69.34\n\t\tc-27.24,23.1-54.33,46.08-81.55,69.15c1.11,1.27,2.09,2.39,3.15,3.6c27.25-23.11,54.34-46.08,81.52-69.14\n\t\tC218.46,71.64,217.53,70.57,216.47,69.34z M60.97,84.98c16.85,3.7,33.43,7.35,50.24,11.04c0.38-1.59,0.73-3.02,1.12-4.63\n\t\tc-16.84-3.7-33.49-7.35-50.29-11.04C61.67,81.98,61.37,83.28,60.97,84.98z M261.11,101.62c0.59-3.76,1.16-7.42,1.77-11.29\n\t\tc-1.36-0.21-2.47-0.39-3.73-0.58c-0.61,3.91-1.16,7.51-1.74,11.22C258.69,101.19,259.77,101.38,261.11,101.62z M257.57,124.6\n\t\tc0.59-3.85,1.15-7.49,1.72-11.26c-1.37-0.21-2.43-0.38-3.71-0.58c-0.59,3.85-1.14,7.49-1.71,11.26\n\t\tC255.28,124.23,256.33,124.4,257.57,124.6z M253.99,147.58c0.59-3.85,1.14-7.43,1.73-11.21c-1.51,0.07-3.28-1.8-3.87,0.66\n\t\tc-0.78,3.22-1.05,6.55-1.56,10C251.49,147.21,252.56,147.37,253.99,147.58z M264.71,78.59c0.59-3.8,1.16-7.45,1.75-11.22\n\t\tc-1.28-0.26-2.35-0.47-3.7-0.74c-0.59,3.9-1.15,7.61-1.72,11.36C262.48,78.22,263.48,78.39,264.71,78.59z M248.46,158.69\n\t\tc-0.6,3.89-1.17,7.53-1.77,11.41c1.38,0.15,2.45,0.27,3.72,0.41c0.59-3.77,1.14-7.34,1.73-11.08\n\t\tC250.91,159.18,249.92,158.98,248.46,158.69z\"><\/path>\n\t<path class=\"st0\" d=\"M153.42,105.14c-11.27-0.05-20.36-9.19-20.19-20.31c0.16-11.28,9.18-20.11,20.46-20.05\n\t\tc11.1,0.06,20.08,9.11,20.06,20.2C173.73,96.2,164.66,105.19,153.42,105.14z M153.57,100.4c8.45-0.03,15.42-6.98,15.44-15.39\n\t\tc0.02-8.47-7.1-15.55-15.6-15.52c-8.43,0.04-15.36,6.98-15.4,15.44C137.99,93.47,144.97,100.42,153.57,100.4z\"><\/path>\n\t<path class=\"st0\" d=\"M199.32,147.81c-11.39,0.02-20.26-8.77-20.27-20.09c-0.01-11.35,8.86-20.24,20.17-20.23\n\t\tc11.27,0.01,20.21,8.97,20.19,20.25C219.38,138.9,210.49,147.79,199.32,147.81z M183.79,127.72c0.02,8.53,6.84,15.35,15.36,15.36\n\t\tc8.61,0.01,15.58-6.93,15.55-15.48c-0.04-8.53-7.07-15.43-15.67-15.39C190.56,112.26,183.77,119.17,183.79,127.72z\"><\/path>\n\t<path class=\"st0\" d=\"M216.47,69.34c1.07,1.24,1.99,2.31,3.12,3.61c-27.19,23.06-54.28,46.03-81.52,69.14\n\t\tc-1.06-1.21-2.04-2.33-3.15-3.6C162.13,115.41,189.22,92.44,216.47,69.34z\"><\/path>\n\t<path class=\"st0\" d=\"M60.97,84.98c0.39-1.7,0.7-3,1.07-4.62c16.8,3.69,33.45,7.34,50.29,11.04c-0.39,1.61-0.74,3.04-1.12,4.63\n\t\tC94.41,92.33,77.83,88.68,60.97,84.98z\"><\/path>\n\t<path class=\"st0\" d=\"M261.11,101.62c-1.35-0.24-2.42-0.43-3.69-0.65c0.57-3.71,1.13-7.3,1.74-11.22c1.25,0.2,2.37,0.37,3.73,0.58\n\t\tC262.27,94.2,261.7,97.86,261.11,101.62z\"><\/path>\n\t<path class=\"st0\" d=\"M257.57,124.6c-1.24-0.2-2.29-0.37-3.7-0.59c0.57-3.76,1.13-7.4,1.71-11.26c1.28,0.2,2.34,0.37,3.71,0.58\n\t\tC258.71,117.11,258.16,120.74,257.57,124.6z\"><\/path>\n\t<path class=\"st0\" d=\"M253.99,147.58c-1.43-0.21-2.5-0.37-3.71-0.55c0.51-3.45,0.78-6.79,1.56-10c0.6-2.46,2.37-0.59,3.87-0.66\n\t\tC255.13,140.15,254.58,143.74,253.99,147.58z\"><\/path>\n\t<path class=\"st0\" d=\"M264.71,78.59c-1.22-0.2-2.23-0.37-3.67-0.6c0.57-3.75,1.13-7.46,1.72-11.36c1.36,0.27,2.42,0.49,3.7,0.74\n\t\tC265.87,71.14,265.3,74.78,264.71,78.59z\"><\/path>\n\t<path class=\"st0\" d=\"M248.46,158.69c1.46,0.29,2.45,0.49,3.68,0.73c-0.58,3.75-1.14,7.32-1.73,11.08\n\t\tc-1.27-0.14-2.34-0.26-3.72-0.41C247.29,166.22,247.86,162.58,248.46,158.69z\"><\/path>\n\t<path class=\"st1\" d=\"M153.57,100.4c-8.6,0.03-15.59-6.92-15.55-15.47c0.03-8.46,6.96-15.4,15.4-15.44\n\t\tc8.5-0.04,15.62,7.05,15.6,15.52C169,93.42,162.02,100.37,153.57,100.4z\"><\/path>\n\t<path class=\"st1\" d=\"M183.79,127.72c-0.02-8.55,6.78-15.46,15.24-15.51c8.6-0.05,15.64,6.86,15.67,15.39\n\t\tc0.04,8.55-6.93,15.49-15.55,15.48C190.63,143.07,183.8,136.25,183.79,127.72z\"><\/path>\n<\/g>\n<\/svg>",
+              "title": "Promotions and Discounts",
+              "image2": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 400 212\" style=\"enable-background:new 0 0 400 212;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M348.77,191.67c-3.84-1.23-7.52-2.47-11.25-3.59c-18.06-5.45-36.32-10.03-55.09-12.36\n\t\tc-10.85-1.35-21.7-1.08-32.55,0.08c-29.82,3.2-58.57,11.37-87.53,18.64c-15.24,3.83-30.59,7.29-46,10.36\n\t\tc-15.18,3.02-30.25,1.06-45.13-2.57c-11.36-2.77-22.32-6.68-32.93-11.6c-1.52-0.71-2.09-1.55-2.09-3.24\n\t\tc0.04-53.04,0.03-106.08,0.04-159.12c0-0.7,0.1-1.41,0.16-2.16c7.24,1.14,14.3,2.34,21.4,3.34c13.86,1.95,27.8,3.89,41.8,2.97\n\t\tc11.69-0.77,23.42-2.21,34.91-4.5c25.99-5.18,51.83-11.08,77.73-16.68c16.73-3.62,33.56-6.75,50.74-6.78\n\t\tc20.32-0.04,40,4.14,59.28,10.21c8.29,2.61,16.38,5.85,24.59,8.73c1.5,0.53,2.07,1.27,2.07,2.93\n\t\tc-0.05,54.48-0.04,108.96-0.04,163.44C348.87,190.32,348.81,190.87,348.77,191.67z M343.18,183.71c0-1.11,0-1.74,0-2.37\n\t\tc0-50.33-0.01-100.65,0.04-150.98c0-1.76-0.6-2.57-2.19-3.11c-7.79-2.62-15.49-5.56-23.36-7.93c-16.8-5.07-33.89-8.66-51.53-9.04\n\t\tc-17.07-0.37-33.74,2.59-50.34,6.12c-27.64,5.88-55.21,12.13-82.93,17.64c-11.09,2.2-22.45,3.45-33.75,4.1\n\t\tc-15.53,0.89-30.95-1.3-46.31-3.57c-3.51-0.52-7.03-1.06-10.69-1.61c-0.04,0.91-0.1,1.54-0.1,2.16c0,49.61,0.01,99.21-0.05,148.82\n\t\tc0,1.68,0.61,2.44,2.08,2.94c9.51,3.23,18.89,6.98,28.55,9.64c13.9,3.83,28.19,5.43,42.49,2.63c14.8-2.9,29.53-6.21,44.15-9.88\n\t\tc29.5-7.4,58.79-15.77,89.16-19.12c11.8-1.3,23.6-1.6,35.42-0.08c18.19,2.33,35.93,6.69,53.49,11.89\n\t\tC339.14,182.5,340.96,183.05,343.18,183.71z\"><\/path>\n\t<path class=\"st1\" d=\"M343.18,183.71c-2.22-0.66-4.04-1.21-5.86-1.75c-17.55-5.2-35.29-9.56-53.49-11.89\n\t\tc-11.81-1.51-23.61-1.21-35.42,0.08c-30.37,3.34-59.65,11.72-89.16,19.12c-14.62,3.67-29.35,6.99-44.15,9.88\n\t\tc-14.3,2.8-28.59,1.2-42.49-2.63c-9.67-2.67-19.04-6.41-28.55-9.64c-1.47-0.5-2.08-1.26-2.08-2.94\n\t\tc0.05-49.61,0.04-99.21,0.05-148.82c0-0.63,0.06-1.25,0.1-2.16c3.66,0.55,7.18,1.09,10.69,1.61c15.36,2.27,30.78,4.46,46.31,3.57\n\t\tc11.3-0.65,22.66-1.89,33.75-4.1c27.72-5.51,55.28-11.76,82.93-17.64c16.59-3.53,33.26-6.49,50.34-6.12\n\t\tc17.64,0.38,34.73,3.97,51.53,9.04c7.87,2.37,15.56,5.31,23.36,7.93c1.59,0.53,2.19,1.35,2.19,3.11\n\t\tc-0.05,50.33-0.04,100.65-0.04,150.98C343.18,181.97,343.18,182.6,343.18,183.71z M241.01,72.3c-6.67-9.9-15.68-15.49-27.31-16.5\n\t\tc-2.38-0.21-2.69-1.14-2.62-3.09c0.11-3.16,0.03-6.32,0.03-9.41c-3.97,0-7.53,0-11.3,0c0,2.66,0,5.13,0,7.59\n\t\tc0,4.52-0.01,4.46-4.55,5.26c-7.67,1.36-14.55,4.32-19.68,10.46c-9.99,11.96-5.78,28.92,8.7,34.48c4.23,1.62,8.67,2.75,13.1,3.73\n\t\tc2.05,0.46,2.5,1.27,2.47,3.18c-0.11,6.32-0.04,12.64-0.04,18.96c0,0.84,0,1.68,0,2.84c-9.99-1.99-17.8-6.24-22.12-15.74\n\t\tc-3.58,3.36-7.01,6.57-10.38,9.74c0.12,0.4,0.14,0.65,0.25,0.84c0.31,0.56,0.64,1.11,0.99,1.64c6.75,10.14,16.63,14.84,28.38,16.1\n\t\tc2.18,0.24,3.08,0.82,2.93,3.15c-0.21,3.08-0.05,6.18-0.05,9.34c3.92,0,7.48,0,11.3,0c0-3.5,0.07-6.84-0.03-10.17\n\t\tc-0.05-1.64,0.51-2.16,2.15-2.33c6.28-0.63,12.21-2.39,17.49-6c7.85-5.38,10.89-12.87,9.66-22.2c-1.11-8.39-6.42-13.38-13.84-16.3\n\t\tc-4.21-1.66-8.67-2.72-13.06-3.87c-1.71-0.45-2.47-1.05-2.42-3c0.14-6.4,0.05-12.8,0.05-19.2c0-1.02,0-2.03,0-3.64\n\t\tc3.01,0.94,5.64,1.56,8.1,2.59c5.41,2.27,8.68,6.84,11.32,11.06C234.04,78.62,237.52,75.46,241.01,72.3z\"><\/path>\n\t<path class=\"st0\" d=\"M241.01,72.3c-3.49,3.17-6.97,6.32-10.48,9.51c-2.63-4.21-5.9-8.79-11.32-11.06c-2.46-1.03-5.09-1.64-8.1-2.59\n\t\tc0,1.61,0,2.63,0,3.64c0,6.4,0.09,12.8-0.05,19.2c-0.04,1.95,0.71,2.55,2.42,3c4.39,1.16,8.85,2.21,13.06,3.87\n\t\tc7.41,2.92,12.72,7.91,13.84,16.3c1.24,9.33-1.8,16.82-9.66,22.2c-5.27,3.61-11.21,5.37-17.49,6c-1.64,0.17-2.2,0.69-2.15,2.33\n\t\tc0.1,3.34,0.03,6.68,0.03,10.17c-3.82,0-7.38,0-11.3,0c0-3.16-0.16-6.26,0.05-9.34c0.16-2.33-0.74-2.91-2.93-3.15\n\t\tc-11.75-1.27-21.63-5.96-28.38-16.1c-0.35-0.53-0.68-1.08-0.99-1.64c-0.11-0.2-0.14-0.44-0.25-0.84c3.38-3.17,6.8-6.38,10.38-9.74\n\t\tc4.32,9.5,12.13,13.75,22.12,15.74c0-1.16,0-2,0-2.84c0-6.32-0.07-12.64,0.04-18.96c0.03-1.92-0.41-2.73-2.47-3.18\n\t\tc-4.43-0.99-8.88-2.11-13.1-3.73c-14.48-5.57-18.7-22.53-8.7-34.48c5.13-6.14,12.01-9.09,19.68-10.46\n\t\tc4.54-0.81,4.55-0.74,4.55-5.26c0-2.47,0-4.93,0-7.59c3.77,0,7.32,0,11.3,0c0,3.09,0.08,6.25-0.03,9.41\n\t\tc-0.07,1.96,0.24,2.89,2.62,3.09C225.33,56.81,234.33,62.4,241.01,72.3z M211.23,129.65c3.91-0.35,7.35-1.22,10.12-3.77\n\t\tc3.65-3.36,3.92-9.63,0.5-12.96c-2.89-2.82-6.61-3.97-10.62-4.94C211.23,115.26,211.23,122.27,211.23,129.65z M199.68,68.96\n\t\tc-7.17,0.08-12.66,4.96-12.72,11.15c-0.06,5.48,5.8,10.36,12.72,10.49C199.68,83.46,199.68,76.3,199.68,68.96z\"><\/path>\n\t<path class=\"st1\" d=\"M211.23,129.65c0-7.38,0-14.39,0-21.67c4.01,0.97,7.73,2.12,10.62,4.94c3.42,3.34,3.15,9.6-0.5,12.96\n\t\tC218.58,128.43,215.14,129.3,211.23,129.65z\"><\/path>\n\t<path class=\"st1\" d=\"M199.68,68.96c0,7.34,0,14.49,0,21.65c-6.92-0.13-12.78-5.01-12.72-10.49\n\t\tC187.02,73.92,192.51,69.04,199.68,68.96z\"><\/path>\n<\/g>\n<\/svg>",
+              "title2": "Gift Vouchers",
+              "image3": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 372.09 172.49\" style=\"enable-background:new 0 0 372.09 172.49;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M92.1,27.6c0-8.52,0-16.8,0-25.19c57.81,0,115.35,0,173.11,0c0.05,1.06,0.14,2,0.14,2.93\n\t\tc0.01,46.08,0.01,92.15,0,138.23c0,3.29-0.01,3.3-3.25,3.3c-7.44,0-14.88,0.05-22.32-0.03c-1.82-0.02-2.63,0.43-3.02,2.36\n\t\tc-2.47,12.16-12.82,20.82-24.72,20.88c-12.06,0.06-22.45-8.51-25.04-20.78c-0.38-1.8-1-2.47-2.93-2.47\n\t\tc-22.32,0.07-44.63,0.05-66.95,0.04c-1.31,0-2.37-0.09-2.77,1.76c-2.78,12.9-12.82,21.45-24.97,21.45\n\t\tc-12.18,0-22.24-8.56-25.12-21.36c-0.1-0.46-0.18-0.93-0.34-1.79c-20.32,0-40.65,0-61.17,0c0-4.46-0.12-8.53,0.02-12.58\n\t\tC3.4,116.42,4.7,98.56,8.52,81c1.32-6.07,3.23-12.03,5.04-17.98c1.88-6.2,5.86-10.93,10.99-14.75\n\t\tc8.81-6.56,18.83-10.64,29.35-13.19c11.47-2.78,23.16-4.67,34.75-6.93C89.66,27.94,90.69,27.82,92.1,27.6z M259.46,140.96\n\t\tc0.05-0.86,0.11-1.42,0.11-1.97c0-42.87-0.01-85.75,0.05-128.62c0-2.17-0.87-2.43-2.69-2.42c-52.15,0.04-104.29,0.04-156.44-0.01\n\t\tc-2.1,0-2.72,0.55-2.71,2.67c0.06,35.19,0.05,70.39,0.01,105.58c0,1.57,0.47,2.38,1.94,3.09c8.22,3.95,13.04,10.54,14.74,19.47\n\t\tc0.14,0.76,0.38,1.49,0.55,2.15c23.92,0,47.63,0,71.3,0c2.79-14.4,11.95-23.42,24.1-23.9c13.79-0.54,22.42,7.03,27.18,23.96\n\t\tC244.79,140.96,252.02,140.96,259.46,140.96z M91.72,33.71c-1.1,0.06-2.05,0.05-2.97,0.17c-12.38,1.63-24.63,3.89-36.57,7.62\n\t\tc-7.81,2.44-15.38,5.42-22.24,9.99c-5.51,3.67-9.7,8.35-11.49,14.84c-1.7,6.16-3.56,12.29-4.84,18.54\n\t\tc-3.53,17.29-4.65,34.85-5.18,52.45c-0.04,1.17,0,2.34,0,3.56c0.76,0.09,1.23,0.2,1.69,0.2c17.28,0.01,34.56-0.01,51.84,0.04\n\t\tc1.56,0,1.98-0.59,2.22-2.04c1.86-11.43,10.12-19.89,21.3-21.82c2.01-0.35,4.09-0.31,6.24-0.46\n\t\tC91.72,89.08,91.72,61.52,91.72,33.71z M110.17,143.68c0.05-12.1-9.2-21.95-20.69-22.02c-11.51-0.07-20.93,9.72-20.95,21.76\n\t\tc-0.02,12.05,9.36,21.94,20.81,21.94C100.7,165.36,110.12,155.56,110.17,143.68z M191.11,143.48c0,12.1,9.35,21.93,20.81,21.88\n\t\tc11.49-0.05,20.76-9.87,20.74-21.98c-0.02-11.96-9.3-21.69-20.71-21.72C200.42,121.63,191.11,131.38,191.11,143.48z\"><\/path>\n\t<path class=\"st0\" d=\"M369.17,50.99c0.83,5.63,0.83,5.63-4.41,5.63c-27.98,0-55.96,0-83.94,0c-1.09,0-2.19,0-3.42,0\n\t\tc0-2.06,0-3.77,0-5.63C308.03,50.99,338.53,50.99,369.17,50.99z\"><\/path>\n\t<path class=\"st0\" d=\"M355.28,122.32c0,1.95,0,3.61,0,5.41c-25.99,0-51.85,0-77.87,0c0-1.82,0-3.53,0-5.41\n\t\tC303.39,122.32,329.25,122.32,355.28,122.32z\"><\/path>\n\t<path class=\"st0\" d=\"M277.4,90.88c0-1.78,0-3.43,0-5.29c0.58-0.07,1.18-0.21,1.79-0.21c11.91-0.01,23.82,0.04,35.73-0.06\n\t\tc2.1-0.02,2.45,0.89,2.29,2.57c-0.14,1.44,0.66,3.26-2.11,3.23c-11.99-0.1-23.98-0.04-35.97-0.05\n\t\tC278.58,91.07,278.05,90.95,277.4,90.88z\"><\/path>\n\t<path class=\"st1\" d=\"M259.46,140.96c-7.44,0-14.67,0-21.87,0c-4.76-16.93-13.39-24.5-27.18-23.96c-12.15,0.48-21.31,9.5-24.1,23.9\n\t\tc-23.67,0-47.38,0-71.3,0c-0.17-0.66-0.41-1.4-0.55-2.15c-1.7-8.93-6.52-15.52-14.74-19.47c-1.47-0.7-1.94-1.52-1.94-3.09\n\t\tc0.04-35.19,0.05-70.39-0.01-105.58c0-2.12,0.62-2.68,2.71-2.67c52.15,0.06,104.29,0.05,156.44,0.01c1.82,0,2.69,0.25,2.69,2.42\n\t\tc-0.06,42.87-0.05,85.75-0.05,128.62C259.58,139.54,259.51,140.09,259.46,140.96z M170.65,79.49c4.73-1.8,6.86-5.13,7.4-9.76\n\t\tc1.19-10.3-3.73-15.96-14-15.97c-4.48,0-8.95-0.01-13.43,0c-2.94,0.01-3.32,0.38-3.32,3.31c-0.01,11.03,0,22.07,0,33.1\n\t\tc0,5.64,0,5.6,5.75,5.47c1.9-0.04,2.79-0.71,2.72-2.7c-0.09-2.64-0.04-5.28-0.02-7.91c0.05-4.75-0.56-3.96,4.02-4.18\n\t\tc2-0.1,3.03,0.61,3.79,2.4c1.09,2.57,2.74,4.93,3.61,7.56c1.33,4.06,3.85,5.33,7.94,4.88c3.21-0.35,3.6-0.65,2.11-3.55\n\t\tC175.1,88.03,172.96,83.93,170.65,79.49z M192.26,78.71c0.52-0.18,0.74-0.31,0.96-0.32c2.64-0.03,5.28-0.04,7.92-0.05\n\t\tc5.65-0.01,5.82-0.22,5.39-5.8c-0.12-1.5-0.78-2.16-2.26-2.14c-1.84,0.03-3.68,0-5.52,0c-6.95,0-6.92,0-6.54-6.93\n\t\tc0.07-1.35,0.53-1.81,1.86-1.79c3.68,0.06,7.36,0.02,11.04,0.02c5.03,0,4.93,0,4.99-4.93c0.03-2.35-0.91-3.07-3.14-3.04\n\t\tc-6.72,0.09-13.44,0.07-20.16,0.01c-2.11-0.02-3.06,0.71-3.05,2.93c0.05,12,0.05,24,0,36c-0.01,2.16,0.83,3.01,2.99,2.99\n\t\tc6.08-0.07,12.16-0.02,18.24-0.02c5.17,0,5.08,0,5.12-5.1c0.01-2.24-0.85-2.93-2.99-2.87c-4.32,0.12-8.64,0.08-12.96-0.02\n\t\tc-0.64-0.02-1.77-0.72-1.8-1.17C192.17,83.86,192.26,81.24,192.26,78.71z M224.87,61.7c4.28,0,8.41,0,12.55,0\n\t\tc5.27,0,5.22,0,5.12-5.28c-0.03-1.8-0.7-2.67-2.53-2.66c-7.11,0.02-14.23,0.01-21.34,0c-1.69,0-2.43,0.75-2.42,2.49\n\t\tc0.03,12.31,0.03,24.62,0,36.93c0,1.76,0.8,2.45,2.47,2.45c7.11-0.01,14.23,0.02,21.34-0.04c0.71-0.01,1.99-0.46,2.03-0.83\n\t\tc0.24-2.02,0.41-4.12,0.06-6.09c-0.09-0.51-2.15-0.91-3.32-0.93c-4.61-0.11-9.22-0.04-13.96-0.04c0-3.23,0-6.14,0-9.35\n\t\tc3.71,0,7.29,0.01,10.86,0c2.85-0.01,3.11-0.29,3.14-3.2c0-0.48,0-0.96,0-1.44c-0.02-3.12-0.17-3.29-3.22-3.29\n\t\tc-3.57-0.01-7.13,0-10.77,0C224.87,67.35,224.87,64.68,224.87,61.7z M124.38,79.94c4.2,0,7.95-0.04,11.7,0.02\n\t\tc1.74,0.03,2.53-0.69,2.44-2.42c-0.04-0.72,0-1.44,0-2.16c-0.02-3.18-0.2-3.37-3.45-3.37c-3.49-0.01-6.98,0-10.52,0\n\t\tc0-3.59,0-6.81,0-10.31c4.39,0,8.61,0,12.83,0c4.85,0,4.76,0,4.83-4.87c0.03-2.32-0.86-3.12-3.11-3.09\n\t\tc-6.64,0.08-13.28,0.02-19.92,0.03c-3.04,0-3.26,0.24-3.27,3.31c-0.01,11.12,0,22.24,0,33.36c0,5.25,0,5.25,5.23,5.19\n\t\tc2.82-0.03,3.21-0.39,3.22-3.17C124.4,88.4,124.38,84.34,124.38,79.94z\"><\/path>\n\t<path class=\"st1\" d=\"M91.72,33.71c0,27.82,0,55.38,0,83.1c-2.15,0.15-4.23,0.11-6.24,0.46c-11.18,1.93-19.44,10.38-21.3,21.82\n\t\tc-0.24,1.46-0.66,2.05-2.22,2.04c-17.28-0.05-34.56-0.03-51.84-0.04c-0.47,0-0.93-0.11-1.69-0.2c0-1.22-0.03-2.39,0-3.56\n\t\tc0.53-17.6,1.65-35.16,5.18-52.45c1.28-6.25,3.14-12.38,4.84-18.54c1.79-6.49,5.99-11.18,11.49-14.84\n\t\tc6.86-4.57,14.43-7.54,22.24-9.99c11.94-3.74,24.19-6,36.57-7.62C89.68,33.76,90.62,33.77,91.72,33.71z\"><\/path>\n\t<path class=\"st1\" d=\"M110.17,143.68c-0.05,11.88-9.46,21.68-20.83,21.68c-11.45,0-20.83-9.89-20.81-21.94\n\t\tc0.02-12.04,9.44-21.83,20.95-21.76C100.96,121.73,110.22,131.58,110.17,143.68z\"><\/path>\n\t<path class=\"st1\" d=\"M191.11,143.48c0-12.1,9.31-21.85,20.84-21.81c11.41,0.04,20.69,9.76,20.71,21.72\n\t\tc0.03,12.1-9.25,21.93-20.74,21.98C200.46,165.41,191.11,155.58,191.11,143.48z\"><\/path>\n\t<path class=\"st0\" d=\"M170.65,79.49c2.31,4.44,4.45,8.54,6.56,12.66c1.49,2.9,1.1,3.19-2.11,3.55c-4.09,0.45-6.61-0.81-7.94-4.88\n\t\tc-0.86-2.63-2.51-4.99-3.61-7.56c-0.76-1.79-1.78-2.5-3.79-2.4c-4.58,0.22-3.97-0.57-4.02,4.18c-0.03,2.64-0.07,5.28,0.02,7.91\n\t\tc0.07,1.99-0.82,2.66-2.72,2.7c-5.75,0.12-5.75,0.17-5.75-5.47c0-11.03,0-22.07,0-33.1c0-2.93,0.39-3.3,3.32-3.31\n\t\tc4.48-0.01,8.95-0.01,13.43,0c10.27,0.01,15.18,5.67,14,15.97C177.51,74.35,175.38,77.69,170.65,79.49z M155.75,67.37\n\t\tc0,1.27,0.06,2.55-0.02,3.82c-0.08,1.37,0.5,1.83,1.82,1.79c2.47-0.07,4.98,0.24,7.38-0.16c1.45-0.24,3.31-1.2,3.98-2.4\n\t\tc2.46-4.39-0.23-8.64-5.23-8.72c-0.8-0.01-1.59,0-2.39,0C155.75,61.7,155.75,61.7,155.75,67.37z\"><\/path>\n\t<path class=\"st0\" d=\"M192.26,78.71c0,2.53-0.09,5.15,0.08,7.76c0.03,0.44,1.16,1.15,1.8,1.17c4.32,0.1,8.64,0.14,12.96,0.02\n\t\tc2.15-0.06,3.01,0.63,2.99,2.87c-0.03,5.1,0.06,5.1-5.12,5.1c-6.08,0-12.16-0.05-18.24,0.02c-2.16,0.03-3-0.82-2.99-2.99\n\t\tc0.05-12,0.05-24,0-36c-0.01-2.21,0.94-2.95,3.05-2.93c6.72,0.07,13.44,0.08,20.16-0.01c2.23-0.03,3.17,0.69,3.14,3.04\n\t\tc-0.06,4.93,0.04,4.93-4.99,4.93c-3.68,0-7.36,0.04-11.04-0.02c-1.33-0.02-1.78,0.44-1.86,1.79c-0.38,6.94-0.41,6.93,6.54,6.93\n\t\tc1.84,0,3.68,0.02,5.52,0c1.48-0.02,2.14,0.64,2.26,2.14c0.44,5.59,0.27,5.8-5.39,5.8c-2.64,0-5.28,0.02-7.92,0.05\n\t\tC193,78.39,192.78,78.53,192.26,78.71z\"><\/path>\n\t<path class=\"st0\" d=\"M224.87,61.7c0,2.98,0,5.66,0,8.71c3.63,0,7.2-0.01,10.77,0c3.05,0.01,3.2,0.17,3.22,3.29\n\t\tc0,0.48,0,0.96,0,1.44c-0.03,2.91-0.28,3.18-3.14,3.2c-3.57,0.02-7.14,0-10.86,0c0,3.21,0,6.11,0,9.35c4.75,0,9.36-0.06,13.96,0.04\n\t\tc1.17,0.03,3.23,0.43,3.32,0.93c0.35,1.97,0.18,4.07-0.06,6.09c-0.04,0.36-1.32,0.82-2.03,0.83c-7.11,0.06-14.23,0.03-21.34,0.04\n\t\tc-1.67,0-2.47-0.68-2.47-2.45c0.03-12.31,0.03-24.62,0-36.93c0-1.74,0.73-2.49,2.42-2.49c7.11,0.01,14.23,0.02,21.34,0\n\t\tc1.84-0.01,2.5,0.86,2.53,2.66c0.1,5.28,0.15,5.28-5.12,5.28C233.28,61.7,229.15,61.7,224.87,61.7z\"><\/path>\n\t<path class=\"st0\" d=\"M124.38,79.94c0,4.4,0.01,8.46,0,12.52c-0.01,2.77-0.4,3.14-3.22,3.17c-5.23,0.06-5.23,0.06-5.23-5.19\n\t\tc0-11.12,0-22.24,0-33.36c0-3.07,0.23-3.3,3.27-3.31c6.64-0.01,13.28,0.05,19.92-0.03c2.25-0.03,3.14,0.77,3.11,3.09\n\t\tc-0.07,4.87,0.02,4.87-4.83,4.87c-4.22,0-8.44,0-12.83,0c0,3.49,0,6.72,0,10.31c3.54,0,7.03-0.01,10.52,0\n\t\tc3.24,0.01,3.43,0.2,3.45,3.37c0,0.72-0.03,1.44,0,2.16c0.08,1.73-0.7,2.45-2.44,2.42C132.34,79.9,128.59,79.94,124.38,79.94z\"><\/path>\n\t<path class=\"st1\" d=\"M155.75,67.37c0-5.67,0-5.67,5.56-5.67c0.8,0,1.59-0.01,2.39,0c5,0.08,7.69,4.33,5.23,8.72\n\t\tc-0.67,1.2-2.53,2.16-3.98,2.4c-2.4,0.4-4.92,0.08-7.38,0.16c-1.32,0.04-1.9-0.42-1.82-1.79\n\t\tC155.81,69.92,155.75,68.64,155.75,67.37z\"><\/path>\n<\/g>\n<\/svg>",
+              "title3": "Free Shipping"
+            }
+          },
+          "1595253587310": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Join our Loyalty Club and Earn Points",
+              "heading_font": "work_sans_n4",
+              "heading_color": "rgba(0,0,0,0)",
+              "heading_alignment": "center",
+              "heading_size": 30,
+              "text": "<p>Collect points and receive exciting rewards. Signing up today will get you started on 250 points, leaving only 250 left for <strong>your first reward<\/strong>.<br>So what&nbsp; are you&nbsp; waiting for?<\/p>",
+              "text_font": "work_sans_n4",
+              "text_color": "rgba(0,0,0,0)",
+              "text_alignment": "center",
+              "text_size": 24,
+              "columns": 1,
+              "button_label": "Log In",
+              "button_link": "\/account\/login",
+              "button_label2": "Sign Up",
+              "button_link2": "\/account\/register?view=loyalty",
+              "button_alignment": "center",
+              "button_style": "button--primary",
+              "background": "#d9e5e5",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "width": "standard",
+              "padding_top": 40,
+              "padding_bottom": 0,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1595257542283": {
+            "type": "header",
+            "settings": {
+              "header": "How to Earn Points",
+              "subheader": "<p>There are multiple ways to earn points and each activity will get you one step closer!<\/p>",
+              "line": false,
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0
+            }
+          },
+          "1595324109889": {
+            "type": "three_row_icon_with_text",
+            "settings": {
+              "icons_per_row": 2,
+              "icon_size": "medium",
+              "align_text": "left",
+              "button_style": "button--primary",
+              "icon_color": "rgba(0,0,0,0)",
+              "text_color": "rgba(0,0,0,0)",
+              "background": "rgba(0,0,0,0)",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 0,
+              "width": "standard",
+              "show_gutter": false,
+              "padding_top": 0,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none",
+              "image": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 305.68 323.53\" style=\"enable-background:new 0 0 305.68 323.53;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M303.39,320.95c-100,0-199.65,0-299.61,0c0.54-3.93,1.03-7.69,1.57-11.46c3.64-25.48,7.29-50.96,10.94-76.43\n\t\tc3.78-26.35,7.57-52.69,11.35-79.04c3.06-21.36,6.14-42.72,9.11-64.1c0.26-1.88,0.9-2.35,2.69-2.33c7.36,0.09,14.72-0.08,22.08,0.1\n\t\tc2.36,0.06,3.08-0.77,3.58-2.92c3.62-15.36,8.24-30.41,15.55-44.48c7.36-14.17,17.43-25.6,32.67-31.71\n\t\tc7.72-3.09,15.78-4.67,24.02-5.32c12.32-0.98,24.61-0.9,36.77,1.75c14.67,3.19,26.13,11.21,34.98,23.19\n\t\tc6.64,9,11.8,18.84,16.2,29.06c4.08,9.46,7.8,19.08,11.56,28.68c0.57,1.46,1.35,1.69,2.67,1.69c9.44-0.03,18.88,0.04,28.32-0.06\n\t\tc1.87-0.02,2.43,0.63,2.68,2.39c4.24,30,8.56,59.98,12.84,89.97c4.55,31.89,9.07,63.78,13.63,95.67\n\t\tc1.99,13.93,4.02,27.85,6.02,41.77C303.16,318.47,303.24,319.58,303.39,320.95z M299.05,317.09c-0.13-1.12-0.22-1.98-0.34-2.83\n\t\tc-3.58-25.08-7.17-50.16-10.75-75.24c-3.26-22.86-6.51-45.73-9.78-68.6c-3.6-25.16-7.23-50.31-10.82-75.47\n\t\tc-0.51-3.58-0.46-3.59-3.99-3.59c-73.19,0-146.39,0-219.58,0c-0.56,0-1.12,0.04-1.68,0c-1.27-0.09-1.84,0.43-2.02,1.75\n\t\tc-0.75,5.7-1.59,11.4-2.41,17.09c-2.97,20.73-5.94,41.45-8.9,62.18c-3.11,21.76-6.21,43.52-9.33,65.27\n\t\tc-3.13,21.92-6.28,43.83-9.41,65.74c-0.64,4.49-1.25,8.99-1.9,13.69C105.18,317.09,201.92,317.09,299.05,317.09z M68.21,87.45\n\t\tc55.19,0,110.01,0,165.13,0c-0.35-1.1-0.57-2.02-0.92-2.89c-2.98-7.42-5.84-14.88-9.01-22.22c-4.99-11.54-10.48-22.82-18.15-32.89\n\t\tc-8.93-11.73-20.58-18.92-35.17-21.39c-11.36-1.92-22.76-1.84-34.19-0.88C113.77,9.05,96.77,19,85.81,38.7\n\t\tc-6.54,11.75-10.94,24.32-14.56,37.19C70.19,79.64,69.26,83.43,68.21,87.45z\"><\/path>\n\t<path class=\"st1\" d=\"M299.05,317.09c-97.12,0-193.87,0-290.91,0c0.65-4.7,1.25-9.2,1.9-13.69c3.13-21.92,6.28-43.83,9.41-65.74\n\t\tc3.11-21.76,6.21-43.52,9.33-65.27c2.96-20.73,5.94-41.45,8.9-62.18c0.82-5.7,1.66-11.39,2.41-17.09c0.17-1.32,0.74-1.84,2.02-1.75\n\t\tc0.56,0.04,1.12,0,1.68,0c73.19,0,146.39,0,219.58,0c3.53,0,3.48,0.01,3.99,3.59c3.6,25.16,7.22,50.31,10.82,75.47\n\t\tc3.27,22.86,6.52,45.73,9.78,68.6c3.58,25.08,7.17,50.16,10.75,75.24C298.83,315.11,298.91,315.97,299.05,317.09z\"><\/path>\n\t<path class=\"st1\" d=\"M68.21,87.45c1.05-4.02,1.98-7.81,3.04-11.56c3.62-12.88,8.02-25.44,14.56-37.19\n\t\tC96.77,19,113.77,9.05,135.91,7.19c11.43-0.96,22.83-1.04,34.19,0.88c14.58,2.46,26.23,9.66,35.17,21.39\n\t\tc7.67,10.07,13.16,21.35,18.15,32.89c3.17,7.33,6.03,14.8,9.01,22.22c0.35,0.87,0.57,1.78,0.92,2.89\n\t\tC178.22,87.45,123.4,87.45,68.21,87.45z\"><\/path>\n<\/g>\n<\/svg>",
+              "title": "Make a Purchase",
+              "text": "<p>5 points per $1<\/p>",
+              "image2": "",
+              "title2": "",
+              "text2": "",
+              "image3": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 267 318\" style=\"enable-background:new 0 0 267 318;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M84.73,145.21c-21.4-18.07-31.8-40.82-29.86-68.62c1.43-20.4,10-37.7,24.96-51.67\n\t\tC110.17-3.4,157.35-3.29,187.68,25.1c11.33,10.61,18.96,23.46,22.69,38.52c3.74,15.12,3.14,30.14-1.9,44.9\n\t\tc-5,14.66-13.77,26.73-25.91,36.58c0.54,0.42,0.82,0.69,1.14,0.88c26.3,15.56,45.8,37.65,61,63.8\n\t\tc8.69,14.95,15.3,30.76,18.46,47.87c1.39,7.51,1.87,15.07,0.78,22.67c-1.81,12.66-8.62,21.61-20.17,26.97\n\t\tc-8.08,3.75-16.7,5.42-25.48,6.36c-18.98,2.03-38.01,1.18-57.05,1.1c-28.55-0.12-57.1,0.26-85.65,0.26c-13.6,0-27.2-0.52-40.5-3.8\n\t\tc-3.63-0.89-7.24-2.08-10.67-3.56c-13.81-5.97-20.69-16.81-21.53-31.62c-0.78-13.76,2.27-26.9,7.18-39.59\n\t\tc13.77-35.61,35.64-65.02,67.4-86.67C79.78,148.21,82.18,146.81,84.73,145.21z M133.58,311.25c0-0.11,0-0.21,0-0.32\n\t\tc8.72,0,17.44-0.09,26.15,0.02c19.19,0.24,38.39,1.06,57.53-0.99c9.1-0.97,18.05-2.62,26.31-6.81c8.75-4.44,14.26-11.4,16.21-21.08\n\t\tc2.07-10.28,0.79-20.41-1.78-30.39c-6.24-24.28-18.15-45.66-33.75-65.09c-12.07-15.04-26.12-27.87-42.88-37.6\n\t\tc-1.64-0.95-2.79-1-4.51,0.04c-28.82,17.47-57.7,17.45-86.51-0.05c-1.61-0.98-2.76-1.09-4.3-0.06c-3.12,2.09-6.45,3.88-9.5,6.06\n\t\tc-28.99,20.78-49.31,48.26-62.35,81.25c-4.91,12.42-8.18,25.27-7.6,38.79c0.61,14.25,7.22,24.42,20.7,29.73\n\t\tc2.23,0.88,4.5,1.67,6.81,2.3c12.3,3.36,24.93,4,37.57,4.12C92.31,311.39,112.95,311.25,133.58,311.25z M133.7,7.48\n\t\tC92.52,7.45,58.46,41.16,58.37,82.04c-0.09,42.12,33.3,76.08,74.88,76.17c41.88,0.08,75.73-33.63,75.68-75.36\n\t\tC208.88,41.22,175.23,7.52,133.7,7.48z\"><\/path>\n\t<path class=\"st2\" d=\"M133.58,311.25c-20.63,0-41.27,0.14-61.9-0.05c-12.64-0.12-25.27-0.77-37.57-4.12\n\t\tc-2.31-0.63-4.58-1.42-6.81-2.3c-13.48-5.31-20.09-15.48-20.7-29.73c-0.58-13.52,2.68-26.37,7.6-38.79\n\t\tc13.05-32.99,33.36-60.48,62.35-81.25c3.05-2.18,6.38-3.97,9.5-6.06c1.54-1.03,2.69-0.92,4.3,0.06\n\t\tc28.81,17.5,57.69,17.52,86.51,0.05c1.72-1.05,2.88-0.99,4.51-0.04c16.76,9.73,30.81,22.56,42.88,37.6\n\t\tc15.6,19.42,27.51,40.81,33.75,65.09c2.56,9.98,3.85,20.11,1.78,30.39c-1.95,9.67-7.46,16.64-16.21,21.08\n\t\tc-8.27,4.19-17.22,5.84-26.31,6.81c-19.15,2.05-38.34,1.22-57.53,0.99c-8.72-0.11-17.44-0.02-26.15-0.02\n\t\tC133.58,311.04,133.58,311.14,133.58,311.25z\"><\/path>\n\t<path class=\"st2\" d=\"M133.7,7.48c41.53,0.03,75.18,33.74,75.23,75.36c0.05,41.73-33.8,75.44-75.68,75.36\n\t\tc-41.58-0.08-74.97-34.04-74.88-76.17C58.46,41.16,92.52,7.45,133.7,7.48z\"><\/path>\n\t<circle class=\"st3\" cx=\"133.53\" cy=\"82.18\" r=\"79.83\"><\/circle>\n<\/g>\n<\/svg>",
+              "title3": "Create an Account",
+              "text3": "<p>250 points<\/p>",
+              "image4": "<svg id=\"Layer_1\" data-name=\"Layer 1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 315.97 315.14\"><defs><style>.cls-1{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:7px;}.cls-2{fill:#fff;}.cls-3{fill:#333;}<\/style><\/defs><rect class=\"cls-1\" x=\"3.5\" y=\"3.5\" width=\"308.97\" height=\"308.14\" rx=\"83.79\"><\/rect><path class=\"cls-2\" d=\"M294.33,165.3v63c0,16.82-5.14,31.83-16.21,44.56-13.05,15-29.69,23.07-49.57,23.19q-65.07.39-130.15,0C66,296,38.25,271.52,33.58,239.53a75.66,75.66,0,0,1-.83-11q-.09-63.41,0-126.79A66.79,66.79,0,0,1,89.34,35.37a64.92,64.92,0,0,1,9.86-.67q64.35-.06,128.71,0a66.47,66.47,0,0,1,65.71,57.74,85,85,0,0,1,.67,10.58C294.36,123.77,294.33,144.53,294.33,165.3ZM84.59,167.4a79.5,79.5,0,0,0,79.35,79.45c43.77.07,79.44-35.36,79.5-79a79.43,79.43,0,1,0-158.85-.48ZM267,82.58a18.82,18.82,0,1,0-18.84,18.81A18.64,18.64,0,0,0,267,82.58Z\" transform=\"translate(-4.58 -6.5)\"><\/path><path class=\"cls-3\" d=\"M267,62.45a18.83,18.83,0,1,1-18.89-18.77A18.68,18.68,0,0,1,267,62.45Z\" transform=\"translate(-4.58 -6.5)\"><\/path><path class=\"cls-2\" d=\"M164.07,218.49a51.06,51.06,0,1,1,51.13-51.1A51.05,51.05,0,0,1,164.07,218.49Z\" transform=\"translate(-4.58 -6.5)\"><\/path><circle class=\"cls-1\" cx=\"157.98\" cy=\"157.57\" r=\"70.66\"><\/circle><\/svg>",
+              "title4": "Follow us on Socials",
+              "text4": "<p>50 points each<\/p>",
+              "image5": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 326.07 266.92\" style=\"enable-background:new 0 0 326.07 266.92;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<path class=\"st0\" d=\"M70.83,120.85c-31.15-23.94-32.87-71.42-4.29-98.41c25.41-23.99,65.7-23.43,90.61,1.5\n\tc26.61,26.63,25.31,72.19-5.9,96.97c13.69,7.83,25.15,18.14,35.28,30.15c3.33-2.16,6.52-4.23,9.95-6.46\n\tc-15.88-13.66-23.23-30.77-20.62-51.57c1.83-14.6,8.82-26.6,20.25-35.88c22.41-18.21,55.48-15.9,75.43,4.89\n\tc21.72,22.64,20.95,61.78-5.73,82.6c0.76,0.5,1.48,0.97,2.2,1.44c27.84,18.16,45.85,43.38,54.08,75.56c1.54,6,1.86,12.17,0.94,18.34\n\tc-1.42,9.56-6.87,15.95-15.69,19.61c-7.96,3.3-16.39,4.4-24.87,4.55c-13.83,0.25-27.67,0-41.51,0.05\n\tc-16.88,0.06-33.76,0.45-50.63,0.2c-8.76-0.13-17.74-0.33-26.21-2.28c-12.64-2.9-25.29-1.95-37.93-2.15\n\tc-19.03-0.29-38.07,0.32-57.1,0.27c-13.67-0.04-27.38-0.02-40.73-3.7c-2.07-0.57-4.12-1.29-6.11-2.12\n\tc-11.78-4.92-17.75-13.94-18.42-26.54c-0.64-11.9,2.15-23.23,6.58-34.12c12.3-30.25,31.3-55.04,59.51-72.21\n\tC70.18,121.39,70.41,121.18,70.83,120.85z M183.4,153.48c-0.3-0.45-0.45-0.73-0.65-0.97c-9.46-11.11-20.21-20.68-32.89-28.03\n\tc-1.64-0.95-2.74-0.78-4.31,0.15c-21.03,12.49-42.55,13.29-64.52,2.56c-5.08-4.84-9.49-2.66-14.4,0.75\n\tc-25.1,17.46-42.52,40.8-53.44,69.15c-3.7,9.61-6.1,19.54-5.66,29.96c0.43,10.18,4.47,18.38,14.04,22.79\n\tc4.38,2.02,9.14,3.44,13.87,4.39c11.98,2.39,24.16,2.17,36.32,2.14c24.71-0.06,49.42-0.02,74.12-0.03c0.71,0,1.42-0.1,2.67-0.2\n\tc-7.92-6.37-10.17-14.49-9.77-23.52c0.18-4.13,0.7-8.31,1.68-12.32c5.81-23.67,18.43-43.36,35.68-60.28\n\tC178.43,157.79,180.88,155.75,183.4,153.48z M231.13,260.52c0-0.04,0-0.08,0-0.12c2.32,0,4.64,0.01,6.96,0\n\tc16.39-0.1,32.78-0.02,49.16-0.39c7.04-0.16,13.98-1.58,20.42-4.72c6.15-3,10.26-7.78,11.33-14.55c0.64-4.05,0.76-8.31,0.33-12.39\n\tc-1.28-12.11-5.79-23.22-11.63-33.79c-10.51-19.03-24.34-35-43.25-46.2c-1.62-0.96-2.79-1-4.51-0.02\n\tc-19.01,10.82-38.16,10.91-57.25,0.22c-2.04-1.14-3.42-1.13-5.36,0.03c-16.14,9.66-28.63,22.97-38.56,38.76\n\tc-8.33,13.25-14.77,27.31-16.12,43.17c-1.3,15.28,4.88,23.67,18.23,27.04c6.53,1.65,13.38,2.67,20.11,2.83\n\tC197.69,260.78,214.41,260.52,231.13,260.52z M111.05,8.51c-36.42,0.42-61.5,30.41-61.06,61.9c0.47,33.21,27.87,60.59,61.31,60.45\n\tc33.77-0.14,61-27.64,60.94-61.54C172.18,35.93,144.5,8.42,111.05,8.51z M179.08,100.69c0.03,28.73,23.35,51.96,52.11,51.93\n\tc28.72-0.03,52-23.36,51.98-52.09c-0.03-28.69-23.36-51.93-52.13-51.91C202.29,48.64,179.05,71.93,179.08,100.69z\"><\/path>\n<path class=\"st2\" d=\"M183.4,153.48c-2.52,2.26-4.97,4.31-7.25,6.54c-17.25,16.92-29.87,36.61-35.68,60.28\n\tc-0.98,4.01-1.5,8.19-1.68,12.32c-0.4,9.02,1.85,17.15,9.77,23.52c-1.25,0.1-1.96,0.2-2.67,0.2c-24.71,0.01-49.42-0.03-74.12,0.03\n\tc-12.16,0.03-24.34,0.25-36.32-2.14c-4.74-0.94-9.5-2.37-13.87-4.39C12,245.44,7.96,237.24,7.53,227.06\n\tc-0.44-10.41,1.96-20.35,5.66-29.96c10.92-28.35,28.34-51.68,53.44-69.15c4.9-3.41,9.32-5.59,14.4-0.75\n\tc21.97,10.73,43.5,9.93,64.52-2.56c1.57-0.93,2.67-1.1,4.31-0.15c12.67,7.35,23.43,16.92,32.89,28.03\n\tC182.95,152.75,183.1,153.03,183.4,153.48z\"><\/path>\n<path class=\"st2\" d=\"M231.13,260.52c-16.71,0-33.43,0.26-50.14-0.13c-6.73-0.16-13.58-1.18-20.11-2.83\n\tc-13.35-3.37-19.53-11.76-18.23-27.04c1.35-15.85,7.79-29.92,16.12-43.17c9.93-15.79,22.42-29.1,38.56-38.76\n\tc1.94-1.16,3.32-1.17,5.36-0.03c19.09,10.69,38.24,10.6,57.25-0.22c1.73-0.98,2.89-0.94,4.51,0.02\n\tc18.91,11.21,32.74,27.18,43.25,46.2c5.84,10.56,10.35,21.67,11.63,33.79c0.43,4.08,0.31,8.34-0.33,12.39\n\tc-1.07,6.77-5.18,11.55-11.33,14.55c-6.44,3.14-13.38,4.56-20.42,4.72c-16.38,0.36-32.78,0.29-49.16,0.39c-2.32,0.01-4.64,0-6.96,0\n\tC231.13,260.44,231.13,260.48,231.13,260.52z\"><\/path>\n<path class=\"st2\" d=\"M111.05,8.51c33.45-0.09,61.13,27.42,61.19,60.81c0.06,33.9-27.17,61.4-60.94,61.54\n\tC77.86,131,50.46,103.62,49.99,70.41C49.55,38.92,74.63,8.93,111.05,8.51z\"><\/path>\n<path class=\"st2\" d=\"M179.08,100.69c-0.03-28.76,23.21-52.05,51.96-52.07c28.77-0.02,52.11,23.22,52.13,51.91\n\tc0.03,28.73-23.26,52.06-51.98,52.09C202.43,152.65,179.12,129.42,179.08,100.69z\"><\/path>\n<circle class=\"st3\" cx=\"111.46\" cy=\"69.87\" r=\"64.68\"><\/circle>\n<ellipse class=\"st3\" cx=\"231.07\" cy=\"101.21\" rx=\"55.11\" ry=\"55.29\"><\/ellipse>\n<\/svg>",
+              "title5": "Refer a Friend",
+              "text5": "<p>250 points<\/p>",
+              "image6": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" x=\"0px\" y=\"0px\" viewbox=\"0 0 325 325\" style=\"enable-background:new 0 0 325 325;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#333333;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st1{fill:#FFFFFF;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st2{fill:#FFFFFF;}\n\t.st3{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}\n\t.st4{fill:#333333;}\n\t.st5{fill:none;stroke:#333333;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}\n<\/style>\n<g>\n\t<path class=\"st0\" d=\"M322.59,162.4c-3.97,0-7.77,0-11.77,0c0,53.5,0,106.76,0,160.19c-98.56,0-196.91,0-295.6,0\n\t\tc0-53.28,0-106.58,0-160.15c-4.12,0-7.92,0-11.97,0c-0.08-1.09-0.18-1.93-0.19-2.77c-0.01-27.12,0.03-54.24-0.06-81.37\n\t\tc-0.01-2.47,0.88-2.85,3.05-2.84c22.8,0.07,45.6,0.04,68.4,0.04c1,0,1.99,0,3.55,0c-1.7-2.14-3.01-3.74-4.27-5.37\n\t\tc-8.02-10.38-14.91-21.37-18.4-34.18c-1.4-5.13-2.09-10.35-1.15-15.65c1.66-9.4,8.78-15.17,19.39-15.52\n\t\tc8.91-0.3,17.27,2.2,25.22,5.9c26.15,12.16,46.54,30.98,62.55,54.76c0.36,0.53,0.69,1.08,1.04,1.61c0.09,0.13,0.22,0.22,0.6,0.59\n\t\tc0.53-0.78,1.03-1.52,1.54-2.26c16.24-24.03,36.86-43.02,63.46-55.11c6.21-2.82,12.71-4.92,19.56-5.27c3.7-0.19,7.57,0,11.14,0.89\n\t\tc7.8,1.94,12.71,8.53,13.24,16.63c0.54,8.38-1.74,16.13-5.07,23.66c-4.33,9.8-10.29,18.58-17.06,26.84\n\t\tc-0.53,0.65-1.06,1.31-1.96,2.43c25.25,0,49.92,0,74.78,0C322.59,104.48,322.59,133.24,322.59,162.4z M198.79,162.52\n\t\tc0,1.03,0,1.89,0,2.74c0,50.24,0.02,100.47-0.05,150.71c0,2.41,0.57,3.09,3.04,3.08c34.08-0.08,68.15-0.09,102.23,0\n\t\tc2.5,0.01,3.03-0.75,3.03-3.12c-0.07-50.16-0.05-100.31-0.05-150.47c0-0.93,0-1.87,0-2.94\n\t\tC270.84,162.52,235.03,162.52,198.79,162.52z M19.07,162.52c0,52.16,0,104.17,0,156.47c1.03,0,1.89,0,2.75,0\n\t\tc32.07,0,64.14-0.03,96.21,0.06c2.48,0.01,3.05-0.71,3.05-3.09c-0.07-50.23-0.05-100.46-0.06-150.69c0-0.91-0.13-1.83-0.19-2.75\n\t\tC86.76,162.52,52.97,162.52,19.07,162.52z M196.03,162.65c-24.3,0-48.16,0-72.13,0c-0.04,0.98-0.11,1.77-0.11,2.56\n\t\tc0,49.99,0.01,99.99-0.05,149.98c0,2.25,0.7,2.79,2.84,2.78c22.16-0.07,44.31-0.08,66.47,0.02c2.48,0.01,3.04-0.73,3.03-3.11\n\t\tc-0.07-49.83-0.05-99.67-0.05-149.5C196.03,164.52,196.03,163.66,196.03,162.65z M211.03,79.44c0,26.35,0,52.56,0,78.87\n\t\tc35.98,0,71.9,0,107.78,0c0-26.44,0-52.64,0-78.87C282.79,79.44,246.98,79.44,211.03,79.44z M108.7,158.42c0-26.49,0-52.68,0-78.92\n\t\tc-34.01,0-67.86,0-101.72,0c0,26.39,0,52.58,0,78.92C40.93,158.42,74.73,158.42,108.7,158.42z M111.78,81.47\n\t\tc0,25.09,0,49.92,0,74.83c32.16,0,64.16,0,96.21,0c0-25.04,0-49.87,0-74.83C175.88,81.47,143.93,81.47,111.78,81.47z M204.72,75.5\n\t\tc11.84,0,23.68,0.03,35.52-0.05c1.14-0.01,2.65-0.4,3.36-1.19c7.92-8.87,14.75-18.51,19.64-29.39c3.03-6.75,5.27-13.71,4.95-21.28\n\t\tc-0.29-6.91-4-12.32-10.35-14c-3.03-0.8-6.41-1.32-9.45-0.83c-5.63,0.91-11.43,1.94-16.64,4.16\n\t\tc-28.14,11.95-49.48,31.87-65.82,57.43c-1.39,2.17,0.4,5.14,3.03,5.14C180.88,75.51,192.8,75.49,204.72,75.5z M120.97,75.5\n\t\tc11.68,0,23.36,0,35.04,0c1.42,0,2.72,0.14,3.62-1.56c0.92-1.74,0.71-2.95-0.29-4.54c-5.47-8.71-11.81-16.72-18.99-24.06\n\t\tc-13.26-13.56-28.04-25.01-45.73-32.26C87.02,9.95,79.22,7.7,70.83,8.85c-7.49,1.03-12.41,6.17-13.11,13.67\n\t\tc-0.55,5.88,0.67,11.46,2.65,16.91c4.8,13.2,12.71,24.49,21.91,34.93c0.65,0.74,2.09,1.08,3.17,1.09\n\t\tC97.29,75.52,109.13,75.5,120.97,75.5z\"><\/path>\n\t<path class=\"st1\" d=\"M198.79,162.52c36.24,0,72.05,0,108.19,0c0,1.08,0,2.01,0,2.94c0,50.16-0.02,100.31,0.05,150.47\n\t\tc0,2.37-0.53,3.13-3.03,3.12c-34.08-0.09-68.15-0.09-102.23,0c-2.47,0.01-3.04-0.68-3.04-3.08c0.07-50.24,0.05-100.47,0.05-150.71\n\t\tC198.79,164.4,198.79,163.54,198.79,162.52z\"><\/path>\n\t<path class=\"st1\" d=\"M19.07,162.52c33.9,0,67.69,0,101.77,0c0.07,0.92,0.19,1.84,0.19,2.75c0.01,50.23-0.01,100.46,0.06,150.69\n\t\tc0,2.38-0.57,3.1-3.05,3.09c-32.07-0.09-64.14-0.06-96.21-0.06c-0.86,0-1.72,0-2.75,0C19.07,266.69,19.07,214.68,19.07,162.52z\"><\/path>\n\t<path class=\"st1\" d=\"M196.03,162.65c0,1.01,0,1.87,0,2.73c0,49.83-0.02,99.67,0.05,149.5c0,2.38-0.55,3.12-3.03,3.11\n\t\tc-22.16-0.1-44.31-0.08-66.47-0.02c-2.15,0.01-2.85-0.54-2.84-2.78c0.06-49.99,0.05-99.99,0.05-149.98c0-0.79,0.07-1.58,0.11-2.56\n\t\tC147.87,162.65,171.73,162.65,196.03,162.65z\"><\/path>\n\t<path class=\"st1\" d=\"M211.03,79.44c35.95,0,71.76,0,107.78,0c0,26.24,0,52.43,0,78.87c-35.88,0-71.8,0-107.78,0\n\t\tC211.03,132,211.03,105.79,211.03,79.44z\"><\/path>\n\t<path class=\"st1\" d=\"M108.7,158.42c-33.97,0-67.77,0-101.72,0c0-26.33,0-52.53,0-78.92c33.87,0,67.71,0,101.72,0\n\t\tC108.7,105.74,108.7,131.93,108.7,158.42z\"><\/path>\n\t<path class=\"st1\" d=\"M111.78,79.26c32.16,0,64.1,0,96.21,0c0,26.57,0,53,0,79.66c-32.05,0-64.04,0-96.21,0\n\t\tC111.78,132.4,111.78,105.97,111.78,79.26z\"><\/path>\n\t<path class=\"st1\" d=\"M204.72,75.5c-11.92,0-23.84,0.01-35.76-0.01c-2.63,0-4.42-2.97-3.03-5.14\n\t\tc16.34-25.56,37.68-45.48,65.82-57.43c5.21-2.21,11.01-3.25,16.64-4.16c3.04-0.49,6.42,0.03,9.45,0.83\n\t\tc6.35,1.68,10.06,7.08,10.35,14c0.32,7.56-1.92,14.53-4.95,21.28c-4.89,10.89-11.72,20.53-19.64,29.39\n\t\tc-0.7,0.79-2.22,1.18-3.36,1.19C228.4,75.53,216.56,75.5,204.72,75.5z\"><\/path>\n\t<path class=\"st1\" d=\"M120.97,75.5c-11.84,0-23.68,0.03-35.52-0.05c-1.08-0.01-2.52-0.35-3.17-1.09\n\t\tc-9.21-10.44-17.11-21.73-21.91-34.93c-1.98-5.44-3.2-11.03-2.65-16.91c0.7-7.5,5.62-12.64,13.11-13.67\n\t\tc8.39-1.15,16.19,1.1,23.78,4.21c17.69,7.26,32.47,18.71,45.73,32.26c7.18,7.34,13.53,15.35,18.99,24.06c1,1.59,1.21,2.8,0.29,4.54\n\t\tc-0.9,1.7-2.19,1.56-3.62,1.56C144.33,75.5,132.65,75.5,120.97,75.5z\"><\/path>\n<\/g>\n<\/svg>",
+              "title6": "Happy Birthday",
+              "text6": "<p>500 points<\/p>"
+            }
+          },
+          "1595257902569": {
+            "type": "header",
+            "settings": {
+              "header": "MONTHLY OFFER",
+              "subheader": "<p>Earn <strong>100 points<\/strong> today!<\/p>",
+              "line": true,
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "padding_left": 0,
+              "padding_right": 0
+            }
+          }
+        },
+        "block_order": [
+          "1595257657300",
+          "1595253587310",
+          "1595255572642",
+          "1595257178767",
+          "1595257542283",
+          "1595324109889",
+          "1595257785256",
+          "1595325755289",
+          "1595257902569",
+          "1595329583608",
+          "1595330289426"
+        ],
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584656640163": {
+        "type": "instafeed",
+        "disabled": true,
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 90,
+          "html_area": ""
+        }
+      },
+      "search__main": {
+        "type": "search__main",
+        "settings": {
+          "search_breadcrumb": true,
+          "text": "<p>Find what you seek.<\/p>",
+          "products_per_row": 3,
+          "mobile_products_per_row": "2",
+          "pagination_limit": 48,
+          "pagination_type": "basic_pagination",
+          "align_height": false,
+          "collection_height": 200,
+          "blog_author": false,
+          "blog_date": true,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "404__main": {
+        "type": "404__main",
+        "settings": {
+          "not_found_text": "<p>We're sorry, but the page you requested could not be found.<\/p><p>Try searching or <a href='{{ routes.all_products_collection_url }}'>continue shopping<\/a>.<\/p>",
+          "display_search_field": true,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1583641837381": {
+        "type": "index__heading",
+        "settings": {
+          "preheading": "",
+          "title": "Why Shop With Us.",
+          "subheading": "",
+          "preheading_color": "rgba(0,0,0,0)",
+          "heading_color": "rgba(0,0,0,0)",
+          "subheading_color": "rgba(0,0,0,0)",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "heading_alignment": "center",
+          "vertical_spacing": "medium",
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": "#shopify-section-1583641837381 {\n    padding-top: 0px;\n  }"
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "1583460008399": {
+            "type": "text",
+            "settings": {
+              "text": "Call Us <strong style=\"margin-left:5px;\"><a href=\"tel:1300402420\" style=\"color:#000\">1300 402 420<\/a><\/strong>"
+            }
+          },
+          "1584318260941": {
+            "type": "text",
+            "settings": {
+              "text": ""
+            }
+          },
+          "header__top-bar-0": {
+            "type": "text",
+            "settings": {
+              "text": "100% Australian Grown & Made Organic Hemp Products"
+            }
+          }
+        },
+        "block_order": [
+          "1583460008399",
+          "1584318260941",
+          "header__top-bar-0"
+        ],
+        "settings": {
+          "show_top_bar": true,
+          "font": "work_sans_n4",
+          "font_style": "none",
+          "font_size": 14,
+          "letter_spacing": 0,
+          "background": "#f2f2f2",
+          "link_color": "rgba(0,0,0,0)",
+          "link_hover_color": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584657462475": {
+        "type": "index__heading",
+        "disabled": true,
+        "settings": {
+          "preheading": "",
+          "title": "Get Social With Us.",
+          "subheading": "",
+          "preheading_color": "rgba(0,0,0,0)",
+          "heading_color": "rgba(0,0,0,0)",
+          "subheading_color": "rgba(0,0,0,0)",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "heading_alignment": "center",
+          "vertical_spacing": "medium",
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "search__banner": {
+        "type": "search__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584657523430": {
+        "type": "index__divider",
+        "disabled": true,
+        "settings": {
+          "divider_style": "short",
+          "divider_width": 2,
+          "divider_color": "#ffffff",
+          "alignment": "center",
+          "width": "standard",
+          "padding_top": 25,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__main": {
+        "type": "product__main",
+        "blocks": {
+          "product__main-0": {
+            "type": "recommended_products",
+            "settings": {
+              "width": "wide",
+              "padding_top": 20,
+              "padding_bottom": 20,
+              "animation": "none"
+            }
+          }
+        },
+        "block_order": [
+          "product__main-0"
+        ],
+        "settings": {
+          "product_breadcrumb": false,
+          "gallery_arrows": true,
+          "enable_zoom": true,
+          "enable_product_lightbox": true,
+          "slideshow_speed": 0,
+          "slideshow_transition": "fade",
+          "thumbnail_position": "bottom-thumbnails",
+          "enable_thumbnail_slider": true,
+          "product_images_position": "left",
+          "show_payment_button": false,
+          "display_vendor": true,
+          "display_sku": false,
+          "enable_shopify_product_badges": false,
+          "display_savings": true,
+          "display_collections": false,
+          "display_type": false,
+          "display_tags": false,
+          "display_social_buttons": true,
+          "product_description_position": "bottom",
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584501065187": {
+        "type": "index__divider",
+        "disabled": true,
+        "settings": {
+          "divider_style": "short",
+          "divider_width": 2,
+          "divider_color": "#ffffff",
+          "alignment": "center",
+          "width": "standard",
+          "padding_top": 30,
+          "padding_bottom": 30,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "page-loyalty__main": {
+        "type": "page-loyalty__main",
+        "blocks": {
+          "1595415388789": {
+            "type": "social",
+            "settings": {
+              "header_text": "Get Social With Us",
+              "link": "https:\/\/www.instagram.com\/cannacoaus\/"
+            }
+          },
+          "1595415457541": {
+            "type": "image_with_text",
+            "settings": {
+              "image_position": "right",
+              "image": "shopify:\/\/shop_images\/Monthly_Offer_Feature_5630dabf-9483-4446-b56e-b8d8254d3616.jpg",
+              "image_crop": "none",
+              "image_link": "",
+              "preheading": "Monthly Offer",
+              "title": "Hemp Protein & Hemp Flour",
+              "heading_size": "regular",
+              "text": "<p>Buy and earn&nbsp;<strong>100 points<\/strong>.<\/p>",
+              "button_label": "Shop Offer",
+              "link": "shopify:\/\/collections\/pantry",
+              "button_style": "button--link-style",
+              "alignment": "left",
+              "vertical_position": "center",
+              "background": "#74988b",
+              "text_color": "#ffffff",
+              "width": "standard",
+              "show_gutter": true,
+              "padding_top": 80,
+              "padding_bottom": 100,
+              "animation": "none"
+            }
+          },
+          "1595415243463": {
+            "type": "featured_video",
+            "settings": {
+              "aspect_ratio": "16:9",
+              "autoplay": true,
+              "autoloop": true,
+              "iframe_video": "",
+              "controls": false,
+              "html5_video": "https:\/\/cdn.shopify.com\/s\/files\/1\/0003\/1463\/8348\/files\/1055224787-sd_1_1.mov?v=1595731448",
+              "image": "",
+              "pretext": "",
+              "title": "The Higher Society",
+              "subtitle": "Rewards you deserve",
+              "pretext_color": "#ffffff",
+              "heading_color": "#ffffff",
+              "subheading_color": "#ffffff",
+              "horizontal_text_position": "center",
+              "vertical_text_position": "center",
+              "text_align": "center",
+              "button_label": "",
+              "button_style": "button--secondary",
+              "overlay_style": "text_only",
+              "video_overlay_color": "#000000",
+              "gradient": "rgba(0,0,0,0)",
+              "gradient_rotation": 180,
+              "background_opacity": 20,
+              "text_width": 100,
+              "mobile_text_below_video": false,
+              "pretext_color_mobile": "rgba(0,0,0,0)",
+              "heading_color_mobile": "rgba(0,0,0,0)",
+              "subheading_color_mobile": "rgba(0,0,0,0)",
+              "width": "wide",
+              "padding_top": 20,
+              "padding_bottom": 21,
+              "padding_left": 0,
+              "padding_right": 0,
+              "animation": "none"
+            }
+          },
+          "1595415548116": {
+            "type": "loyalty",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "1595415243463",
+          "1595415548116",
+          "1595415457541",
+          "1595415388789"
+        ],
+        "settings": {
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1583585527144": {
+        "type": "index__featured-collection",
+        "settings": {
+          "title": "Community Favourites.",
+          "collection": "popular",
+          "products_per": 4,
+          "mobile_products_per_row": "2",
+          "products_limit": 4,
+          "align_height": false,
+          "collection_height": 200,
+          "collection_style": "slider",
+          "width": "standard",
+          "show_gutter": true,
+          "padding_top": 80,
+          "padding_bottom": 20,
+          "animation": "fadeInDown",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "cart__main": {
+        "type": "cart__main",
+        "settings": {
+          "display_product_quantity_cart": true,
+          "display_savings": true,
+          "cart_message": "",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1583720244289": {
+        "type": "n-section-blog",
+        "blocks": {
+          "1583721666141": {
+            "type": "item",
+            "settings": {
+              "header_title_1": "Hemp for Pets.",
+              "title_1": "Nutrition for your furry friend",
+              "image_1": "shopify:\/\/shop_images\/HempforPets_cb6cd5e2-dca3-4aa4-9ed6-2e8bee0418b7-min.jpg",
+              "description_1": "Treat your pet to a healthy heart, happier joints and shinier coat.",
+              "url_1": "shopify:\/\/collections\/pets",
+              "button_label_1": "Shop Pets",
+              "header_title_2": "Hemp for People.",
+              "title_2": "Functional science meets mother nature",
+              "image_2": "shopify:\/\/shop_images\/HempforHumans_copy_8f6c38ae-ec54-4461-b381-685f2b0890ac.jpg",
+              "description_2": "Alleviate, relax and feel better thanks to our range of green goodness.",
+              "url_2": "shopify:\/\/collections\/lifestyle",
+              "button_label_2": "Shop Lifestyle"
+            }
+          }
+        },
+        "block_order": [
+          "1583721666141"
+        ],
+        "settings": {
+        }
+      },
+      "article__banner": {
+        "type": "article__banner",
+        "settings": {
+          "show_banner": true,
+          "image_darken": false,
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "article__sidebar": {
+        "type": "article__sidebar",
+        "blocks": {
+          "article__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "promo_image": "shopify:\/\/shop_images\/blog_sidebar.jpg",
+              "richtext": "<p>Enjoy up to 50% OFF selected pantry &amp; pets items! <\/p>",
+              "promo_link": "shopify:\/\/collections\/shop-all",
+              "button_label": "Shop Now",
+              "button_style": "button--primary"
+            }
+          },
+          "1585871180573": {
+            "type": "text",
+            "settings": {
+              "title": "On Special Offer.",
+              "text": ""
+            }
+          },
+          "1585870201544": {
+            "type": "recent_posts",
+            "settings": {
+              "title": "Recent Articles.",
+              "blog": "higher-learning",
+              "blog_post_count": 3
+            }
+          }
+        },
+        "block_order": [
+          "1585871180573",
+          "article__sidebar-0",
+          "1585870201544"
+        ],
+        "settings": {
+          "show_sidebar": true,
+          "sidebar_position": "right",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "article__main": {
+        "type": "article__main",
+        "blocks": {
+          "1585881502811": {
+            "type": "related_posts",
+            "settings": {
+              "show_border": true,
+              "blog_show_excerpt": true,
+              "blog_show_tags": true,
+              "button_label": "Read more",
+              "button_type": "button--primary"
+            }
+          }
+        },
+        "block_order": [
+          "1585881502811"
+        ],
+        "settings": {
+          "show_breadcrumb": false,
+          "blog_author": false,
+          "blog_date": true,
+          "blog_read_time": false,
+          "blog_comment_count": false,
+          "show_tags": false,
+          "show_featured_image": false,
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584505633722": {
+        "type": "index__divider",
+        "settings": {
+          "divider_style": "short",
+          "divider_width": 2,
+          "divider_color": "#ffffff",
+          "alignment": "center",
+          "width": "standard",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "1583650280398": {
+            "type": "logo",
+            "settings": {
+              "width": "15",
+              "logo": "shopify:\/\/shop_images\/CannaCo_Logo.png",
+              "size": "large",
+              "text": "",
+              "social_icons_footer": false
+            }
+          },
+          "1583653218740": {
+            "type": "html",
+            "settings": {
+              "html_content": "<h2 class=\"footer__heading\"><a href=\"https:\/\/cannabiscompany.com.au\/blogs\/higher-learning\">Higher Learning<\/a><\/h2>\n<br>\n<h2 class=\"footer__heading\">Community<\/h2>\n<a href=\"https:\/\/cannabiscompany.com.au\/pages\/testimonials\">Testimonials<\/a><a><br>\n<\/a><a href=\"https:\/\/cannabiscompany.com.au\/pages\/ebook-library\">Cannabis eBook Library<\/a><br>\n<a href=\"https:\/\/cannabiscompany.com.au\/blogs\/recipes\">Food Recipes<\/a><br>\n<a href=\"https:\/\/cannabiscompany.com.au\/blogs\/cocktails\">Drink Recipes<\/a><br>\n<a href=\"https:\/\/cannabiscompany.com.au\/pages\/donations\">Supporting Our Community<\/a>",
+              "width": "20"
+            }
+          },
+          "1583650129750": {
+            "type": "link_list",
+            "settings": {
+              "menu": "contact",
+              "width": "20",
+              "social_icons_footer": false
+            }
+          },
+          "1583653650836": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_title": "Subscribe to our Newsletter",
+              "width": "30",
+              "newsletter_richtext": "<p>Sign up for exclusive special offers and the latest on cannabis in Australia.<\/p>",
+              "display_first_name": false,
+              "display_last_name": false
+            }
+          },
+          "1583652591026": {
+            "type": "html",
+            "settings": {
+              "html_content": "<h2 class=\"footer__heading\">Products<\/h2>\n<a href=\"https:\/\/cannabiscompany.com.au\/collections\/lifestyle\">Lifestyle<\/a><a>\n<\/a><br><a href=\"https:\/\/cannabiscompany.com.au\/collections\/beverages\">Beverage<\/a><br>\n<a href=\"https:\/\/cannabiscompany.com.au\/collections\/pets\">Pets<\/a>\n<br><br>\n<h2 class=\"footer__heading\"><a href=\"https:\/\/jungle-brands.zendesk.com\/hc\/en-us\">FAQ<\/a><\/h2>\n<a href=\"\/pages\/hempology-101\">Hempology 101<\/a><br>\n<a href=\"https:\/\/cannabiscompany.com.au\/pages\/shipping\">Shipping<\/a>",
+              "width": "15"
+            }
+          }
+        },
+        "block_order": [
+          "1583650280398",
+          "1583653218740",
+          "1583650129750",
+          "1583653650836",
+          "1583652591026"
+        ],
+        "settings": {
+          "copyright_text": "<p> <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">Cookie Policy<\/a> | <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Privacy & Terms<\/a><\/p>",
+          "footer_text": "<p>*FREE Shipping only applies to domestic retail orders $150 and over and excludes alcohol and wholesale purchases. Handling fee of $4.30AUD is not included. <\/p><p><\/p><p>WARNING: Under the Liquor Control Reform Act 1998 it is an offence to supply alcohol to a person under the age of 18 years [Penalty exceeds $18,000] or for a person under the age of 18 years to purchase or receive liquor [Penalty exceeds $700] LIQUOR LICENCE: 36151320<\/p><p>–<\/p><p>It is with great honor that we, respectfully Acknowledge our Elders of this Ancient Country of Past, Present & Future and all Indigenous people of our Mother Earth, who are the traditional custodians of all States, Territories, Towns, Cities, Communities where we live and work. We, humbly acknowledge all First Nations People and their continuing Cultural Heritage, and Sacred connection to Land, Sea, Sky, Country, and all living things.<\/p><p><\/p>",
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": true,
+          "css_class": "",
+          "custom_css": ".footer__heading {\nfont-weight: bold;\n}\n.footer__text p {\nfont-size: 12px;\n}\n.footer__credits p {\nfont-size: 12px;\n}\n.footer__credits span {\nfont-size: 12px;\n}\n.footer__content {\npadding-top: 0px;\npadding-bottom: 0px;\n}\n.image-element__wrap img {\npadding-left: 20px;\n}\nfooter .footer__content #newsletter_form input {\nborder-bottom: 1px solid black;\n}"
+        }
+      },
+      "page__main": {
+        "type": "page__main",
+        "settings": {
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "icon_label": "",
+          "text": "<p>Get FREE Shipping on all order over $150 excluding gins<\/p>",
+          "alignment": "center",
+          "size": "regular",
+          "button_label": "order",
+          "link": "shopify:\/\/collections\/shop-eofy-sale",
+          "button_style": "button--primary",
+          "background": "#2ebcb0",
+          "text_color": "#ffffff",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": false,
+          "css_class": "",
+          "custom_css": ".announcement-bar__text a {\n    color: inherit;\n    text-decoration: none;\n}"
+        }
+      },
+      "1583641199189": {
+        "type": "index__blog-posts",
+        "settings": {
+          "title": "Higher Learning.",
+          "blog_widget_select": "higher-learning",
+          "home_page_articles": 3,
+          "blog_show_tags": false,
+          "blog_author": false,
+          "blog_read_time": false,
+          "blog_date": true,
+          "blog_comment_count": false,
+          "blog_show_excerpt": false,
+          "show-border": false,
+          "button_label": "Read More",
+          "button_type": "button--link-style",
+          "width": "standard",
+          "padding_top": 45,
+          "padding_bottom": 20,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__main": {
+        "type": "collection__main",
+        "settings": {
+          "collection_breadcrumb": false,
+          "collection_tags": false,
+          "collection_sort": false,
+          "show_promo_banner": false,
+          "image_darken": true,
+          "promo_title": "Special sale on now!",
+          "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+          "banner_height": "medium",
+          "align_height": false,
+          "collection_height": 200,
+          "products_per_row": 4,
+          "mobile_products_per_row": "2",
+          "pagination_limit": 48,
+          "pagination_type": "basic_pagination",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "product__sidebar": {
+        "type": "product__sidebar",
+        "blocks": {
+          "product__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "product__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "product__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "product__sidebar-0",
+          "product__sidebar-1",
+          "product__sidebar-2"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1583640477745": {
+        "type": "index__logo-list",
+        "blocks": {
+          "1583640569755": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dmarge-logo.jpg",
+              "link": ""
+            }
+          },
+          "1583640477745-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/SBS-logo.jpg",
+              "link": ""
+            }
+          },
+          "1583640477745-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Gourmet-logo.jpg",
+              "link": ""
+            }
+          },
+          "1583640477745-4": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bodysoul-logo.jpg",
+              "link": ""
+            }
+          },
+          "1583640477745-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/GQ-logo.jpg",
+              "link": ""
+            }
+          },
+          "1583640477745-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Delicious-logo.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1583640569755",
+          "1583640477745-0",
+          "1583640477745-1",
+          "1583640477745-4",
+          "1583640477745-2",
+          "1583640477745-3"
+        ],
+        "settings": {
+          "logos_per_row": 6,
+          "logo_size": "medium",
+          "background": "rgba(0,0,0,0)",
+          "gradient": "rgba(0,0,0,0)",
+          "gradient_rotation": 0,
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "1588029763430": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "health-wellness",
+              "menu_1_link": "https:\/\/thecannabiscoau.myshopify.com\/collections\/health-wellness",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "1583578836938": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "grooming",
+              "menu_1_link": "shopify:\/\/collections\/grooming"
+            }
+          },
+          "ac98c7f6-2f27-4886-a8cf-5cbf5b781bc5": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "accessories-toys",
+              "menu_1_link": "shopify:\/\/collections\/accessories-toys",
+              "menu_2": "gift-card",
+              "menu_2_link": "shopify:\/\/products\/gift-card",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "1588029763430",
+          "1583578836938",
+          "ac98c7f6-2f27-4886-a8cf-5cbf5b781bc5"
+        ],
+        "settings": {
+          "parent_link": "Pets",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "4de13a3e-316c-4371-a926-718b5bcec6f7": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "cannabis-ebook-library",
+              "menu_1_link": "shopify:\/\/pages\/ebook-library"
+            }
+          }
+        },
+        "block_order": [
+          "4de13a3e-316c-4371-a926-718b5bcec6f7"
+        ],
+        "settings": {
+          "parent_link": "Higher Learning",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "blog__main": {
+        "type": "blog__main",
+        "settings": {
+          "blog_tags": false,
+          "blog_posts_per_row": 3,
+          "blog_posts_per_page": 12,
+          "pagination_type": "basic_pagination",
+          "blog_author": false,
+          "blog_date": true,
+          "blog_read_time": false,
+          "blog_comment_count": false,
+          "blog_show_tags": false,
+          "blog_show_excerpt": true,
+          "show_border": true,
+          "button_label": "Read more",
+          "button_type": "none",
+          "width": "standard",
+          "padding_top": 40,
+          "padding_bottom": 40,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "27de1f6e-3f1f-4c35-9cf5-7cd265ad35fa": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "supporting-our-community",
+              "menu_2_link": "shopify:\/\/pages\/donations",
+              "menu_3": "faqs",
+              "menu_3_link": "https:\/\/jungle-brands.zendesk.com\/hc\/en-us",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "deb01c48-ec87-4607-a525-0d23e927436e": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "hempology-101",
+              "menu_1_link": "shopify:\/\/pages\/hempology-101"
+            }
+          },
+          "77c4a173-f916-42d6-a106-f13d1f81cea2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "testimonials",
+              "menu_1_link": "shopify:\/\/pages\/testimonials",
+              "menu_2": "hemp-recipes",
+              "menu_2_link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "27de1f6e-3f1f-4c35-9cf5-7cd265ad35fa",
+          "deb01c48-ec87-4607-a525-0d23e927436e",
+          "77c4a173-f916-42d6-a106-f13d1f81cea2"
+        ],
+        "settings": {
+          "parent_link": "Community",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "shopify:\/\/pages\/contact-us",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "mega-menu-6": {
+        "type": "mega-menu-6",
+        "blocks": {
+          "1583583802289": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p class=\"menu__heading\"><a href=\"\/pages\/contact-us\">Contact<\/a><\/p>\n<span>Visit our  <a href=\"https:\/\/jungle-brands.zendesk.com\/hc\/en-us\">customer support page<\/a><\/span> \n<span>Or get in touch here:<\/span>\n<span><a href=\"tel:1300402420\">1300 402 420<\/a><\/span>\n<span><a href=\"mailto:high@cannabiscompany.com.au\">high[at]cannabiscompany.com.au<\/a><\/span>\n<span class=\"social-items\">\n<a href=\"https:\/\/www.instagram.com\/cannacoaus\/\" target=\"_blank\">\n<i class=\"fab fa-instagram circle\"><\/i>\n<\/a>\n\n<a href=\"https:\/\/www.facebook.com\/cannacoaus\">\n<i class=\"fab fa-facebook-f circle\"><\/i>\n<\/a>\n\n<a href=\"https:\/\/www.linkedin.com\/company\/cannabis-company\/\" target=\"_blank\">\n<i class=\"fab fa-linkedin-in circle\"><\/i>\n<\/a>\n\n<a href=\"https:\/\/www.youtube.com\/channel\/UCAc3l5EnLVIHX8k6ZcyCbGA?reload=9\">\n<i class=\"fab fa-youtube circle\"><\/i>\n<\/a>\n<\/span>"
+            }
+          },
+          "1583583707079": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p class=\"menu__heading\"><a href=\"https:\/\/cannabiscompany.com.au\/pages\/wholesalers\">Wholesale Orders<\/a><\/p><br>\n<p class=\"menu__heading\"><a href=\"\/pages\/careers\/\">Careers<\/a><\/p>"
+            }
+          },
+          "1583583591627": {
+            "type": "html",
+            "settings": {
+              "html_content": "<p class=\"menu__heading\"><a href=\"https:\/\/cannabiscompany.com.au\/pages\/about-us\">About Us<\/a><\/p><br>\n<p class=\"menu__heading\"><a href=\"https:\/\/cannabiscompany.com.au\/pages\/our-social-mission\">Our Social Mission<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1583583802289",
+          "1583583707079",
+          "1583583591627"
+        ],
+        "settings": {
+          "parent_link": "Contact",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
+        }
+      },
+      "mega-menu-7": {
+        "type": "mega-menu-7",
+        "blocks": {
+          "e502c19d-ea44-4dc9-b959-24744153b23c": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/HempGin-discount_9e1404fb-47f2-4760-a85c-4eb6047dbe9b.jpg",
+              "image_link": "shopify:\/\/collections\/hemp-gins",
+              "image_caption": "<p>The World’s First Cannabis-Infused Hemp Gin Distilled with Terpenes<\/p><p><a href=\"https:\/\/cannabiscompany.com.au\/pages\/hemp-gin\" title=\"https:\/\/cannabiscompany.com.au\/pages\/hemp-gin\"><strong>Read More<\/strong><\/a><\/p>"
+            }
+          },
+          "551af934-b7ba-4c33-828c-14c077215978": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "hemp-gin",
+              "menu_1_link": "shopify:\/\/collections\/beverages",
+              "menu_2": "cocktails",
+              "menu_2_link": "https:\/\/cannabiscompany.com.au\/pages\/cannabis-cocktails",
+              "menu_3": "cannabis-cocktail-season-2",
+              "menu_3_link": "https:\/\/cannabiscompany.com.au\/pages\/cannabis-cocktails-season-2",
+              "menu_4": "gift-card",
+              "menu_4_link": "shopify:\/\/products\/gift-card",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "e502c19d-ea44-4dc9-b959-24744153b23c",
+          "551af934-b7ba-4c33-828c-14c077215978"
+        ],
+        "settings": {
+          "parent_link": "Beverages",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "https:\/\/cannabiscompany.com.au\/products\/gift-card",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}\n\n.mega-menu {\nbackground-color: white !important;\n}"
+        }
+      },
+      "cart__banner": {
+        "type": "cart__banner",
+        "settings": {
+          "show_banner": false,
+          "image": "",
+          "image_darken": false,
+          "subtitle": "Subheading",
+          "width": "wide",
+          "banner_height": "medium",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "collection__sidebar": {
+        "type": "collection__sidebar",
+        "blocks": {
+          "collection__sidebar-0": {
+            "type": "featured_promo",
+            "settings": {
+              "promo_background": "#eeeeee",
+              "promo_text": "#000000",
+              "richtext": "<p>Use this area for promotional information.<\/p>",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "collection__sidebar-2": {
+            "type": "text",
+            "settings": {
+              "title": "Heading",
+              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+            }
+          },
+          "collection__sidebar-1": {
+            "type": "menu",
+            "settings": {
+              "menu": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection__sidebar-0",
+          "collection__sidebar-2",
+          "collection__sidebar-1"
+        ],
+        "settings": {
+          "show_sidebar": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "1584659091051": {
+        "type": "index__html",
+        "disabled": true,
+        "settings": {
+          "html_content": "<div class=\"socialsection\">\n    <h2 class=\"heading-section__heading\">Get Social With Us.<\/h2>\n<div id=\"insta-feed\"><\/div>\n<div class=\"container is-flex is-justify-center\">\n<br><h2 class=\"button\">Follow Us <span class=\"right_arrow\"><\/span>\n<\/h2>\n<\/div>\n<\/div>",
+          "width": "standard",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 0,
+          "padding_right": 0,
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-8": {
+        "type": "mega-menu-8",
+        "blocks": {
+          "mega-menu-8-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "hemp-clothing",
+              "menu_1_link": ""
+            }
+          },
+          "mega-menu-8-1": {
+            "type": "featured_promo",
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion<\/p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-8-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "Your headline",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-8-3": {
+            "type": "empty_column",
+            "disabled": true,
+            "settings": {
+            }
+          },
+          "mega-menu-8-4": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image_link": "",
+              "image_caption": "<p>Image caption appears here<\/p>"
+            }
+          },
+          "mega-menu-8-5": {
+            "type": "featured_product",
+            "disabled": true,
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-8-0",
+          "mega-menu-8-1",
+          "mega-menu-8-2",
+          "mega-menu-8-3",
+          "mega-menu-8-4",
+          "mega-menu-8-5"
+        ],
+        "settings": {
+          "parent_link": "SALE",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "1585533964666",
+      "1557099047693",
+      "1583720244289",
+      "1557099063267",
+      "1584501065187",
+      "1583585527144",
+      "1584505633722",
+      "1583758231084",
+      "1583639452425",
+      "1583640477745",
+      "1583640820438",
+      "1583641199189",
+      "1583641837381",
+      "1583642212195",
+      "1584723047151",
+      "1584657523430",
+      "1584657462475",
+      "1584656640163",
+      "1584659091051"
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  }
+}

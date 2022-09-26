@@ -1,0 +1,95 @@
+<div class="mobile-menu">
+  <div class="mobile-menu__content">
+      <form class="search-form" action="/search">
+        <input id="q" type="text" name="q" placeholder="search">
+        
+        <button>
+          <span class="icon " data-icon="search"> 
+            <svg width="21" height="26" viewBox="0 0 21 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.7314 4.45742C14.2547 0.195537 8.77175 -1.26604 4.48423 1.19583C0.196713 3.65518 -1.27365 9.10538 1.20302 13.3698C3.39217 17.1403 7.93694 18.7172 11.9269 17.3258C11.7049 17.8272 11.7175 18.4239 12.0151 18.9353L15.6015 25.1075C16.0958 25.9599 17.1929 26.2532 18.0504 25.7593L19.1072 25.1526C19.9647 24.6613 20.2598 23.5707 19.7629 22.7183L16.1765 16.5461C15.8789 16.0347 15.367 15.7263 14.8171 15.6662C18.0252 12.9285 18.9231 8.22793 16.7314 4.45742ZM12.1059 14.3149C9.10466 16.0372 5.26607 15.0169 3.53341 12.031C1.80075 9.04772 2.82975 5.23459 5.83102 3.50978C8.83228 1.78748 12.6709 2.81033 14.4035 5.79365C16.1362 8.77697 15.1072 12.5926 12.1059 14.3149Z" fill="#414042"></path>
+            </svg>
+          </span>
+        </button>
+      </form>
+    
+    
+      <ul class="has-margin-bottom">
+        {% if settings.header_layout == 'vertical' %}
+          {% for block in nav_blocks %}
+            {% if block.type == 'navigation' %}
+              {% assign main_menu = linklists[block.settings.main_linklist] %}
+              {% include 'mobile-menu-loop' %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign main_menu = linklists[section.settings.main_linklist] %}
+          {% include 'mobile-menu-loop' %}
+        {% endif %}
+		
+		
+		{% comment %}
+        {% if settings.show_multiple_currencies %}
+          {% comment %} Currency converter select {% endcomment %}
+          <li>
+            <div class="mobile-menu__item mobile__currency-dropdown">
+                {% if settings.icon_style != 'text' %}
+                  {% include settings.icon, name: 'globe' %}
+                {% endif %}
+                <span class="icon-caption select is-arrowless">
+                  {% include 'header__currencies-switcher' %}
+                </span>
+            </div>
+          </li>
+        {% endif %}
+        {% endcomment %}
+        
+        {% if shop.customer_accounts_enabled %}
+          {% comment %} Accounts {% endcomment %}
+          <li>
+            {% if customer %}
+              {% comment %} Logout {% endcomment %}
+              <a class="mobile-menu__item item-with-icon" href="{{ routes.account_url }}" >
+                {% if settings.icon_style != 'text' %}
+                  {% include settings.icon, name: 'avatar' %}
+                {% endif %}
+                <span class="icon-caption">
+                  {{ 'layout.customer.my_account' | t | escape }}
+                </span>
+              </a>
+            {% else %}
+              {% comment %} Login {% endcomment %}
+              <a class="mobile-menu__item item-with-icon" href="{{ routes.account_login_url }}" >
+                {% if settings.icon_style != 'text' %}
+                  {% include settings.icon, name: 'avatar' %}
+                {% endif %}
+                <span class="icon-caption">
+                  {{ 'layout.customer.log_in' | t | escape }}
+                </span>
+              </a>
+            {% endif %}
+          </li>
+        {% endif %}
+        
+       <li>
+        	<div class="mobile-menu__item">
+		        <a class="header__link" href="{{ routes.cart_url }}">
+			        <span class="header-cart__icon">
+		            {% include settings.icon, name: settings.cart_icon, icon_class: 'header__icon' %}
+		            <span class="header-cart__count header-cart__count--badge badge" data-bind="itemCount">
+		              {{ cart.item_count }}
+		            </span>
+		          </span>
+		          <span class="header-cart__caption icon-caption">
+		            {{ 'layout.general.cart' | t | escape }}
+		            {%- if object.settings.icon_style == 'text' -%}
+		              <span class="header-cart__count cart__count--text" data-bind="itemCount">{{ cart.item_count }}</span>
+		            {%- endif -%}
+		          </span>
+		        </a>
+	        </div>
+          </li>
+          
+        
+      </ul>
+  </div>
+</div>

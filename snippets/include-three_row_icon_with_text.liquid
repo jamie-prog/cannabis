@@ -1,0 +1,300 @@
+{% comment %}
+** Icon with text column - dynamic **
+- Draggable section
+- Uses blocks
+{% endcomment %}
+
+{% assign id = block.id %}
+{% comment %}Colors{% endcomment %}
+{% assign text_color = block.settings.text_color %}
+{% assign icon_color = block.settings.icon_color %}
+{% assign background = block.settings.background %}
+{% assign gradient = block.settings.gradient %}
+{% assign gradient_rotation = block.settings.gradient_rotation %}
+{% comment %}Layout{% endcomment %}
+{% assign show_gutter = block.settings.show_gutter %}
+{% assign width = block.settings.width %}
+{% assign padding_top = block.settings.padding_top %}
+{% assign padding_bottom = block.settings.padding_bottom %}
+{% assign padding_left = block.settings.padding_left %}
+{% assign padding_right = block.settings.padding_right %}
+{% assign animation = block.settings.animation %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = block.settings.css_class %}
+{% assign custom_css = block.settings.custom_css %}
+
+{% comment %} Is the color set to transparent? {% endcomment %}
+{% assign text_alpha = text_color | color_extract: 'alpha' %}
+{% assign icon_alpha = icon_color | color_extract: 'alpha' %}
+{% assign background_alpha = background | color_extract: 'alpha' %}
+{% assign gradient_alpha = gradient | color_extract: 'alpha' %}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% capture section_css -%}
+
+  .icon-with-text-column__column {
+    background-image: linear-gradient({{ gradient_rotation }}deg, rgba(255,255,255,0), {{ gradient }});
+    background-color: {%- if background_alpha != 0 -%}{{ background }}{%- endif -%};
+  }
+
+  .icon-column__title {
+    color: {%- if text_alpha != 0 -%}{{ block.settings.text_color }}{%- endif -%};
+	font-size: 22px;
+	margin-bottom: 0;
+	border-bottom: 3px solid #d9e5e5;
+  }
+.icon-with-text-column__column img {}
+
+  .icon {
+    fill: {%- if icon_alpha != 0 -%}{{ block.settings.icon_color }}{%- endif -%};
+  }
+
+  .icon-column__text {
+    color: {%- if text_alpha != 0 -%}{{ block.settings.text_color }}{%- endif -%};
+	top: 50%;
+    transform: translateY(7px);
+  }
+
+.icon-column__text p {
+ font-size:22px;
+}
+
+.threerow-wrapper .svg-element__wrap {
+max-width:75px !important;
+padding:10px;
+top:50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.threerow-wrapper .svg-element__wrap svg {
+
+    width:100%;
+}
+
+.threerow-wrapper {
+display:inline-flex;}
+
+{%- endcapture -%}
+
+{% style %}
+  #shopify-section-{{ block.id }} {
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+    padding-left: {{ padding_left }}px;
+    padding-right: {{ padding_right }}px;
+	
+    {% if width == 'wide' %}
+      width: 100%;
+    {% elsif width == 'half' %}
+      width: 50%;
+    {% endif %}
+	max-width:800px;
+  }
+  {% include 'css-loop', css: section_css, id: id %}
+  {% include 'css-loop', css: custom_css, id: id %}
+{% endstyle %}
+
+<section class="section
+                {{ css_class }}
+                is-width-{{ width }}
+                {% if show_gutter == false %}
+                  has-no-side-gutter
+                  has-background
+                {% else %}
+                  has-gutter-enabled
+                {% endif %}
+                {% if block.blocks.size > block.settings.icons_per_row %}
+                  has-multirow-blocks
+                {% endif %}
+                {% if width == 'wide' %}
+                  equal-columns--outside-trim
+                {% endif %}"
+                {% if animation != "none" %}
+                  data-scroll-class="{{ animation }}"
+                {% endif %}>
+  <div class="container is-justify-center">
+    
+    
+    {% if block.settings.image != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+		<div class="threerow-wrapper">
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+			<div class="svg-element__wrap">
+			{{ block.settings.image }}
+          	</div>
+            {% if block.settings.title != blank or block.settings.text != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title }}</h3>
+                {{ block.settings.text }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+    
+    {% if block.settings.image2 != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+		<div class="threerow-wrapper">
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+			<div class="svg-element__wrap">
+			{{ block.settings.image2 }}
+          	</div>
+            {% if block.settings.title2 != blank or block.settings.text2 != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title2 }}</h3>
+                {{ block.settings.text2 }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+    {% if block.settings.image3 != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+        <div class="threerow-wrapper">
+
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+          	<div class="svg-element__wrap">
+			{{ block.settings.image3 }}
+          	</div>
+            {% if block.settings.title3 != blank or block.settings.text3 != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title3 }}</h3>
+                {{ block.settings.text3 }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+    {% if block.settings.image4 != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+        <div class="threerow-wrapper">
+
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+          <div class="svg-element__wrap">
+          {{ block.settings.image4 }}
+          </div>
+            {% if block.settings.title4 != blank or block.settings.text4 != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title4 }}</h3>
+                {{ block.settings.text4 }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+    {% if block.settings.image5 != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+        <div class="threerow-wrapper">
+
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+          	<div class="svg-element__wrap">
+			{{ block.settings.image5 }}
+          	</div>
+            {% if block.settings.title5 != blank or block.settings.text5 != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title5 }}</h3>
+                {{ block.settings.text5 }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+{% if block.settings.image6 != blank %}
+      <div class="icon-with-text-column__column
+                  {% if show_gutter %}
+                    has-gutter
+                  {% endif %}
+                  column
+                  has-padding
+                  {% include 'column-width', value: block.settings.icons_per_row %}
+                  text-align-{{ block.settings.align_text }}
+                  medium-down--one-half
+                  small-down--one-half">
+        <div class="threerow-wrapper">
+
+            {%- capture icon_size -%}
+              is-{{ block.settings.icon_size }}
+            {%- endcapture -%}
+          	<div class="svg-element__wrap">
+            {{ block.settings.image6 }}
+          	</div>
+            {% if block.settings.title6 != blank or block.settings.text6 != blank %}
+              <div class="icon-column__text ">
+                <h3 class="icon-column__title title">{{ block.settings.title6 }}</h3>
+                {{ block.settings.text6 }}
+              </div>
+            {% endif %}
+
+        </div>
+
+      </div>
+    {% endif %}
+
+  </div>
+</section>

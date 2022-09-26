@@ -1,0 +1,88 @@
+{% comment %}
+Required values
+title: <string>
+heading_tag: <string>
+context: <string>
+______________
+Optional values
+url: <string>
+text_alignment: <string>
+enable_divider: <boolean>
+{% endcomment %}
+
+{% if text_alignment == blank %}
+  {% assign text_alignment = center %}
+{% endif %}
+
+{% style %}
+
+.heading-section__subheading {
+font-size: 22px;
+}
+
+.heading-wrapper .title {
+line-height:1;
+margin-bottom: 15px;
+}
+
+.heading-wrapper {
+margin-bottom:0;
+}
+
+
+  #shopify-section-{{ block.id }} {
+    padding-top: {{ block.settings.padding_top }}px;
+    padding-bottom: {{ block.settings.padding_bottom }}px;
+    padding-left: {{ block.settings.padding_left }}px;
+    padding-right: {{ block.settings.padding_right }}px;
+    {% if width == 'wide' -%}
+      width: 100%;
+    {%- elsif width == 'half' -%}
+      width: 50%;
+    {%- endif %}
+  }
+#shopify-section-{{ block.id }} .heading-wrapper .title {
+{% if block.settings.line == false %};
+border-bottom: 0;
+{% endif %}
+}
+
+
+  {% include 'css-loop', css: section_css, id: id %}
+  {% include 'css-loop', css: custom_css, id: id %}
+{% endstyle %}
+
+<div class="heading-wrapper--{{ context }}
+            heading-wrapper
+            heading-wrapper--{{ settings.heading_divider_style }}
+            one-whole column
+            is-flex
+            is-flex-column
+            is-align-{{ text_alignment }}
+            text-align-{{ text_alignment }}">
+  <h2 class="heading-section__heading title title">
+
+                                     
+    <p>{{ block.settings.header }}</p>
+          
+
+       
+  </h2>
+    {% if block.settings.subheader != blank %}
+<div class="heading-section__subheading">
+              <p>{{ block.settings.subheader }}</p>
+            </div>  
+  {% endif %}
+  
+  {% if block.settings.display_heading_divider == true %}
+    <div class="heading-divider
+                heading-divider--{{ block.settings.heading_divider_style }}"
+          {% if block.settings.heading_divider_animation != "none" %}
+            data-scroll-class="{{ block.settings.heading_divider_animation }}"
+          {% endif %}>
+    </div>
+  {% endif %}
+  
+   
+
+</div>

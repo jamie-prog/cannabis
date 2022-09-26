@@ -1,0 +1,698 @@
+{
+  "name":"Main Homepage",
+  "sections":{
+    "1585533964666": {
+      "type": "index__slideshow-classic",
+      "blocks": {
+        "3bf5e7bc-14f2-4d90-b78c-ad0b7cafccef": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify:\/\/collections\/shop-eofy-sale",
+            "image": "shopify:\/\/shop_images\/EOFY_Banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/EFYO_splash.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "6f1619d1-ef32-439e-a78a-17cda20ad6fd": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/products\/hemp-seed-oil-capsules",
+            "image": "shopify:\/\/shop_images\/Promo_2.png",
+            "mobile_image": "shopify:\/\/shop_images\/HSO_Capsules_gif.gif",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 0,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "57954610-07a5-4d6e-85d7-01c5cf5c3114": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/products\/the-maisie-shampoo-with-hemp-for-sensitive-skin",
+            "image": "shopify:\/\/shop_images\/2_de7462d0-03a3-4cdf-8cf2-1d301004a9ac.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Back_in_Stock_shampoo.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "1596686420536": {
+          "type": "image",
+          "settings": {
+            "link": "shopify:\/\/products\/hemp-protein",
+            "image": "shopify:\/\/shop_images\/022_Hemp_Protein_Benefits_Banners2-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/022_Hemp_Protein_Benefits_Banners-min.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "c7458d08-d76b-4800-bbac-6bda38cfa077": {
+          "type": "image",
+          "settings": {
+            "link": "https:\/\/manage.kmail-lists.com\/subscriptions\/subscribe?a=Jp5CJm&g=WGmH85",
+            "image": "shopify:\/\/shop_images\/060-CBD-PRODUCTS-OPT-IN-BANNER2_a9ff20d9-c4eb-4ea0-9c8b-094a1b8f2572-min.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/060-CBD-PRODUCTS-OPT-IN-BANNER-min.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "1585533964666-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify:\/\/shop_images\/BANNER_9a75e669-da35-4780-ad9e-b22156269de6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/BANNER-MOBILE_14232efa-dcf3-43a6-b5e9-1dc60e852fae.jpg",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "rgba(0,0,0,0)",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "3bf5e7bc-14f2-4d90-b78c-ad0b7cafccef",
+        "6f1619d1-ef32-439e-a78a-17cda20ad6fd",
+        "57954610-07a5-4d6e-85d7-01c5cf5c3114",
+        "1596686420536",
+        "c7458d08-d76b-4800-bbac-6bda38cfa077",
+        "1585533964666-0"
+      ],
+      "settings": {
+        "image_transition": "fade",
+        "image_slideshow_speed": 8,
+        "show_arrows": false,
+        "show_nav_buttons": true,
+        "mobile_text_below_image": false,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583720244289": {
+      "type": "n-section-blog",
+      "blocks": {
+        "1583721666141": {
+          "type": "item",
+          "settings": {
+            "header_title_1": "Hemp for Pets.",
+            "title_1": "Nutrition for your furry friend",
+            "image_1": "shopify:\/\/shop_images\/HempforPets_cb6cd5e2-dca3-4aa4-9ed6-2e8bee0418b7-min.jpg",
+            "description_1": "Treat your pet to a healthy heart, happier joints and shinier coat.",
+            "url_1": "shopify:\/\/collections\/pets",
+            "button_label_1": "Shop Pets",
+            "header_title_2": "Hemp for People.",
+            "title_2": "Functional science meets mother nature",
+            "image_2": "shopify:\/\/shop_images\/HempforHumans_copy_8f6c38ae-ec54-4461-b381-685f2b0890ac.jpg",
+            "description_2": "Alleviate, relax and feel better thanks to our range of green goodness.",
+            "url_2": "shopify:\/\/collections\/lifestyle",
+            "button_label_2": "Shop Lifestyle"
+          }
+        }
+      },
+      "block_order": [
+        "1583721666141"
+      ],
+      "settings": {
+      }
+    },
+    "1557099063267": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "1557099063267-2": {
+          "type": "text",
+          "settings": {
+            "header_title": "Hemp for Cocktails.",
+            "text1": "A toast to good health",
+            "text2": "Award-winning, terpene-rich, smooth as ever gin to soothe the soul.",
+            "heading_size": "regular",
+            "button_label": "Shop Gins",
+            "link": "shopify:\/\/collections\/beverages",
+            "button_style": "button--link-style",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "1557099063267-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Beverages.jpg",
+            "image_crop": "none",
+            "image_link": "shopify:\/\/collections\/beverages"
+          }
+        }
+      },
+      "block_order": [
+        "1557099063267-2",
+        "1557099063267-0"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 75,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583585527144": {
+      "type": "index__featured-collection",
+      "settings": {
+        "title": "Community Favourites.",
+        "collection": "popular",
+        "products_per": 4,
+        "mobile_products_per_row": "2",
+        "products_limit": 4,
+        "align_height": false,
+        "collection_height": 200,
+        "collection_style": "slider",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 80,
+        "padding_bottom": 20,
+        "animation": "fadeInDown",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1584505633722": {
+      "type": "index__divider",
+      "settings": {
+        "divider_style": "short",
+        "divider_width": 2,
+        "divider_color": "#ffffff",
+        "alignment": "center",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583758231084": {
+      "type": "n-testimonial-section",
+      "blocks": {
+        "1586319680842": {
+          "type": "item",
+          "settings": {
+            "title": "Jilungin Dreaming Hemp Gin",
+            "text": "After two or three of these delicious beauties I feel amazing, not an ache in my old body. They could not have made it any better. Jilungin Dreaming Hemp Gin is quite possibly one of the best spirits I have ever had the honour of drinking. They have used nature’s medicine mixed with pure pleasure. My only concern is that it might run out!! Thank you.",
+            "name": "Lesley, South Australia"
+          }
+        },
+        "1586319751675": {
+          "type": "item",
+          "settings": {
+            "title": "100% Raw Hemp Seed Oil for Cats",
+            "text": "Have been giving just one drop a day to our 20 year old cat (with bad arthritis in both front legs and 3 blown discs between his shoulders) in conjunction with his prescribed pain medication from the vet. In one month he has regained movement when sitting and walking and back to jumping up onto the bed to sleep and is much less cranky. Best product ever.",
+            "name": "Annette, New South Wales"
+          }
+        },
+        "1586319706867": {
+          "type": "item",
+          "settings": {
+            "title": "100% Raw Hemp Seed Oil for Pets",
+            "text": "I have been using hemp seed oil for my 18 year old Shih Tzu and it has given her a new lease on life. Before starting it she could barely walk as her arthritis was so bad, but now she is going to the park everyday and running with other dogs. Thank you The Cannabis Co.",
+            "name": "Janet, Victoria"
+          }
+        },
+        "1586319860445": {
+          "type": "item",
+          "settings": {
+            "title": "Ostabol Terpene Tincture",
+            "text": "I recently purchased 2 bottles of the Ostabol tinctures for myself and my grandmother who has cancer and suffers from terrible pain and nothing seemed to be relieving her pain. So after some discussion with her, we gave the tincture a try and I can happily say it helped with relieving some of her pain and making the tough days a little bit more bearable. So thank you Cannabis Company.",
+            "name": "Rhiannon, Victoria"
+          }
+        },
+        "1586319769776": {
+          "type": "item",
+          "settings": {
+            "title": "The Rex - Shampoo with Hemp",
+            "text": "My gorgeous Gypsy has had problems with her skin and coat for 4 years! It was a fungal condition called Malassezia. I bought the shampoo and I have also been giving her the Raw Hemp Seed Oil for Pets for a couple of months now. Her fur is shiny and I can happily report that I have been able to stretch her baths out to every 3-4 weeks! Thank you so very much for making such a great product!",
+            "name": "Moni, New South Wales"
+          }
+        },
+        "1586319881803": {
+          "type": "item",
+          "settings": {
+            "title": "Nootropic Terpene Tincture",
+            "text": "My wife and I love your oil. We both have osteoarthritis, and I have worn shoulder joints and need a shoulder replacement, so I'm in constant pain. The oil is a godsend and helps to kill the pain. I can even sleep, as before I couldn't even lay in bed. \nI've also gone off my other pain meds. Thank you so much.",
+            "name": "Kevin, Western Australia"
+          }
+        },
+        "1586319788610": {
+          "type": "item",
+          "settings": {
+            "title": "The Maisie - Shampoo with Hemp for Sensitive Skin",
+            "text": "My Irish Terrier’s skin has been awful – itchy all over with horrible raw, red and black patches. I tried the vet recommended antibiotic cream and it improved, but it returned. My husband suggested it might be the shampoo we use. After ONE use 90% of the redness was gone and 95% of the crusts all over his tummy and under his legs were gone! I wish I knew about it ages ago and saved my dog the suffering.",
+            "name": "Nicole, New South Wales"
+          }
+        },
+        "1583758251061": {
+          "type": "item",
+          "settings": {
+            "title": "100% Raw Hemp Seed Oil",
+            "text": "I have suffered from rheumatoid arthritis since I was 17. Everyday activities, household chores and general everyday things have been unbearable with pain, swelling and pins and needles in both hands, fingers and joints. I have used your oil for just the past few days and have noticed some pain relief and less swelling. I'm so glad and overjoyed that I finally found an alternative to pain meds.",
+            "name": "Grace, Queensland"
+          }
+        }
+      },
+      "block_order": [
+        "1586319680842",
+        "1586319751675",
+        "1586319706867",
+        "1586319860445",
+        "1586319769776",
+        "1586319881803",
+        "1586319788610",
+        "1583758251061"
+      ],
+      "settings": {
+        "title": "Real Results for Every Body."
+      }
+    },
+    "1583639452425": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "1583639452425-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GinImage-min.jpg",
+            "image_crop": "none",
+            "image_link": "shopify:\/\/collections\/beverages"
+          }
+        },
+        "1583639452425-2": {
+          "type": "text",
+          "settings": {
+            "header_title": "Award Winning Hemp Gin.",
+            "text1": "World’s First Cannabis-Infused Gin",
+            "text2": "Unique flavours for the gin lover.",
+            "heading_size": "regular",
+            "button_label": "Shop Gins",
+            "link": "shopify:\/\/collections\/beverages",
+            "button_style": "button--link-style",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1583639452425-0",
+        "1583639452425-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583640477745": {
+      "type": "index__logo-list",
+      "blocks": {
+        "1583640569755": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dmarge-logo.jpg",
+            "link": ""
+          }
+        },
+        "1583640477745-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SBS-logo.jpg",
+            "link": ""
+          }
+        },
+        "1583640477745-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gourmet-logo.jpg",
+            "link": ""
+          }
+        },
+        "1583640477745-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bodysoul-logo.jpg",
+            "link": ""
+          }
+        },
+        "1583640477745-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/GQ-logo.jpg",
+            "link": ""
+          }
+        },
+        "1583640477745-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Delicious-logo.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1583640569755",
+        "1583640477745-0",
+        "1583640477745-1",
+        "1583640477745-4",
+        "1583640477745-2",
+        "1583640477745-3"
+      ],
+      "settings": {
+        "logos_per_row": 6,
+        "logo_size": "medium",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583640820438": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "1583640820438-2": {
+          "type": "text",
+          "settings": {
+            "header_title": "We Recommend This.",
+            "text1": "Raw Hemp Brownies",
+            "text2": "Raw Hemp Brownies... Need we say more? Don't worry – unlike other 'special' brownies, you won't regret going in for seconds.",
+            "heading_size": "regular",
+            "button_label": "Read Recipe",
+            "link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies",
+            "button_style": "button--link-style",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "1583640820438-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brownie-recipe-block-min.jpg",
+            "image_crop": "none",
+            "image_link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies"
+          }
+        }
+      },
+      "block_order": [
+        "1583640820438-2",
+        "1583640820438-1"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583641199189": {
+      "type": "index__blog-posts",
+      "settings": {
+        "title": "Higher Learning.",
+        "blog_widget_select": "higher-learning",
+        "home_page_articles": 3,
+        "blog_show_tags": false,
+        "blog_author": false,
+        "blog_read_time": false,
+        "blog_date": true,
+        "blog_comment_count": false,
+        "blog_show_excerpt": false,
+        "show-border": false,
+        "button_label": "Read More",
+        "button_type": "button--link-style",
+        "width": "standard",
+        "padding_top": 45,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1583641837381": {
+      "type": "index__heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Shop With Us.",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": "#shopify-section-1583641837381 {\n    padding-top: 0px;\n  }"
+      }
+    },
+    "1583642212195": {
+      "type": "index__icon-with-text-column",
+      "blocks": {
+        "1583642212195-1": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "vegan",
+            "title": "ORGANIC & VEGAN  PRODUCTS",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1583642212195-0": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "aumade",
+            "title": "100% AUSTRALIAN  GROWN & MANUFACTURED",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1583642212195-3": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "moneyback",
+            "title": "MONEY BACK GUARANTEE",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "1583642212195-2": {
+          "type": "logo_image",
+          "settings": {
+            "icon_label": "reviews",
+            "title": "OVER 2000+  CUSTOMER REVIEWS",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1583642212195-1",
+        "1583642212195-0",
+        "1583642212195-3",
+        "1583642212195-2"
+      ],
+      "settings": {
+        "icons_per_row": 4,
+        "icon_size": "medium",
+        "align_text": "center",
+        "button_style": "button--primary",
+        "icon_color": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ".title {\n    color: \/*!setting.heading_color{*\/black\/*}*\/;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 140%;\n}\n.shopify-section .icon-with-text-column {\npadding-top: 0px;\n}"
+      }
+    },
+    "1584723047151": {
+      "type": "n-social-section",
+      "settings": {
+        "header_text": "Get Social With Us.",
+        "link": ""
+      }
+    }
+  },
+  "order":[
+    "1585533964666",
+    "1583720244289",
+    "1557099063267",
+    "1583585527144",
+    "1584505633722",
+    "1583758231084",
+    "1583639452425",
+    "1583640477745",
+    "1583640820438",
+    "1583641199189",
+    "1583641837381",
+    "1583642212195",
+    "1584723047151"
+  ]
+}

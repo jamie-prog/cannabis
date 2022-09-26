@@ -239,8 +239,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   {% if settings.header_layout == "vertical" %}
     <div class="is-beside-vertical-header">
   {% endif %}
+  
 
-  {{ content_for_layout }}
+  <main class="shopify-section index-sections" data-check-for-order="true">
+    {{ content_for_layout }}
+  </main>
 
   {% if settings.footer_layout == "centered" %}
     {% section 'footer__icon-bar' %}

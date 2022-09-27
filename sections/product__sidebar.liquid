@@ -4,89 +4,94 @@
 - Uses blocks
 {% endcomment %}
 
-{% if section.blocks.size > 0 and section.settings.show_sidebar %}
 
-{% assign id = section.id %}
-{% comment %} Advanced {% endcomment %}
-{% assign css_class = section.settings.css_class %}
-{% assign custom_css = section.settings.custom_css %}
-
-{% comment %} Section specific CSS {% endcomment %}
-{% style %}
-  {% if section.settings.show_sidebar %}
-    #shopify-section-{{ id }} {
-      width: 25%;
-    }
-
-    #shopify-section-{{ id }} + .has-sidebar-option {
-      width: 75%;
-    }
-  {% endif %}
-
-  {% include 'css-loop', css: custom_css, id: id %}
-{% endstyle %}
-
-{% comment %} HTML markup {% endcomment %}
-<div class="section is-width-wide" data-product-sidebar>
-  <aside class="{{ css_class }}
-                one-whole
-                column">
-    {% for block in section.blocks %}
-      <div id="shopify-section-{{ block.id }}"
-           class="sidebar__block block__{{ block.type | downcase | replace: '_', '-' }}
-                  has-padding-top has-padding-bottom
-                  {% if settings.toggle_sidebar %}sidebar-toggle-active{% endif %}"
-           {{ block.shopify_attributes }}>
-
-        {% if block.type == 'collection_list' %}
-          {% comment %} Tag list {% endcomment %}
-          {% include 'sidebar__collection-list' %}
-
-        {% elsif block.type == 'featured_promo' %}
-          {% comment %} Featured promo {% endcomment %}
-          {% include 'sidebar__featured-promo' %}
-
-        {% elsif block.type == 'menu' %}
-          {% comment %} Menu {% endcomment %}
-          {% include 'sidebar__menu', menu: block.settings.menu %}
-
-        {% elsif block.type == 'newsletter' %}
-          {% comment %} Newsletter {% endcomment %}
-          {% include 'sidebar__newsletter' %}
-
-        {% elsif block.type == 'page' %}
-          {% comment %} Page {% endcomment %}
-          {% include 'sidebar__page', page: block.settings.page %}
-
-        {% elsif block.type == 'search' %}
-          {% comment %} Search {% endcomment %}
-          {% include 'sidebar__search' %}
-
-        {% elsif block.type == 'tag_list' %}
-          {% comment %} Tag list {% endcomment %}
-          {% include 'sidebar__tag-list' %}
-
-        {% elsif block.type == 'text' %}
-          {% comment %} Text {% endcomment %}
-          {% include 'sidebar__text' %}
-
-        {% elsif block.type == 'type_list' %}
-          {% comment %} Type list {% endcomment %}
-          {% include 'sidebar__type-list' %}
-
-        {% elsif block.type == 'vendor_list' %}
-          {% comment %} Vendor list {% endcomment %}
-          {% include 'sidebar__vendor-list' %}
-
-        {% endif %}
-      </div>
-    {% endfor %}
-  </aside>
-</div>
-
-{% endif %}
-
-<script data-theme-editor-load-script src="{{ 'z__jsSidebar.js' | asset_url }}"></script>
+<section class="section section--has-sidebar-option">
+  <div class="container">
+    {% if section.blocks.size > 0 and section.settings.show_sidebar %}
+    
+    {% assign id = section.id %}
+    {% comment %} Advanced {% endcomment %}
+    {% assign css_class = section.settings.css_class %}
+    {% assign custom_css = section.settings.custom_css %}
+    
+    {% comment %} Section specific CSS {% endcomment %}
+    {% style %}
+      {% if section.settings.show_sidebar %}
+        #shopify-section-{{ id }} {
+          width: 25%;
+        }
+    
+        #shopify-section-{{ id }} + .has-sidebar-option {
+          width: 75%;
+        }
+      {% endif %}
+    
+      {% include 'css-loop', css: custom_css, id: id %}
+    {% endstyle %}
+    
+    {% comment %} HTML markup {% endcomment %}
+    <div class="section is-width-wide" data-product-sidebar>
+      <aside class="{{ css_class }}
+                    one-whole
+                    column">
+        {% for block in section.blocks %}
+          <div id="shopify-section-{{ block.id }}"
+               class="sidebar__block block__{{ block.type | downcase | replace: '_', '-' }}
+                      has-padding-top has-padding-bottom
+                      {% if settings.toggle_sidebar %}sidebar-toggle-active{% endif %}"
+               {{ block.shopify_attributes }}>
+    
+            {% if block.type == 'collection_list' %}
+              {% comment %} Tag list {% endcomment %}
+              {% include 'sidebar__collection-list' %}
+    
+            {% elsif block.type == 'featured_promo' %}
+              {% comment %} Featured promo {% endcomment %}
+              {% include 'sidebar__featured-promo' %}
+    
+            {% elsif block.type == 'menu' %}
+              {% comment %} Menu {% endcomment %}
+              {% include 'sidebar__menu', menu: block.settings.menu %}
+    
+            {% elsif block.type == 'newsletter' %}
+              {% comment %} Newsletter {% endcomment %}
+              {% include 'sidebar__newsletter' %}
+    
+            {% elsif block.type == 'page' %}
+              {% comment %} Page {% endcomment %}
+              {% include 'sidebar__page', page: block.settings.page %}
+    
+            {% elsif block.type == 'search' %}
+              {% comment %} Search {% endcomment %}
+              {% include 'sidebar__search' %}
+    
+            {% elsif block.type == 'tag_list' %}
+              {% comment %} Tag list {% endcomment %}
+              {% include 'sidebar__tag-list' %}
+    
+            {% elsif block.type == 'text' %}
+              {% comment %} Text {% endcomment %}
+              {% include 'sidebar__text' %}
+    
+            {% elsif block.type == 'type_list' %}
+              {% comment %} Type list {% endcomment %}
+              {% include 'sidebar__type-list' %}
+    
+            {% elsif block.type == 'vendor_list' %}
+              {% comment %} Vendor list {% endcomment %}
+              {% include 'sidebar__vendor-list' %}
+    
+            {% endif %}
+          </div>
+        {% endfor %}
+      </aside>
+    </div>
+    
+    {% endif %}
+    
+    <script data-theme-editor-load-script src="{{ 'z__jsSidebar.js' | asset_url }}"></script>
+  </div>
+</section>
 
 {% schema %}
 

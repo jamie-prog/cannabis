@@ -240,10 +240,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="is-beside-vertical-header">
   {% endif %}
   
-
-  <main class="shopify-section index-sections" data-check-for-order="true">
+  
+  <div id="template-{{ template | replace: '.', '-' | handle }}" 
+        class="shopify-section 
+                {%- case template.name -%}
+                  {% when 'index' %}
+                   inedex-sections
+                  {% when 'product' %}
+                    product-page section__wrapper
+                {%- endcase -%}
+               " 
+        data-check-for-order="true">
     {{ content_for_layout }}
-  </main>
+  </div>
 
   {% if settings.footer_layout == "centered" %}
     {% section 'footer__icon-bar' %}

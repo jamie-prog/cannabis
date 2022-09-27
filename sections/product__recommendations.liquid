@@ -58,33 +58,36 @@
 {% endstyle %}
 
 {% if section.settings.show_product_recommendations %}
-
-  {% comment %} HTML markup {% endcomment %}
-  <section class="section
-                  is-width-{{ width }}"
-          {% if animation != "none" %}
-            data-scroll-class="{{ animation }}"
-          {% endif %}>
-    {% capture product_collections_markup %}
-      <div class="container">
-        {% if section.settings.product_recommendations_heading != blank %}
-          {% include 'heading', title: section.settings.product_recommendations_heading, heading_tag: 'h4', context: 'recommended-products', text_alignment: 'center' %}
-        {% endif %}
-
-        {% if section.settings.product_recommendations_style == 'grid' %}
-          {% include 'product-loop', align_height: align_height, height: height, context: 'product_recommendations' %}
-        {% else %}
-        <div class="one-whole column related-products related-products--slider js-related-products-slider">
-          {% include 'product-slider', related_products: true, product_recommendations: true %}
+<section class="section section--has-sidebar-option">
+  <div class="container">
+    {% comment %} HTML markup {% endcomment %}
+    <section class="section
+                    is-width-{{ width }}"
+            {% if animation != "none" %}
+              data-scroll-class="{{ animation }}"
+            {% endif %}>
+      {% capture product_collections_markup %}
+        <div class="container">
+          {% if section.settings.product_recommendations_heading != blank %}
+            {% include 'heading', title: section.settings.product_recommendations_heading, heading_tag: 'h4', context: 'recommended-products', text_alignment: 'center' %}
+          {% endif %}
+  
+          {% if section.settings.product_recommendations_style == 'grid' %}
+            {% include 'product-loop', align_height: align_height, height: height, context: 'product_recommendations' %}
+          {% else %}
+          <div class="one-whole column related-products related-products--slider js-related-products-slider">
+            {% include 'product-slider', related_products: true, product_recommendations: true %}
+          </div>
+          {% endif %}
         </div>
-        {% endif %}
+      {% endcapture %}
+  
+      <div class="product-recommendations" data-product-id="{{ product.id }}" data-limit="{{ limit }}" data-enabled="{{ section.settings.show_product_recommendations }}">
+        {{ product_collections_markup }}
       </div>
-    {% endcapture %}
-
-    <div class="product-recommendations" data-product-id="{{ product.id }}" data-limit="{{ limit }}" data-enabled="{{ section.settings.show_product_recommendations }}">
-      {{ product_collections_markup }}
-    </div>
-  </section>
+    </section>
+  </div>
+</section>
 {% endif %}
 
 {% comment %} JavaScript {% endcomment %}

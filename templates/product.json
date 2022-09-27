@@ -1,0 +1,105 @@
+{
+  "name":"Default Product",
+  "sections":{
+    "breadcrumb":{
+      "type":"product__breadcrumb"
+    },
+    "sidebar":{
+      "type":"product__sidebar",
+      "blocks": {
+        "product__sidebar-0": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#eeeeee",
+            "promo_text": "#000000",
+            "richtext": "<p>Use this area for promotional information.<\/p>",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        },
+        "product__sidebar-1": {
+          "type": "menu",
+          "settings": {
+            "menu": ""
+          }
+        },
+        "product__sidebar-2": {
+          "type": "text",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "product__sidebar-0",
+        "product__sidebar-1",
+        "product__sidebar-2"
+      ],
+      "settings": {
+        "show_sidebar": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main":{
+      "type":"product__main",
+      "blocks": {
+        "product__main-0": {
+          "type": "recommended_products",
+          "settings": {
+            "width": "wide",
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "animation": "none"
+          }
+        }
+      },
+      "block_order": [
+        "product__main-0"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "gallery_arrows": true,
+        "enable_zoom": true,
+        "enable_product_lightbox": true,
+        "slideshow_speed": 0,
+        "slideshow_transition": "fade",
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": true,
+        "product_images_position": "left",
+        "show_payment_button": false,
+        "display_vendor": true,
+        "display_sku": false,
+        "enable_shopify_product_badges": false,
+        "display_savings": true,
+        "display_collections": false,
+        "display_type": false,
+        "display_tags": false,
+        "display_social_buttons": true,
+        "product_description_position": "bottom",
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "recommendations":{
+      "type":"product__recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_style": "grid",
+        "product_recommendations_heading": "Recommended For You.",
+        "products_per": 4,
+        "recommended_products_limit": 4,
+        "align_height": true,
+        "collection_height": 400
+      }
+    }
+  },
+  "order":[
+    "breadcrumb", "sidebar", "main","recommendations"
+  ]
+}

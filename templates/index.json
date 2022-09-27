@@ -1,6 +1,5 @@
 {
-  "name":"Main Homepage",
-  "sections":{
+  "sections": {
     "1585533964666": {
       "type": "index__slideshow-classic",
       "blocks": {
@@ -680,7 +679,7 @@
       }
     }
   },
-  "order":[
+  "order": [
     "1585533964666",
     "1583720244289",
     "1557099063267",

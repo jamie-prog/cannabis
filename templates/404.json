@@ -1,0 +1,35 @@
+{
+  "name":"Default 404",
+  "sections":{
+    "main": {
+      "type": "404__main",
+      "settings": {
+        "not_found_text": "<p>We're sorry, but the page you requested could not be found.<\/p><p>Try searching or <a href='\/colelctions\/all'>continue shopping<\/a>.<\/p>",
+        "display_search_field": true,
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "bottombanner": {
+      "type": "404__bottombanner",
+      "settings": {
+        "show_banner": true,
+        "image": "shopify:\/\/shop_images\/404-Image.jpg",
+        "image_darken": false,
+        "width": "standard",
+        "banner_height": "large",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order":[
+    "main",
+    "bottombanner"
+  ]
+}

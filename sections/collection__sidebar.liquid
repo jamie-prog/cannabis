@@ -27,68 +27,72 @@
 {% endstyle %}
 
 {% comment %} HTML markup {% endcomment %}
-<aside class="{{ css_class }}
-              one-whole
-              column">
-  {% for block in section.blocks %}
-    <div id="shopify-section-{{ block.id }}"
-          class="sidebar__block block__{{ block.type | downcase | replace: '_', '-' }}
-                has-padding-top has-padding-bottom
-                {% if settings.toggle_sidebar %}sidebar-toggle-active{% endif %}"
-          {{ block.shopify_attributes }}>
-
-      {% if block.type == 'collection_list' %}
-        {% comment %} Tag list {% endcomment %}
-        {% include 'sidebar__collection-list' %}
-
-      {% elsif block.type == 'featured_promo' %}
-        {% comment %} Featured promo {% endcomment %}
-        {% include 'sidebar__featured-promo' %}
-
-      {% elsif block.type == 'html' %}
-        {% comment %} Custom HTML {% endcomment %}
-        {% include 'sidebar__html' %}
-
-      {% elsif block.type == 'menu' %}
-        {% comment %} Menu {% endcomment %}
-        {% include 'sidebar__menu', menu: block.settings.menu %}
-
-      {% elsif block.type == 'newsletter' %}
-        {% comment %} Newsletter {% endcomment %}
-        {% include 'sidebar__newsletter' %}
-
-      {% elsif block.type == 'page' %}
-        {% comment %} Page {% endcomment %}
-        {% include 'sidebar__page', page: block.settings.page %}
-
-      {% elsif block.type == 'search' %}
-        {% comment %} Search {% endcomment %}
-        {% include 'sidebar__search' %}
-
-      {% elsif block.type == 'tag_filter' %}
-        {% comment %} Tag filter {% endcomment %}
-        {% include 'sidebar__tag-filter' %}
-
-      {% elsif block.type == 'tag_list' %}
-        {% comment %} Tag list {% endcomment %}
-        {% include 'sidebar__tag-list' %}
-
-      {% elsif block.type == 'text' %}
-        {% comment %} Text {% endcomment %}
-        {% include 'sidebar__text' %}
-
-      {% elsif block.type == 'type_list' %}
-        {% comment %} Type list {% endcomment %}
-        {% include 'sidebar__type-list' %}
-
-      {% elsif block.type == 'vendor_list' %}
-        {% comment %} Vendor list {% endcomment %}
-        {% include 'sidebar__vendor-list' %}
-
-      {% endif %}
-    </div>
-  {% endfor %}
-</aside>
+<section class="section section__wrapper">
+  <div class="container collection__content">
+    <aside class="{{ css_class }}
+                  one-whole
+                  column">
+      {% for block in section.blocks %}
+        <div id="shopify-section-{{ block.id }}"
+              class="sidebar__block block__{{ block.type | downcase | replace: '_', '-' }}
+                    has-padding-top has-padding-bottom
+                    {% if settings.toggle_sidebar %}sidebar-toggle-active{% endif %}"
+              {{ block.shopify_attributes }}>
+    
+          {% if block.type == 'collection_list' %}
+            {% comment %} Tag list {% endcomment %}
+            {% include 'sidebar__collection-list' %}
+    
+          {% elsif block.type == 'featured_promo' %}
+            {% comment %} Featured promo {% endcomment %}
+            {% include 'sidebar__featured-promo' %}
+    
+          {% elsif block.type == 'html' %}
+            {% comment %} Custom HTML {% endcomment %}
+            {% include 'sidebar__html' %}
+    
+          {% elsif block.type == 'menu' %}
+            {% comment %} Menu {% endcomment %}
+            {% include 'sidebar__menu', menu: block.settings.menu %}
+    
+          {% elsif block.type == 'newsletter' %}
+            {% comment %} Newsletter {% endcomment %}
+            {% include 'sidebar__newsletter' %}
+    
+          {% elsif block.type == 'page' %}
+            {% comment %} Page {% endcomment %}
+            {% include 'sidebar__page', page: block.settings.page %}
+    
+          {% elsif block.type == 'search' %}
+            {% comment %} Search {% endcomment %}
+            {% include 'sidebar__search' %}
+    
+          {% elsif block.type == 'tag_filter' %}
+            {% comment %} Tag filter {% endcomment %}
+            {% include 'sidebar__tag-filter' %}
+    
+          {% elsif block.type == 'tag_list' %}
+            {% comment %} Tag list {% endcomment %}
+            {% include 'sidebar__tag-list' %}
+    
+          {% elsif block.type == 'text' %}
+            {% comment %} Text {% endcomment %}
+            {% include 'sidebar__text' %}
+    
+          {% elsif block.type == 'type_list' %}
+            {% comment %} Type list {% endcomment %}
+            {% include 'sidebar__type-list' %}
+    
+          {% elsif block.type == 'vendor_list' %}
+            {% comment %} Vendor list {% endcomment %}
+            {% include 'sidebar__vendor-list' %}
+    
+          {% endif %}
+        </div>
+      {% endfor %}
+    </aside>
+  </div>
+</section>
 
 {% endif %}
 

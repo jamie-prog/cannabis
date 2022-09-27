@@ -1,0 +1,92 @@
+{
+  "name":"Default Collection",
+  "sections":{
+    "banner": {
+      "type": "collection__banner",
+      "settings": {
+        "show_banner": false,
+        "image": "shopify:\/\/shop_images\/KEVIN_06.jpg",
+        "image_darken": false,
+        "subtitle": "Make Australia Green Again",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "breadcrumb":{
+      "type":"collection__breadcrumb"
+    },
+    "sidebar": {
+      "type": "collection__sidebar",
+      "blocks": {
+        "collection__sidebar-0": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#eeeeee",
+            "promo_text": "#000000",
+            "richtext": "<p>Use this area for promotional information.<\/p>",
+            "promo_link": "",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        },
+        "collection__sidebar-2": {
+          "type": "text",
+          "settings": {
+            "title": "Heading",
+            "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
+          }
+        },
+        "collection__sidebar-1": {
+          "type": "menu",
+          "settings": {
+            "menu": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection__sidebar-0",
+        "collection__sidebar-2",
+        "collection__sidebar-1"
+      ],
+      "settings": {
+        "show_sidebar": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection__main",
+      "settings": {
+        "collection_breadcrumb": false,
+        "collection_tags": false,
+        "collection_sort": false,
+        "show_promo_banner": false,
+        "image_darken": true,
+        "promo_title": "Special sale on now!",
+        "promo_text": "<p>Description of promotion with lots of details.<\/p>",
+        "banner_height": "medium",
+        "align_height": false,
+        "collection_height": 200,
+        "products_per_row": 4,
+        "mobile_products_per_row": "2",
+        "pagination_limit": 48,
+        "pagination_type": "basic_pagination",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order":[
+    "banner",
+    "breadcrumb",
+    "sidebar",
+    "main"
+  ]
+}

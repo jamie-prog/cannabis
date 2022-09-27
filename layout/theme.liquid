@@ -245,9 +245,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         class="shopify-section 
                 {%- case template.name -%}
                   {% when 'index' %}
-                   inedex-sections
+                   index-sections
                   {% when 'product' %}
                     product-page section__wrapper
+                  {% when 'collection' %}
+                    collection-page
+                  {% when 'cart' %}
+                    cart-page
                 {%- endcase -%}
                " 
         data-check-for-order="true">

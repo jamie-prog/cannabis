@@ -64,55 +64,58 @@
 {% endstyle %}
 
 {% paginate collection.products by object.settings.pagination_limit %}
-
-<div class="collection__main {{ css_class }}">
-  {% if object.settings.show_promo_banner %}
-    <div class="collection-promo-banner container">
-      <div class="banner__wrapper
-                  one-whole
-                  column
-                  dark-overlay-{{ object.settings.image_darken }}
-                  is-{{ object.settings.banner_height }}
-                  has-margin-bottom">
-        {% if object.settings.image != blank %}
-          {% include 'image-element', image: object.settings.image, alt: object.settings.image.alt, stretch_width: true %}
-        {% else %}
-          {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
-        {% endif %}
-        <div class="banner__content card-content">
-          <div class="banner__text text-align-center">
-            <h1 class="banner__heading title">{{ object.settings.promo_title }}</h1>
-            {% if object.settings.promo_text != blank %}
-              <div class="banner__subheading subtitle">{{ object.settings.promo_text }}</div>
+<section class="section__wrapper section">
+  <div class="container collection__content">
+    <div class="collection__main {{ css_class }}">
+      {% if object.settings.show_promo_banner %}
+        <div class="collection-promo-banner container">
+          <div class="banner__wrapper
+                      one-whole
+                      column
+                      dark-overlay-{{ object.settings.image_darken }}
+                      is-{{ object.settings.banner_height }}
+                      has-margin-bottom">
+            {% if object.settings.image != blank %}
+              {% include 'image-element', image: object.settings.image, alt: object.settings.image.alt, stretch_width: true %}
+            {% else %}
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
+            <div class="banner__content card-content">
+              <div class="banner__text text-align-center">
+                <h1 class="banner__heading title">{{ object.settings.promo_title }}</h1>
+                {% if object.settings.promo_text != blank %}
+                  <div class="banner__subheading subtitle">{{ object.settings.promo_text }}</div>
+                {% endif %}
+              </div>
+            </div>
           </div>
+        </div>
+      {% endif %}
+    
+      {% if collection.products.size == 0 %}
+        <div class="container container--no-products-in-collection text-align-center has-padding-bottom has-padding-top">
+          <div class="one-whole column">
+            <p>{{ 'collections.general.no_matches' | t }}</p>
+          </div>
+        </div>
+      {% else %}
+        <div class="collection-matrix__wrapper">
+          <div class="container collection-matrix" {% if object.settings.pagination_type != 'basic_pagination' %}data-load-more--grid {% endif %}>
+            {% assign products_per_row = object.settings.products_per_row %}
+            {% include 'product-loop', limit: object.settings.pagination_limit, align_height: object.settings.align_height, height: object.settings.collection_height %}
+          </div>
+        </div>
+      {% endif %}
+    
+      <div class="container container--pagination">
+        <div class="one-whole column text-align-center">
+          {% assign load_more_text = 'collections.general.pagination_button' | t %}
+          {% include 'pagination', pagination_type: object.settings.pagination_type, load_more_text: load_more_text %}
         </div>
       </div>
     </div>
-  {% endif %}
-
-  {% if collection.products.size == 0 %}
-    <div class="container container--no-products-in-collection text-align-center has-padding-bottom has-padding-top">
-      <div class="one-whole column">
-        <p>{{ 'collections.general.no_matches' | t }}</p>
-      </div>
-    </div>
-  {% else %}
-    <div class="collection-matrix__wrapper">
-      <div class="container collection-matrix" {% if object.settings.pagination_type != 'basic_pagination' %}data-load-more--grid {% endif %}>
-        {% assign products_per_row = object.settings.products_per_row %}
-        {% include 'product-loop', limit: object.settings.pagination_limit, align_height: object.settings.align_height, height: object.settings.collection_height %}
-      </div>
-    </div>
-  {% endif %}
-
-  <div class="container container--pagination">
-    <div class="one-whole column text-align-center">
-      {% assign load_more_text = 'collections.general.pagination_button' | t %}
-      {% include 'pagination', pagination_type: object.settings.pagination_type, load_more_text: load_more_text %}
-    </div>
   </div>
-</div>
+</section>
 
 {% comment %} JavaScript {% endcomment %}
 <script

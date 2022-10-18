@@ -259,6 +259,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   {% when 'blog' %}
                     blog-page
                 {%- endcase -%}
+                {%- if template.name == 'page' -%}
+                  {%- case -%}
+                    {%- when nil -%}
+                      default-page
+                  {%- endcase -%}
+                {%- endif -%}
                " 
         data-check-for-order="true">
     {{ content_for_layout }}

@@ -1,0 +1,18 @@
+{
+    "name":"Default Page", 
+    "sections":{
+        "main":{
+            "type":"page__main",
+            "settings":{
+                "width": "standard",
+                "padding_top": 40,
+                "padding_bottom": 40,
+                "css_class": "",
+                "custom_css": ""
+            }
+        }
+    },
+    "order":[
+        "main"
+    ]
+}

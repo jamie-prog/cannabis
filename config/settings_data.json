@@ -1619,16 +1619,6 @@
           "custom_css": ".footer__heading {\nfont-weight: bold;\n}\n.footer__text p {\nfont-size: 12px;\n}\n.footer__credits p {\nfont-size: 12px;\n}\n.footer__credits span {\nfont-size: 12px;\n}\n.footer__content {\npadding-top: 0px;\npadding-bottom: 0px;\n}\n.image-element__wrap img {\npadding-left: 20px;\n}\nfooter .footer__content #newsletter_form input {\nborder-bottom: 1px solid black;\n}"
         }
       },
-      "page__main": {
-        "type": "page__main",
-        "settings": {
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
       "announcement-bar": {
         "type": "announcement-bar",
         "settings": {

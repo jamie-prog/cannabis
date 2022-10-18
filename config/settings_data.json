@@ -325,21 +325,6 @@
           "custom_css": ".header__brand {\npadding: 0px 0px 20px 0px;\n}"
         }
       },
-      
-      "blog__banner": {
-        "type": "blog__banner",
-        "settings": {
-          "show_banner": false,
-          "image_darken": false,
-          "subtitle": "Subheading",
-          "width": "standard",
-          "banner_height": "medium",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
       "search__sidebar": {
         "type": "search__sidebar",
         "blocks": {
@@ -1800,30 +1785,6 @@
           "bottom_banner_text": "#efefef",
           "css_class": "",
           "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}"
-        }
-      },
-      "blog__main": {
-        "type": "blog__main",
-        "settings": {
-          "blog_tags": false,
-          "blog_posts_per_row": 3,
-          "blog_posts_per_page": 12,
-          "pagination_type": "basic_pagination",
-          "blog_author": false,
-          "blog_date": true,
-          "blog_read_time": false,
-          "blog_comment_count": false,
-          "blog_show_tags": false,
-          "blog_show_excerpt": true,
-          "show_border": true,
-          "button_label": "Read more",
-          "button_type": "none",
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
         }
       },
       "mega-menu-5": {

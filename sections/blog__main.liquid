@@ -24,7 +24,7 @@
     {%- endif %}
   }
 
-  {% include 'css-loop', css: custom_css, id: id %}
+  {%  render 'css-loop', css: custom_css, id: id %}
 {% endstyle %}
 
 {% comment %} JSON-LD Structured data - https://developers.google.com/search/docs/guides/intro-structured-data {% endcomment %}
@@ -46,141 +46,217 @@
 </script>
 
 {% comment %} HTML markup {% endcomment %}
-{% paginate blog.articles by section.settings.blog_posts_per_page %}
-<section class="section
-                is-width-wide
-                {{ css_class }}
-                "
-                {% if animation != "none" %}
-                  data-scroll-class="{{ animation }}"
-                {% endif %}>
-  <div class="container {% if settings.heading_divider_style == 'long' %}has-heading-divider-below {% endif %}">
-    <div class="one-half medium-down--one-whole column has-no-side-gutter">
-      <div class="hide-when-banner-enabled">
-        {% comment %} Blog title {% endcomment %}
-        {% include 'heading', title: blog.title, heading_tag: 'h1', context: 'blog', text_alignment: 'left' %}
-        
-      </div>
-    </div>
-    {% if section.settings.blog_tags %}
-      <div class="blog__filter one-half medium-down--one-whole column">
-        {% comment %} Blog filter {% endcomment %}
-        <div class="field is-grouped is-flex-wrap">
-          <div class="select">
-            <select name="tag_filter" id="blog_filter" class="select">
-              <option {% unless current_tags %}selected="selected"{% endunless %} value="{{ blog.url }}">{{ 'blogs.general.view_all' | t }}</option>
-              {% for tag in blog.all_tags %}
-                <option {% if current_tags contains tag %}selected="selected"{% endif %} value="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}">{{ tag }}</option>
-              {% endfor %}
-            </select>
-          </div>
+<section class="section__wrapper section {{css_class}}" data-section-type="blog__main" data-section-id="{{section.id}}">
+  <div class="container">
+    {% if section.settings.show_sidebar %}
+      <div class="sidebar-section blog-sidebar jsSidebar blog-sidebar--{{section.settings.sidebar_position}} blog-sidebar--mobile-{{settings.mobile_sidebar_position}}">
+        <div class="section">
+          <aside class="one-whole column">
+            {% for block in section.blocks %}
+              {% if block.type contains 'sidebar__' %}
+                <div id="shopify-section-{{ block.id }}"
+                    class="sidebar__block block__{{ block.type | downcase | replace: '_', '-' }} block__{{ block.id }}
+                            has-padding-top has-padding-bottom
+                            {% if settings.toggle_sidebar %}sidebar-toggle-active{% endif %}"
+                    {{ block.shopify_attributes }}>
+
+                  {% if block.type == 'sidebar__post_tags'  %}
+                    {% comment %} Blog post tags {% endcomment %}
+                    {%  render 'sidebar__blog-post-tags', block: block, blog_handle: block.settings.blog %}
+
+                  {% elsif block.type == 'sidebar__collection_list' %}
+                    {% comment %} Tag list {% endcomment %}
+                    {%  render 'sidebar__collection-list' %}
+
+                  {% elsif block.type == 'sidebar__html' %}
+                    {% comment %} Custom HTML {% endcomment %}
+                    {%  render 'sidebar__html', block: block %}
+
+                  {% elsif block.type == 'sidebar__featured_promo' %}
+                    {% comment %} Featured promo {% endcomment %}
+                    {%  render 'sidebar__featured-promo', block: block  %}
+
+                  {% elsif block.type == 'sidebar__menu' %}
+                    {% comment %} Menu {% endcomment %}
+                    {%  render 'sidebar__menu', block: block,  menu: block.settings.menu %}
+
+                  {% elsif block.type == 'sidebar__newsletter' %}
+                    {% comment %} Newsletter {% endcomment %}
+                    {%  render 'sidebar__newsletter', block: block %}
+
+                  {% elsif block.type == 'sidebar__page' %}
+                    {% comment %} Page {% endcomment %}
+                    {%  render 'sidebar__page', page: block.settings.page, block: block %}
+
+                  {% elsif block.type == 'sidebar__recent_posts' %}
+                    {% comment %} Recent posts {% endcomment %}
+                    {%  render 'sidebar__recent-posts', blog_handle: block.settings.blog, block: block %}
+
+                  {% elsif block.type == 'sidebar__search' %}
+                    {% comment %} Search {% endcomment %}
+                    {%  render 'sidebar__search', block: block %}
+
+                  {% elsif block.type == 'sidebar__tag_list' %}
+                    {% comment %} Tag list {% endcomment %}
+                    {%  render 'sidebar__tag-list', block: block %}
+
+                  {% elsif block.type == 'sidebar__text' %}
+                    {% comment %} Text {% endcomment %}
+                    {%  render 'sidebar__text', block: block %}
+
+                  {% elsif block.type == 'sidebar__type_list' %}
+                    {% comment %} Type list {% endcomment %}
+                    {%  render 'sidebar__type-list', block: block %}
+
+                  {% elsif block.type == 'sidebar__vendor_list' %}
+                    {% comment %} Vendor list {% endcomment %}
+                    {%  render 'sidebar__vendor-list', block: block %}
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </aside>
         </div>
       </div>
     {% endif %}
-    {% if settings.heading_divider_width != 0 and settings.heading_divider_style == 'long' %}
-      <div class="heading-divider-below heading-wrapper one-whole column hide-when-banner-enabled">
-        <div class="heading-divider
-                    heading-divider--{{ settings.heading_divider_style }}"
-              {% if settings.heading_divider_animation != "none" %}
-                data-scroll-class="{{ settings.heading_divider_animation }}"
-              {% endif %}>
-        </div>
-      </div>
-    {% endif %}
-  </div>
-
-  <div class="container" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid {% endif %}>
-    {% if blog.articles.size == 0 %}
-      <div class="blog-page__no-content one-whole column">
-        <div class="excerpt">{{ 'homepage.onboarding.blog_excerpt' | t }}</div>
-      </div>
-    {% endif %}
-    {% for article in blog.articles %}
-      <div class="featured-article blog-card {% include 'column-width', value: section.settings.blog_posts_per_row %} columns article card show-border-{{ section.settings.show_border }} medium-down--one-half small-down--one-whole has-margin-bottom {% if section.settings.blog_posts_per_row == 1 %}is-horizontal{% endif %}" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid-item{% endif %}>
-        {% if article.image %}
-          <div class="card-image blog-card__image">
-            <figure class="image">
-              <a href="{{ article.url }}" title="{{ article.title | escape }}">
-                {% include 'image-element', image: article.image, alt: article.image.alt, stretch_width: true %}
-              </a>
-            </figure>
+    {% paginate blog.articles by section.settings.blog_posts_per_page %}
+      <div class="blog-main has-sidebar-option jsBlog {% if section.settings.show_sidebar %} blog-main--has-sidebar{% endif %}">
+        <section class="section
+                        is-width-wide
+                        {{ css_class }}
+                        "
+                        {% if animation != "none" %}
+                          data-scroll-class="{{ animation }}"
+                        {% endif %}>
+          <div class="container {% if settings.heading_divider_style == 'long' %}has-heading-divider-below {% endif %}">
+            <div class="one-half medium-down--one-whole column has-no-side-gutter">
+              <div class="hide-when-banner-enabled">
+                {% comment %} Blog title {% endcomment %}
+                {%  render 'heading', title: blog.title, heading_tag: 'h1', context: 'blog', text_alignment: 'left' %}
+                
+              </div>
+            </div>
+            {% if section.settings.blog_tags %}
+              <div class="blog__filter one-half medium-down--one-whole column">
+                {% comment %} Blog filter {% endcomment %}
+                <div class="field is-grouped is-flex-wrap">
+                  <div class="select">
+                    <select name="tag_filter" id="blog_filter" class="select">
+                      <option {% unless current_tags %}selected="selected"{% endunless %} value="{{ blog.url }}">{{ 'blogs.general.view_all' | t }}</option>
+                      {% for tag in blog.all_tags %}
+                        <option {% if current_tags contains tag %}selected="selected"{% endif %} value="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}">{{ tag }}</option>
+                      {% endfor %}
+                    </select>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% if settings.heading_divider_width != 0 and settings.heading_divider_style == 'long' %}
+              <div class="heading-divider-below heading-wrapper one-whole column hide-when-banner-enabled">
+                <div class="heading-divider
+                            heading-divider--{{ settings.heading_divider_style }}"
+                      {% if settings.heading_divider_animation != "none" %}
+                        data-scroll-class="{{ settings.heading_divider_animation }}"
+                      {% endif %}>
+                </div>
+              </div>
+            {% endif %}
           </div>
-        {% endif %}
 
-        <div class="card-content blog-card__content">
-          <div class="media">
-            <div class="media-content">
-              <h4 class="title">
-                <a class="featured-article--link" href="{{ article.url }}">{{ article.title }}</a>
-              </h4>
+          <div class="container" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid {% endif %}>
+            {% if blog.articles.size == 0 %}
+              <div class="blog-page__no-content one-whole column">
+                <div class="excerpt">{{ 'homepage.onboarding.blog_excerpt' | t }}</div>
+              </div>
+            {% endif %}
+            {% for article in blog.articles %}
+              <div class="featured-article blog-card {%  render 'column-width', value: section.settings.blog_posts_per_row %} columns article card show-border-{{ section.settings.show_border }} medium-down--one-half small-down--one-whole has-margin-bottom {% if section.settings.blog_posts_per_row == 1 %}is-horizontal{% endif %}" {% if section.settings.pagination_type != 'basic_pagination' %}data-load-more--grid-item{% endif %}>
+                {% if article.image %}
+                  <div class="card-image blog-card__image">
+                    <figure class="image">
+                      <a href="{{ article.url }}" title="{{ article.title | escape }}">
+                        {%  render 'image-element', image: article.image, alt: article.image.alt, stretch_width: true %}
+                      </a>
+                    </figure>
+                  </div>
+                {% endif %}
+
+                <div class="card-content blog-card__content">
+                  <div class="media">
+                    <div class="media-content">
+                      <h4 class="title">
+                        <a class="featured-article--link" href="{{ article.url }}">{{ article.title }}</a>
+                      </h4>
+                    </div>
+                  </div>
+
+              
+              
+                {% comment %}
+                    {% if article.excerpt != blank and section.settings.blog_show_excerpt %}
+                      {% assign postexcerpt = article.excerpt | size %}
+                      {% if postexcerpt > 150 %}
+                          {% assign excerptlength = 'lg' %}
+                      {% elsif postexcerpt <= 150 %}
+                          {% assign excerptlength = 'sm' %}
+                      {% endif %}
+                      <div class="excerpt excerpt-length-{{ excerptlength }} has-margin-bottom">
+                        {{ article.excerpt }}
+                        <span class="truncation-fade"></span>
+                      </div>
+                    {% endif %}
+              {% endcomment %}
+
+                    <div class="meta-info is-small">
+                      {% if section.settings.blog_show_tags %}
+                        {% if article.tags.size > 0 %}
+                          <ul class="meta-tag-list tags">
+                          {% for tag in article.tags %}
+                            <li class="tag tag--{{ settings.tag_style }}">
+                              <a href="{{ shop.url}}/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" title="{{ blog.title | escape }} {{ 'blogs.general.tagged' | t }} {{ tag | escape }}">{{ tag }}</a>
+                            </li>
+                          {% endfor %}
+                          </ul>
+                        {% endif %}
+                      {% endif %}
+          
+                      {%  render 'meta-info-list' %}
+                    </div>
+              
+              
+                      <div class="blog-card__read-more buttons">
+                        {% comment %}
+                        {%  render 'button', label: section.settings.button_label, href: article.url, type: "link", style: section.settings.button_type %}
+                        {% endcomment %}
+                        <a href="{{ article.url }}" class="button">Read More <span class="right_arrow"></span></a>
+                      </div>
+              
+                </div>
+            
+                {% if section.settings.button_type != 'none' and section.settings.blog_posts_per_row != 1 %}
+                  <div class="blog-card__read-more buttons">
+                    {% comment %}
+                    {%  render 'button', label: section.settings.button_label, href: article.url, type: "link", style: section.settings.button_type %}
+                    {% endcomment %}
+                    <a href="{{ article.url }}" class="button">Read More <span class="right_arrow"></span></a>
+                  </div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+
+          <div class="container">
+            <div class="one-whole column text-align-center">
+              {% assign load_more_text = 'blogs.general.pagination_button' | t %}
+              {%  render 'pagination', pagination_type: section.settings.pagination_type, load_more_text: load_more_text %}
             </div>
           </div>
 
-		  
-		  
-		    {% comment %}
-	          {% if article.excerpt != blank and section.settings.blog_show_excerpt %}
-	            {% assign postexcerpt = article.excerpt | size %}
-	            {% if postexcerpt > 150 %}
-	                {% assign excerptlength = 'lg' %}
-	            {% elsif postexcerpt <= 150 %}
-	                {% assign excerptlength = 'sm' %}
-	            {% endif %}
-	            <div class="excerpt excerpt-length-{{ excerptlength }} has-margin-bottom">
-	              {{ article.excerpt }}
-	              <span class="truncation-fade"></span>
-	            </div>
-	          {% endif %}
-			{% endcomment %}
-
-	          <div class="meta-info is-small">
-	            {% if section.settings.blog_show_tags %}
-	              {% if article.tags.size > 0 %}
-	                <ul class="meta-tag-list tags">
-	                {% for tag in article.tags %}
-	                  <li class="tag tag--{{ settings.tag_style }}">
-	                    <a href="{{ shop.url}}/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" title="{{ blog.title | escape }} {{ 'blogs.general.tagged' | t }} {{ tag | escape }}">{{ tag }}</a>
-	                  </li>
-	                {% endfor %}
-	                </ul>
-	              {% endif %}
-	            {% endif %}
-	
-	            {% include 'meta-info-list' %}
-	          </div>
-		  
-		  
-	            <div class="blog-card__read-more buttons">
-	              {% comment %}
-	              {% include 'button', label: section.settings.button_label, href: article.url, type: "link", style: section.settings.button_type %}
-	              {% endcomment %}
-	              <a href="{{ article.url }}" class="button">Read More <span class="right_arrow"></span></a>
-	            </div>
-	    
-        </div>
-		
-	      {% if section.settings.button_type != 'none' and section.settings.blog_posts_per_row != 1 %}
-	        <div class="blog-card__read-more buttons">
-	          {% comment %}
-	          {% include 'button', label: section.settings.button_label, href: article.url, type: "link", style: section.settings.button_type %}
-	          {% endcomment %}
-	          <a href="{{ article.url }}" class="button">Read More <span class="right_arrow"></span></a>
-	        </div>
-	      {% endif %}
+        </section>
       </div>
-    {% endfor %}
+    {% endpaginate %}
   </div>
-
-  <div class="container">
-    <div class="one-whole column text-align-center">
-      {% assign load_more_text = 'blogs.general.pagination_button' | t %}
-      {% include 'pagination', pagination_type: section.settings.pagination_type, load_more_text: load_more_text %}
-    </div>
-  </div>
-
 </section>
-
-{% endpaginate %}
 
 {% comment %}JavaScript{% endcomment %}
 <script
@@ -192,6 +268,10 @@
     "enable_filter": {{ section.settings.blog_tags | json }}
   }
 </script>
+
+{% if section.settings.show_sidebar %}
+  <script data-theme-editor-load-script src="{{ 'z__jsSidebar.js' | asset_url }}"></script>
+{% endif %}
 <script src="{{ 'z__jsBlog.js' | asset_url }}"></script>
 
 {% schema %}
@@ -200,6 +280,36 @@
   "name": "Blog",
   "class": "blog-main has-sidebar-option jsBlog",
   "settings": [
+    {
+      "type": "header",
+      "content": "Sidebar"
+    },
+     {
+      "type": "checkbox",
+      "id": "show_sidebar",
+      "label": "Show sidebar",
+      "default": false
+    },
+    {
+      "type": "radio",
+      "id": "sidebar_position",
+      "label": "Sidebar position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Blog Main"
+    },
     {
       "type": "checkbox",
       "id": "blog_tags",
@@ -413,6 +523,224 @@
       "type": "textarea",
       "id": "custom_css",
       "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "sidebar__post_tags",
+      "name": "Blog post tags",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Blog post tags"
+        },
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__html",
+      "name": "Custom HTML",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "html_content",
+          "label": "HTML",
+          "default": "<div class='container is-flex is-justify-center'><h2 class='title'>Your own custom HTML</h2></div>"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__featured_promo",
+      "name": "Featured promotion",
+      "settings": [
+        {
+          "type": "color",
+          "id": "promo_background",
+          "label": "Background",
+          "default": "#EEEEEE"
+        },
+        {
+          "type": "color",
+          "id": "promo_text",
+          "label": "Text",
+          "default": "#000000"
+        },
+        {
+          "type": "image_picker",
+          "id": "promo_image",
+          "label": "Image"
+        },
+        {
+          "type": "richtext",
+          "id": "richtext",
+          "label": "Text",
+          "default": "<p>Use this area for promotional information.</p>"
+        },
+        {
+          "type": "url",
+          "id": "promo_link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Shop now"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "options": [
+            {
+              "value": "button--primary",
+              "label": "Primary"
+            },
+            {
+              "value": "button--secondary",
+              "label": "Secondary"
+            },
+            {
+              "value": "button--link-style",
+              "label": "Link style"
+            }
+          ],
+          "default": "button--primary"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__menu",
+      "name": "Menu",
+      "settings": [
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "Menu",
+          "info": "This menu won't show drop-down items."
+        }
+      ]
+    },
+    {
+      "type": "sidebar__newsletter",
+      "name": "Newsletter",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "newsletter_title",
+          "label": "Heading",
+          "default": "Subscribe"
+        },
+        {
+          "type": "richtext",
+          "id": "newsletter_richtext",
+          "label": "Text",
+          "default": "<p>Sign up to get the latest on sales, new releases and more …</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "display_first_name",
+          "label": "Show first name"
+        },
+        {
+          "type": "checkbox",
+          "id": "display_last_name",
+          "label": "Show last name"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__page",
+      "name": "Page",
+      "settings": [
+        {
+          "type": "page",
+          "id": "page",
+          "label": "Page"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__recent_posts",
+      "name": "Recent blog posts",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Recent posts"
+        },
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "range",
+          "id": "blog_post_count",
+          "label": "Blog posts",
+          "min": 2,
+          "max": 10,
+          "step": 1,
+          "default": 10
+        }
+      ]
+    },
+    {
+      "type": "sidebar__search",
+      "name": "Search form",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Search"
+        },
+        {
+          "type": "select",
+          "id": "search_results",
+          "label": "Search results",
+          "options": [
+            {
+              "value": "search_everything",
+              "label": "Everything"
+            },
+            {
+              "value": "article",
+              "label": "Blog posts"
+            }
+          ],
+          "default": "search_everything"
+        }
+      ]
+    },
+    {
+      "type": "sidebar__text",
+      "name": "Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Text area can be used for details about blog authors or general information.</p>"
+        }
+      ]
     }
   ]
 }

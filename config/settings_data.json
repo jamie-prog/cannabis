@@ -300,21 +300,6 @@
           "custom_css": ""
         }
       },
-      "collection__banner": {
-        "type": "collection__banner",
-        "settings": {
-          "show_banner": false,
-          "image": "shopify:\/\/shop_images\/KEVIN_06.jpg",
-          "image_darken": false,
-          "subtitle": "Make Australia Green Again",
-          "width": "wide",
-          "banner_height": "medium",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
       "header-classic": {
         "type": "header-classic",
         "settings": {
@@ -340,77 +325,7 @@
           "custom_css": ".header__brand {\npadding: 0px 0px 20px 0px;\n}"
         }
       },
-      "1583642212195": {
-        "type": "index__icon-with-text-column",
-        "blocks": {
-          "1583642212195-1": {
-            "type": "logo_image",
-            "settings": {
-              "icon_label": "vegan",
-              "title": "ORGANIC & VEGAN  PRODUCTS",
-              "text": "",
-              "button_label": "",
-              "link": ""
-            }
-          },
-          "1583642212195-0": {
-            "type": "logo_image",
-            "settings": {
-              "icon_label": "aumade",
-              "title": "100% AUSTRALIAN  GROWN & MANUFACTURED",
-              "text": "",
-              "button_label": "",
-              "link": ""
-            }
-          },
-          "1583642212195-3": {
-            "type": "logo_image",
-            "settings": {
-              "icon_label": "moneyback",
-              "title": "MONEY BACK GUARANTEE",
-              "text": "",
-              "button_label": "",
-              "link": ""
-            }
-          },
-          "1583642212195-2": {
-            "type": "logo_image",
-            "settings": {
-              "icon_label": "reviews",
-              "title": "OVER 2000+  CUSTOMER REVIEWS",
-              "text": "",
-              "button_label": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1583642212195-1",
-          "1583642212195-0",
-          "1583642212195-3",
-          "1583642212195-2"
-        ],
-        "settings": {
-          "icons_per_row": 4,
-          "icon_size": "medium",
-          "align_text": "center",
-          "button_style": "button--primary",
-          "icon_color": "rgba(0,0,0,0)",
-          "text_color": "rgba(0,0,0,0)",
-          "background": "rgba(0,0,0,0)",
-          "gradient": "rgba(0,0,0,0)",
-          "gradient_rotation": 0,
-          "width": "standard",
-          "show_gutter": true,
-          "padding_top": 20,
-          "padding_bottom": 20,
-          "padding_left": 0,
-          "padding_right": 0,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ".title {\n    color: \/*!setting.heading_color{*\/black\/*}*\/;\n    font-size: 14px;\n    font-weight: 400;\n    line-height: 140%;\n}\n.shopify-section .icon-with-text-column {\npadding-top: 0px;\n}"
-        }
-      },
+      
       "blog__banner": {
         "type": "blog__banner",
         "settings": {
@@ -665,20 +580,6 @@
           "custom_css": ""
         }
       },
-      "404__bottombanner": {
-        "type": "404__bottombanner",
-        "settings": {
-          "show_banner": true,
-          "image": "shopify:\/\/shop_images\/404-Image.jpg",
-          "image_darken": false,
-          "width": "standard",
-          "banner_height": "large",
-          "padding_top": 0,
-          "padding_bottom": 40,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
       "product__recommendations": {
         "type": "product__recommendations",
         "settings": {
@@ -691,48 +592,7 @@
           "collection_height": 400
         }
       },
-      "1583640820438": {
-        "type": "index__image-with-text",
-        "blocks": {
-          "1583640820438-2": {
-            "type": "text",
-            "settings": {
-              "header_title": "We Recommend This.",
-              "text1": "Raw Hemp Brownies",
-              "text2": "Raw Hemp Brownies... Need we say more? Don't worry – unlike other 'special' brownies, you won't regret going in for seconds.",
-              "heading_size": "regular",
-              "button_label": "Read Recipe",
-              "link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies",
-              "button_style": "button--link-style",
-              "background": "rgba(0,0,0,0)",
-              "text_color": "rgba(0,0,0,0)",
-              "alignment": "left",
-              "vertical_position": "center"
-            }
-          },
-          "1583640820438-1": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/brownie-recipe-block-min.jpg",
-              "image_crop": "none",
-              "image_link": "https:\/\/cannabiscompany.com.au\/blogs\/recipes\/raw-hemp-brownies"
-            }
-          }
-        },
-        "block_order": [
-          "1583640820438-2",
-          "1583640820438-1"
-        ],
-        "settings": {
-          "width": "standard",
-          "show_gutter": true,
-          "padding_top": 20,
-          "padding_bottom": 20,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      
       "blog__sidebar": {
         "type": "blog__sidebar",
         "blocks": {
@@ -1150,55 +1010,7 @@
           "custom_css": ""
         }
       },
-      "1584723047151": {
-        "type": "n-social-section",
-        "settings": {
-          "header_text": "Get Social With Us.",
-          "link": ""
-        }
-      },
-      "1583639452425": {
-        "type": "index__image-with-text",
-        "blocks": {
-          "1583639452425-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/GinImage-min.jpg",
-              "image_crop": "none",
-              "image_link": "shopify:\/\/collections\/beverages"
-            }
-          },
-          "1583639452425-2": {
-            "type": "text",
-            "settings": {
-              "header_title": "Award Winning Hemp Gin.",
-              "text1": "World’s First Cannabis-Infused Gin",
-              "text2": "Unique flavours for the gin lover.",
-              "heading_size": "regular",
-              "button_label": "Shop Gins",
-              "link": "shopify:\/\/collections\/beverages",
-              "button_style": "button--link-style",
-              "background": "rgba(0,0,0,0)",
-              "text_color": "rgba(0,0,0,0)",
-              "alignment": "left",
-              "vertical_position": "center"
-            }
-          }
-        },
-        "block_order": [
-          "1583639452425-0",
-          "1583639452425-2"
-        ],
-        "settings": {
-          "width": "standard",
-          "show_gutter": true,
-          "padding_top": 20,
-          "padding_bottom": 0,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      
       "page-details__main": {
         "type": "page-details__main",
         "blocks": {
@@ -1482,42 +1294,7 @@
           "custom_css": ""
         }
       },
-      "404__main": {
-        "type": "404__main",
-        "settings": {
-          "not_found_text": "<p>We're sorry, but the page you requested could not be found.<\/p><p>Try searching or <a href='{{ routes.all_products_collection_url }}'>continue shopping<\/a>.<\/p>",
-          "display_search_field": true,
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 0,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "1583641837381": {
-        "type": "index__heading",
-        "settings": {
-          "preheading": "",
-          "title": "Why Shop With Us.",
-          "subheading": "",
-          "preheading_color": "rgba(0,0,0,0)",
-          "heading_color": "rgba(0,0,0,0)",
-          "subheading_color": "rgba(0,0,0,0)",
-          "background": "rgba(0,0,0,0)",
-          "gradient": "rgba(0,0,0,0)",
-          "gradient_rotation": 0,
-          "heading_alignment": "center",
-          "vertical_spacing": "medium",
-          "width": "standard",
-          "padding_top": 20,
-          "padding_bottom": 20,
-          "padding_left": 0,
-          "padding_right": 0,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": "#shopify-section-1583641837381 {\n    padding-top: 0px;\n  }"
-        }
-      },
+      
       "header__top-bar": {
         "type": "header__top-bar",
         "blocks": {
@@ -1766,39 +1543,7 @@
           "custom_css": ""
         }
       },
-      "1583585527144": {
-        "type": "index__featured-collection",
-        "settings": {
-          "title": "Community Favourites.",
-          "collection": "popular",
-          "products_per": 4,
-          "mobile_products_per_row": "2",
-          "products_limit": 4,
-          "align_height": false,
-          "collection_height": 200,
-          "collection_style": "slider",
-          "width": "standard",
-          "show_gutter": true,
-          "padding_top": 80,
-          "padding_bottom": 20,
-          "animation": "fadeInDown",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "cart__main": {
-        "type": "cart__main",
-        "settings": {
-          "display_product_quantity_cart": true,
-          "display_savings": true,
-          "cart_message": "",
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      
       "1583720244289": {
         "type": "n-section-blog",
         "blocks": {
@@ -1825,110 +1570,7 @@
         ],
         "settings": {
         }
-      },
-      "article__banner": {
-        "type": "article__banner",
-        "settings": {
-          "show_banner": true,
-          "image_darken": false,
-          "width": "wide",
-          "banner_height": "medium",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "article__sidebar": {
-        "type": "article__sidebar",
-        "blocks": {
-          "article__sidebar-0": {
-            "type": "featured_promo",
-            "settings": {
-              "promo_background": "#eeeeee",
-              "promo_text": "#000000",
-              "promo_image": "shopify:\/\/shop_images\/blog_sidebar.jpg",
-              "richtext": "<p>Enjoy up to 50% OFF selected pantry &amp; pets items! <\/p>",
-              "promo_link": "shopify:\/\/collections\/shop-all",
-              "button_label": "Shop Now",
-              "button_style": "button--primary"
-            }
-          },
-          "1585871180573": {
-            "type": "text",
-            "settings": {
-              "title": "On Special Offer.",
-              "text": ""
-            }
-          },
-          "1585870201544": {
-            "type": "recent_posts",
-            "settings": {
-              "title": "Recent Articles.",
-              "blog": "higher-learning",
-              "blog_post_count": 3
-            }
-          }
-        },
-        "block_order": [
-          "1585871180573",
-          "article__sidebar-0",
-          "1585870201544"
-        ],
-        "settings": {
-          "show_sidebar": true,
-          "sidebar_position": "right",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "article__main": {
-        "type": "article__main",
-        "blocks": {
-          "1585881502811": {
-            "type": "related_posts",
-            "settings": {
-              "show_border": true,
-              "blog_show_excerpt": true,
-              "blog_show_tags": true,
-              "button_label": "Read more",
-              "button_type": "button--primary"
-            }
-          }
-        },
-        "block_order": [
-          "1585881502811"
-        ],
-        "settings": {
-          "show_breadcrumb": false,
-          "blog_author": false,
-          "blog_date": true,
-          "blog_read_time": false,
-          "blog_comment_count": false,
-          "show_tags": false,
-          "show_featured_image": false,
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "1584505633722": {
-        "type": "index__divider",
-        "settings": {
-          "divider_style": "short",
-          "divider_width": 2,
-          "divider_color": "#ffffff",
-          "alignment": "center",
-          "width": "standard",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      },      
       "footer-classic": {
         "type": "footer-classic",
         "blocks": {
@@ -2022,53 +1664,7 @@
           "custom_css": ".announcement-bar__text a {\n    color: inherit;\n    text-decoration: none;\n}"
         }
       },
-      "1583641199189": {
-        "type": "index__blog-posts",
-        "settings": {
-          "title": "Higher Learning.",
-          "blog_widget_select": "higher-learning",
-          "home_page_articles": 3,
-          "blog_show_tags": false,
-          "blog_author": false,
-          "blog_read_time": false,
-          "blog_date": true,
-          "blog_comment_count": false,
-          "blog_show_excerpt": false,
-          "show-border": false,
-          "button_label": "Read More",
-          "button_type": "button--link-style",
-          "width": "standard",
-          "padding_top": 45,
-          "padding_bottom": 20,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "collection__main": {
-        "type": "collection__main",
-        "settings": {
-          "collection_breadcrumb": false,
-          "collection_tags": false,
-          "collection_sort": false,
-          "show_promo_banner": false,
-          "image_darken": true,
-          "promo_title": "Special sale on now!",
-          "promo_text": "<p>Description of promotion with lots of details.<\/p>",
-          "banner_height": "medium",
-          "align_height": false,
-          "collection_height": 200,
-          "products_per_row": 4,
-          "mobile_products_per_row": "2",
-          "pagination_limit": 48,
-          "pagination_type": "basic_pagination",
-          "width": "standard",
-          "padding_top": 40,
-          "padding_bottom": 40,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      
       "product__sidebar": {
         "type": "product__sidebar",
         "blocks": {
@@ -2107,76 +1703,7 @@
           "custom_css": ""
         }
       },
-      "1583640477745": {
-        "type": "index__logo-list",
-        "blocks": {
-          "1583640569755": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/dmarge-logo.jpg",
-              "link": ""
-            }
-          },
-          "1583640477745-0": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/SBS-logo.jpg",
-              "link": ""
-            }
-          },
-          "1583640477745-1": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Gourmet-logo.jpg",
-              "link": ""
-            }
-          },
-          "1583640477745-4": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/bodysoul-logo.jpg",
-              "link": ""
-            }
-          },
-          "1583640477745-2": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/GQ-logo.jpg",
-              "link": ""
-            }
-          },
-          "1583640477745-3": {
-            "type": "logo_image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Delicious-logo.jpg",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1583640569755",
-          "1583640477745-0",
-          "1583640477745-1",
-          "1583640477745-4",
-          "1583640477745-2",
-          "1583640477745-3"
-        ],
-        "settings": {
-          "logos_per_row": 6,
-          "logo_size": "medium",
-          "background": "rgba(0,0,0,0)",
-          "gradient": "rgba(0,0,0,0)",
-          "gradient_rotation": 0,
-          "width": "wide",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "padding_left": 0,
-          "padding_right": 0,
-          "animation": "none",
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+      
       "mega-menu-3": {
         "type": "mega-menu-3",
         "blocks": {
@@ -2460,60 +1987,7 @@
           "custom_css": ".mega-menu .menu__heading {\nfont-weight: bold;\n}\n\n.mega-menu {\nbackground-color: white !important;\n}"
         }
       },
-      "cart__banner": {
-        "type": "cart__banner",
-        "settings": {
-          "show_banner": false,
-          "image": "",
-          "image_darken": false,
-          "subtitle": "Subheading",
-          "width": "wide",
-          "banner_height": "medium",
-          "padding_top": 0,
-          "padding_bottom": 0,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
-      "collection__sidebar": {
-        "type": "collection__sidebar",
-        "blocks": {
-          "collection__sidebar-0": {
-            "type": "featured_promo",
-            "settings": {
-              "promo_background": "#eeeeee",
-              "promo_text": "#000000",
-              "richtext": "<p>Use this area for promotional information.<\/p>",
-              "promo_link": "",
-              "button_label": "Shop now",
-              "button_style": "button--primary"
-            }
-          },
-          "collection__sidebar-2": {
-            "type": "text",
-            "settings": {
-              "title": "Heading",
-              "text": "<p>Text area can be used for details about blog authors or general information.<\/p>"
-            }
-          },
-          "collection__sidebar-1": {
-            "type": "menu",
-            "settings": {
-              "menu": ""
-            }
-          }
-        },
-        "block_order": [
-          "collection__sidebar-0",
-          "collection__sidebar-2",
-          "collection__sidebar-1"
-        ],
-        "settings": {
-          "show_sidebar": false,
-          "css_class": "",
-          "custom_css": ""
-        }
-      },
+
       "1584659091051": {
         "type": "index__html",
         "disabled": true,

@@ -17902,3 +17902,29 @@ border-radius:0;
 
 font-family: sans-serif;
 }
+
+// Custom CSS for Article template
+.article__sidebar{
+  width: 25%; 
+}
+.article__sidebar--right{
+  order: 1;
+}
+.article__sidebar--left{
+  order: 0;
+}
+.article__main--has-sidebar{
+  width: 75%;
+}
+
+@media only screen and (max-width: 767px){
+  .article__main--has-sidebar{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px){
+  .article__sidebar--mobile-above{
+    order: 0;
+  }
+}

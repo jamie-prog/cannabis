@@ -1,0 +1,16 @@
+<section class="section__wrapper section blog-top">
+  <div class="container">
+  {% render 'heading', title: blog.title, heading_tag: 'h3', context: 'blog', text_alignment: 'left' %}
+  </div>
+</section>
+{% schema %}
+  {
+    "name":"Article Top",
+    "presets":[
+      {
+        "name":"Article Top"
+      }
+    ]
+  }
+{% endschema %}
+

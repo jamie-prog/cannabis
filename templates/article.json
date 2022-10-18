@@ -1,0 +1,91 @@
+{
+  "sections": {
+    "top": {
+      "type": "article__top",
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "article__banner",
+      "settings": {
+        "show_banner": true,
+        "image_darken": false,
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "article__main",
+      "blocks": {
+        "article__main-related-posts": {
+          "type": "related_posts",
+          "settings": {
+            "show_border": true,
+            "blog_show_excerpt": true,
+            "blog_show_tags": true,
+            "button_label": "Read more",
+            "button_type": "button--primary"
+          }
+        },
+        "6673e100-9d0c-4a6e-a8b7-dd05c7d60685": {
+          "type": "text",
+          "settings": {
+            "title": "On Special Offer.",
+            "text": ""
+          }
+        },
+        "9592fbb7-ade8-4afe-b6c0-475662e5c014": {
+          "type": "featured_promo",
+          "settings": {
+            "promo_background": "#eeeeee",
+            "promo_text": "#000000",
+            "promo_image": "shopify:\/\/shop_images\/blog_sidebar.jpg",
+            "richtext": "<p>Enjoy up to 50% OFF selected pantry & pets items! <\/p>",
+            "promo_link": "shopify:\/\/collections\/shop-all",
+            "button_label": "Shop now",
+            "button_style": "button--primary"
+          }
+        },
+        "3d6532ac-6cc7-4fda-8d44-abe3bd3da117": {
+          "type": "recent_posts",
+          "settings": {
+            "title": "Recent Articles.",
+            "blog": "higher-learning",
+            "blog_post_count": 3
+          }
+        }
+      },
+      "block_order": [
+        "article__main-related-posts",
+        "6673e100-9d0c-4a6e-a8b7-dd05c7d60685",
+        "9592fbb7-ade8-4afe-b6c0-475662e5c014",
+        "3d6532ac-6cc7-4fda-8d44-abe3bd3da117"
+      ],
+      "settings": {
+        "show_breadcrumb": false,
+        "blog_author": false,
+        "blog_date": true,
+        "blog_read_time": false,
+        "blog_comment_count": false,
+        "show_tags": false,
+        "show_featured_image": false,
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_sidebar": true,
+        "sidebar_position": "right",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "top",
+    "banner",
+    "main"
+  ]
+}
